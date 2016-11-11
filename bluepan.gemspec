@@ -18,7 +18,10 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 4.2.5.1"
+  s.add_dependency "light-service"
+  s.add_dependency "bluepan_client"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"
+  s.add_development_dependency "dotenv-rails"
 end

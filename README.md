@@ -9,3 +9,8 @@ This engine assumes your main app uses [sidekiq](https://github.com/mperham/side
 ## Installation
 
 - Add the gem to your Gemfile and executing `bundle install`
+
+## Development
+
+- Copy `.env.sample` to `.env`
+- Replace the variables with your credentials
