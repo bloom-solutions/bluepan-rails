@@ -1,0 +1,2468 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/provinces
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '3323'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:36 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUFGJUMyJUExJUMzJUE2JUMzJUE5JUMyJUEyJUMyJUI0JUMyJUFDJUMyJUEyJUMyJUE1JUMzJTk3JUMyJUExJUMzJTkxJUMzJThEJUMyJUExJUMzJTlCJUMyJUFDJUMyJUExJUMzJTkwJUMyJUE2JUMyJUExJUMzJUFBJUMyJUFFJUMyJUEyJUMyJUFCJUMzJUIyJUMyJUEyJUMyJUIyJUMzJTk0JUMyJUExJUMzJTg1JUMzJUJEJUMyJUExJUMzJTlBJUMzJTkwJUMyJUExJUMzJUEyJUMzJTlBJUMyJUExJUMzJUE5JUMzJUEwJUMyJUExJUMzJTlCJUMzJThBJUMyJUExJUMzJTg1JUMzJTk3JUMyJUExJUMzJTlFJUMzJUIzJUMyJUExJUMzJTk3JUMyJUFEJUMyJUExJUMzJTkxJUMzJThEJUMyJUExJUMzJUExJUMzJTk5JUMyJUExJUMzJTk5JUMyJUJGJUMyJUExJUMzJTkxJUMzJUIyJUMyJUExJUMzJUExJUMzJTkxJUMyJUExJUMzJUE5JUMzJUIxJUMyJUExJUMzJThEJUMzJTk2JUMyJUExJUMzJThEJUMyJUI1JUMyJUExJUMzJTkyJUMyJUFFJUMyJUExJUMzJUExJUMzJTlCJUMyJUExJUMzJUFGJUMyJUJDJUMyJUExJUMzJTlDJUMzJUFEJUMyJUExJUMzJUEzJUMzJTlFJUMyJUExJUMzJTkyJUMzJUFEJUMyJUExJUMzJUFFJUMzJTk4JUMyJUEyJUMyJUExJUMyJUFFJUMyJUExJUMzJUI0JUMzJTk5JUMyJUExJUMzJUI3JUMzJUI2JUMyJUExJUMzJUExJUMzJTgzJUMyJUExJUMzJTk4JUMzJThCJUMyJUExJUMzJUE1JUMzJUIyJUMyJUExJUMzJTkwJUMyJUExJUMyJUExJUMzJTlBJUMzJUIwJUMyJUExJUM0JTgwJUMzJUJDJUMyJUExJUMzJTkwJUM0JTgwJUMyJUExJUMzJUE1JUMzJTg5JUMyJUExJUMzJThGJUMzJTg4JUMyJUExJUMzJUEwJUMzJThFJUMyJUExJUMzJTlFJUMzJTg1JUMyJUExJUMzJTlBJUMzJTlDJUMyJUExJUMzJUIxJUMzJTk0JUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=PMLDIJMCNIPBDLFDMMKEFFEJ; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:36 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KInByb3ZpbmNlc2VxIjogIjEiLA0KInByb3ZpbmNlbmFtZV9lbiI6
+        ICJBbkh1aSIsDQoicHJvdmluY2VuYW1lX2NuIjogIuWuieW+vSINCn0sDQp7
+        DQoicHJvdmluY2VzZXEiOiAiMiIsDQoicHJvdmluY2VuYW1lX2VuIjogIkJl
+        aUppbmciLA0KInByb3ZpbmNlbmFtZV9jbiI6ICLljJfkuqwgIg0KfSwNCnsN
+        CiJwcm92aW5jZXNlcSI6ICIzIiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiQ2hv
+        bmdRaW5nIiwNCiJwcm92aW5jZW5hbWVfY24iOiAi6YeN5bqGIg0KfSwNCnsN
+        CiJwcm92aW5jZXNlcSI6ICI1IiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiRGFM
+        aWFuIiwNCiJwcm92aW5jZW5hbWVfY24iOiAi5aSn6L+eIg0KfSwNCnsNCiJw
+        cm92aW5jZXNlcSI6ICI2IiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiRnVKaWFu
+        IiwNCiJwcm92aW5jZW5hbWVfY24iOiAi56aP5bu6Ig0KfSwNCnsNCiJwcm92
+        aW5jZXNlcSI6ICI3IiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiR2FuU3UiLA0K
+        InByb3ZpbmNlbmFtZV9jbiI6ICLnlJjogoMiDQp9LA0Kew0KInByb3ZpbmNl
+        c2VxIjogIjgiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJHdWFuZ0RvbmciLA0K
+        InByb3ZpbmNlbmFtZV9jbiI6ICLlub/kuJwiDQp9LA0Kew0KInByb3ZpbmNl
+        c2VxIjogIjkiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJHdWFuZ1hpIiwNCiJw
+        cm92aW5jZW5hbWVfY24iOiAi5bm/6KW/Ig0KfSwNCnsNCiJwcm92aW5jZXNl
+        cSI6ICIxMCIsDQoicHJvdmluY2VuYW1lX2VuIjogIkd1aVpob3UiLA0KInBy
+        b3ZpbmNlbmFtZV9jbiI6ICLotLXlt54iDQp9LA0Kew0KInByb3ZpbmNlc2Vx
+        IjogIjExIiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiSGFpTmFuIiwNCiJwcm92
+        aW5jZW5hbWVfY24iOiAi5rW35Y2XIg0KfSwNCnsNCiJwcm92aW5jZXNlcSI6
+        ICIxMiIsDQoicHJvdmluY2VuYW1lX2VuIjogIkhlQmVpIiwNCiJwcm92aW5j
+        ZW5hbWVfY24iOiAi5rKz5YyXIg0KfSwNCnsNCiJwcm92aW5jZXNlcSI6ICIx
+        MyIsDQoicHJvdmluY2VuYW1lX2VuIjogIkhlaUxvbmdKaWFuZyIsDQoicHJv
+        dmluY2VuYW1lX2NuIjogIum7kem+meaxnyINCn0sDQp7DQoicHJvdmluY2Vz
+        ZXEiOiAiMTQiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJIZU5hbiIsDQoicHJv
+        dmluY2VuYW1lX2NuIjogIuays+WNlyINCn0sDQp7DQoicHJvdmluY2VzZXEi
+        OiAiMTUiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJIdUJlaSIsDQoicHJvdmlu
+        Y2VuYW1lX2NuIjogIua5luWMlyINCn0sDQp7DQoicHJvdmluY2VzZXEiOiAi
+        MTYiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJIdU5hbiIsDQoicHJvdmluY2Vu
+        YW1lX2NuIjogIua5luWNlyINCn0sDQp7DQoicHJvdmluY2VzZXEiOiAiMzki
+        LA0KInByb3ZpbmNlbmFtZV9lbiI6ICJJIGhhdmUgbm8gaWRlYSIsDQoicHJv
+        dmluY2VuYW1lX2NuIjogIuecgeW4guS4jeehruWumiINCn0sDQp7DQoicHJv
+        dmluY2VzZXEiOiAiMTciLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJKaWFuZ1N1
+        IiwNCiJwcm92aW5jZW5hbWVfY24iOiAi5rGf6IuPIg0KfSwNCnsNCiJwcm92
+        aW5jZXNlcSI6ICIxOCIsDQoicHJvdmluY2VuYW1lX2VuIjogIkppYW5nWGki
+        LA0KInByb3ZpbmNlbmFtZV9jbiI6ICLmsZ/opb8iDQp9LA0Kew0KInByb3Zp
+        bmNlc2VxIjogIjE5IiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiSmlMaW4iLA0K
+        InByb3ZpbmNlbmFtZV9jbiI6ICLlkInmnpciDQp9LA0Kew0KInByb3ZpbmNl
+        c2VxIjogIjIwIiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiTGlhb05pbmciLA0K
+        InByb3ZpbmNlbmFtZV9jbiI6ICLovr3lroEiDQp9LA0Kew0KInByb3ZpbmNl
+        c2VxIjogIjIxIiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiTmVpTWVuZ0d1IiwN
+        CiJwcm92aW5jZW5hbWVfY24iOiAi5YaF6JKZ5Y+kIg0KfSwNCnsNCiJwcm92
+        aW5jZXNlcSI6ICIyMiIsDQoicHJvdmluY2VuYW1lX2VuIjogIk5pbmdCbyIs
+        DQoicHJvdmluY2VuYW1lX2NuIjogIuWugeazoiINCn0sDQp7DQoicHJvdmlu
+        Y2VzZXEiOiAiMjMiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJOaW5nWGlhIiwN
+        CiJwcm92aW5jZW5hbWVfY24iOiAi5a6B5aSPIg0KfSwNCnsNCiJwcm92aW5j
+        ZXNlcSI6ICIyNCIsDQoicHJvdmluY2VuYW1lX2VuIjogIlFpbmdEYW8iLA0K
+        InByb3ZpbmNlbmFtZV9jbiI6ICLpnZLlspsiDQp9LA0Kew0KInByb3ZpbmNl
+        c2VxIjogIjI1IiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiUWluZ0hhaSIsDQoi
+        cHJvdmluY2VuYW1lX2NuIjogIumdkua1tyINCn0sDQp7DQoicHJvdmluY2Vz
+        ZXEiOiAiMjYiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJTaGFuRG9uZyIsDQoi
+        cHJvdmluY2VuYW1lX2NuIjogIuWxseS4nCINCn0sDQp7DQoicHJvdmluY2Vz
+        ZXEiOiAiMjciLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJTaGFuZ0hhaSIsDQoi
+        cHJvdmluY2VuYW1lX2NuIjogIuS4iua1tyINCn0sDQp7DQoicHJvdmluY2Vz
+        ZXEiOiAiMjgiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJTaGFuWGko5bGx6KW/
+        KSIsDQoicHJvdmluY2VuYW1lX2NuIjogIuWxseilvyINCn0sDQp7DQoicHJv
+        dmluY2VzZXEiOiAiMjkiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJTaGFuWGko
+        6ZmV6KW/KSIsDQoicHJvdmluY2VuYW1lX2NuIjogIumZleilvyINCn0sDQp7
+        DQoicHJvdmluY2VzZXEiOiAiMzAiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJT
+        aGVuWmhlbiIsDQoicHJvdmluY2VuYW1lX2NuIjogIua3seWcsyINCn0sDQp7
+        DQoicHJvdmluY2VzZXEiOiAiMzEiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJT
+        aUNodWFuIiwNCiJwcm92aW5jZW5hbWVfY24iOiAi5Zub5bedIg0KfSwNCnsN
+        CiJwcm92aW5jZXNlcSI6ICIzMiIsDQoicHJvdmluY2VuYW1lX2VuIjogIlRp
+        YW5KaW4iLA0KInByb3ZpbmNlbmFtZV9jbiI6ICLlpKnmtKUiDQp9LA0Kew0K
+        InByb3ZpbmNlc2VxIjogIjMzIiwNCiJwcm92aW5jZW5hbWVfZW4iOiAiWGlh
+        TWVuICIsDQoicHJvdmluY2VuYW1lX2NuIjogIuWOpumXqCINCn0sDQp7DQoi
+        cHJvdmluY2VzZXEiOiAiMzQiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJYaW5K
+        aWFuZyIsDQoicHJvdmluY2VuYW1lX2NuIjogIuaWsOeWhiINCn0sDQp7DQoi
+        cHJvdmluY2VzZXEiOiAiMzUiLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJYaVph
+        bmcgIiwNCiJwcm92aW5jZW5hbWVfY24iOiAi6KW/6JePIg0KfSwNCnsNCiJw
+        cm92aW5jZXNlcSI6ICIzNiIsDQoicHJvdmluY2VuYW1lX2VuIjogIll1bk5h
+        biIsDQoicHJvdmluY2VuYW1lX2NuIjogIuS6keWNlyINCn0sDQp7DQoicHJv
+        dmluY2VzZXEiOiAiMzciLA0KInByb3ZpbmNlbmFtZV9lbiI6ICJaaGVKaWFu
+        ZyIsDQoicHJvdmluY2VuYW1lX2NuIjogIua1meaxnyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:33 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1662'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:36 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUJCJUMyJUExJUMzJUFCJUMyJUJBJUMyJUEyJUMyJUIyJUMzJTkxJUMyJUEyJUMyJUJBJUMzJTlDJUMyJUExJUMzJUE1JUMzJUFGJUMyJUExJUMzJUJDJUMzJUI2JUMyJUExJUMzJUFDJUMzJUI2JUMyJUEyJUMyJUE2JUMyJUJBJUMyJUEyJUMyJUFGJUMyJUI0JUMyJUEyJUMyJUIyJUMyJUIyJUMyJUExJUMzJTg1JUMyJUE3JUMyJUExJUMzJThEJUMyJUJEJUMyJUExJUMzJTk3JUMyJUJGJUMyJUExJUMzJThGJUMzJUI1JUMyJUExJUMzJUE2JUMzJTgwJUMyJUExJUMzJTg1JUMzJUExJUMyJUExJUMzJUExJUMzJUE4JUMyJUExJUMzJTkwJUMzJTkwJUMyJUExJUMzJUEzJUMzJUE3JUMyJUExJUMzJTkyJUMzJUFFJUMyJUExJUMzJUE5JUMzJUI3JUMyJUExJUMzJUI2JUMyJUFGJUMyJUExJUMzJUExJUMzJUFBJUMyJUExJUMzJUEwJUMzJUExJUMyJUExJUMzJUEzJUMzJTlCJUMyJUExJUMzJUExJUMzJUE3JUMyJUExJUMzJThEJUMyJUJCJUMyJUExJUMzJUE2JUMzJTk4JUMyJUExJUMzJUEzJUMzJTgxJUMyJUExJUMzJTk5JUMzJTg0JUMyJUExJUMzJThEJUMyJUE2JUMyJUExJUMzJThFJUMzJUE1JUMyJUExJUMzJUIzJUMyJUI2JUMyJUExJUMzJUI1JUMzJTgxJUMyJUExJUMzJUI2JUMzJUJFJUMyJUExJUMzJUIzJUMyJUFFJUMyJUExJUMzJTg1JUMyJUI4JUMyJUExJUMzJTk0JUMyJUE0JUMyJUExJUMzJUEwJUMzJUE3JUMyJUExJUMzJThBJUMzJThEJUMyJUExJUMzJUEyJUMzJTlGJUMyJUExJUMzJTk1JUMzJThEJUMyJUExJUMzJTk5JUMyJUE5JUMyJUExJUMyJUJFJUMzJTk2JUMyJUExJUMzJTlBJUMzJUEzJUMyJUExJUMzJUE5JUMzJThCJUMyJUExJUMzJTk1JUMyJUJBJUMyJUExJUMzJTk0JUMzJUJEJUMyJUExJUMzJTk5JUMzJUJGJUMyJUExJUMzJUFF;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=ANLDIJMCPHCGCGEMMOCACAEO; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:36 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMSIsDQoicHJvdmluY2VzZXEiOiAiMSIsDQoi
+        Y2l0eW5hbWVfZW4iOiAiQW5IdWkiLA0KImNpdHluYW1lX2NuIjogIuWuieW+
+        vSINCn0sDQp7DQoiY2l0eXNlcSI6ICIyIiwNCiJwcm92aW5jZXNlcSI6ICIx
+        IiwNCiJjaXR5bmFtZV9lbiI6ICJBblFpbmciLA0KImNpdHluYW1lX2NuIjog
+        IuWuieW6hiINCn0sDQp7DQoiY2l0eXNlcSI6ICIzIiwNCiJwcm92aW5jZXNl
+        cSI6ICIxIiwNCiJjaXR5bmFtZV9lbiI6ICJCZW5nQnUiLA0KImNpdHluYW1l
+        X2NuIjogIuiajOWfoCINCn0sDQp7DQoiY2l0eXNlcSI6ICI0IiwNCiJwcm92
+        aW5jZXNlcSI6ICIxIiwNCiJjaXR5bmFtZV9lbiI6ICJDaGlaaG91IiwNCiJj
+        aXR5bmFtZV9jbiI6ICLmsaDlt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiNSIs
+        DQoicHJvdmluY2VzZXEiOiAiMSIsDQoiY2l0eW5hbWVfZW4iOiAiQ2h1Wmhv
+        dSIsDQoiY2l0eW5hbWVfY24iOiAi5ruB5beeIg0KfSwNCnsNCiJjaXR5c2Vx
+        IjogIjYiLA0KInByb3ZpbmNlc2VxIjogIjEiLA0KImNpdHluYW1lX2VuIjog
+        IkZ1WWFuZyIsDQoiY2l0eW5hbWVfY24iOiAi6Zic6ZizIg0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjciLA0KInByb3ZpbmNlc2VxIjogIjEiLA0KImNpdHluYW1l
+        X2VuIjogIkhhb1pob3VTaGkiLA0KImNpdHluYW1lX2NuIjogIuS6s+W3nuW4
+        giINCn0sDQp7DQoiY2l0eXNlcSI6ICI4IiwNCiJwcm92aW5jZXNlcSI6ICIx
+        IiwNCiJjaXR5bmFtZV9lbiI6ICJIZUZlaSIsDQoiY2l0eW5hbWVfY24iOiAi
+        5ZCI6IKlIg0KfSwNCnsNCiJjaXR5c2VxIjogIjkiLA0KInByb3ZpbmNlc2Vx
+        IjogIjEiLA0KImNpdHluYW1lX2VuIjogIkh1YWlCZWkiLA0KImNpdHluYW1l
+        X2NuIjogIua3ruWMlyINCn0sDQp7DQoiY2l0eXNlcSI6ICIxMCIsDQoicHJv
+        dmluY2VzZXEiOiAiMSIsDQoiY2l0eW5hbWVfZW4iOiAiSHVhaU5hbiIsDQoi
+        Y2l0eW5hbWVfY24iOiAi5reu5Y2XIg0KfSwNCnsNCiJjaXR5c2VxIjogIjEx
+        IiwNCiJwcm92aW5jZXNlcSI6ICIxIiwNCiJjaXR5bmFtZV9lbiI6ICJIdWFu
+        Z1NoYW4iLA0KImNpdHluYW1lX2NuIjogIum7hOWxsSINCn0sDQp7DQoiY2l0
+        eXNlcSI6ICIxMiIsDQoicHJvdmluY2VzZXEiOiAiMSIsDQoiY2l0eW5hbWVf
+        ZW4iOiAiTGl1QW4iLA0KImNpdHluYW1lX2NuIjogIuWFreWuiSINCn0sDQp7
+        DQoiY2l0eXNlcSI6ICIxMyIsDQoicHJvdmluY2VzZXEiOiAiMSIsDQoiY2l0
+        eW5hbWVfZW4iOiAiTWFBblNoYW4iLA0KImNpdHluYW1lX2NuIjogIumprOme
+        jeWxsSINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNCIsDQoicHJvdmluY2VzZXEi
+        OiAiMSIsDQoiY2l0eW5hbWVfZW4iOiAiU3VaaG91IiwNCiJjaXR5bmFtZV9j
+        biI6ICLlrr/lt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiMTUiLA0KInByb3Zp
+        bmNlc2VxIjogIjEiLA0KImNpdHluYW1lX2VuIjogIlRvbmdMaW5nIiwNCiJj
+        aXR5bmFtZV9jbiI6ICLpk5zpmbUiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTYi
+        LA0KInByb3ZpbmNlc2VxIjogIjEiLA0KImNpdHluYW1lX2VuIjogIld1SHUi
+        LA0KImNpdHluYW1lX2NuIjogIuiKnOa5liINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIxNyIsDQoicHJvdmluY2VzZXEiOiAiMSIsDQoiY2l0eW5hbWVfZW4iOiAi
+        WHVhbkNoZW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLlrqPln44iDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:33 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:36 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUFCJUMyJUExJUMzJUI4JUMzJThCJUMyJUEyJUMyJUIxJUMyJUJGJUMyJUEyJUMyJUEzJUMzJTg2JUMyJUExJUMzJTkxJUMzJUFCJUMyJUExJUMzJUE0JUMyJUE2JUMyJUExJUMzJThDJUMzJTlFJUMyJUExJUMzJUFFJUM0JTgwJUMyJUEyJUMzJThCJUMzJUE0JUMyJUEyJUMzJTkwJUMzJTlEJUMyJUExJUMzJTgwJUMzJTg0JUMyJUExJUMzJTlBJUMzJUE5JUMyJUExJUMzJTk2JUMzJTk4JUMyJUExJUMzJUExJUMyJUE2JUMyJUExJUMzJThEJUMzJUI0JUMyJUExJUMzJTkzJUMyJUIwJUMyJUExJUMzJTkyJUM0JTg0JUMyJUEyJUMyJUFDJUMzJUEzJUMyJUExJUMzJUFBJUMyJUJDJUMyJUExJUMzJTlFJUMzJUFGJUMyJUExJUMzJUFGJUMyJUI4JUMyJUExJUMzJTk1JUMzJUFFJUMyJUEyJUMyJUExJUMzJUEyJUMyJUExJUMzJUE4JUMyJUJDJUMyJUExJUMzJTlBJUMyJUE5JUMyJUExJUMyJUJFJUMzJThGJUMyJUExJUMzJUEyJUMyJUI5JUMyJUExJUMzJUE0JUMzJTk3JUMyJUExJUMzJTlGJUMyJUFEJUMyJUExJUMzJTk3JUMzJTgyJUMyJUExJUMzJTg5JUMzJUI4JUMyJUExJUMzJUJDJUMyJUIwJUMyJUExJUMzJTkwJUMzJTk4JUMyJUEyJUMyJUExJUMyJUE4JUMyJUExJUMzJUFFJUMzJTgwJUMyJUExJUMzJUEzJUMzJUIyJUMyJUExJUMzJTg1JUMyJUJCJUMyJUExJUMzJTk3JUMzJUFCJUMyJUExJUMzJUI0JUMzJTgzJUMyJUExJUMzJTk2JUMzJTg1JUMyJUExJUMzJUEzJUMzJTg5JUMyJUExJUMzJThEJUMzJUE3JUMyJUExJUMzJThBJUMzJTg4JUMyJUExJUMzJTk1JUMzJTlGJUMyJUExJUMzJTk3JUMzJTk4JUMyJUExJUMzJUEwJUMzJTlEJUMyJUExJUMzJThEJUMzJUJFJUMyJUExJUMzJUEwJUMyJUFCJUMyJUExJUMzJTkxJUM0JTgzJUMyJUEyJUMyJUFB;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=BNLDIJMCHLOJEECEICCCLGEC; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:37 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTgiLA0KInByb3ZpbmNlc2VxIjogIjIiLA0K
+        ImNpdHluYW1lX2VuIjogIkJlaUppbmciLA0KImNpdHluYW1lX2NuIjogIuWM
+        l+S6rCAiDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:34 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '228'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:38 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTgxJUMyJUExJUMzJUE4JUMzJUI3JUMyJUEyJUMzJTkxJUMyJUI4JUMyJUEyJUMyJUE3JUMzJTlFJUMyJUExJUMzJTg1JUMzJTk2JUMyJUExJUMzJTlBJUMyJUJDJUMyJUExJUMzJTk2JUMzJTgwJUMyJUExJUMzJUFFJUMyJUFFJUMyJUEyJUMyJUFCJUMzJUJEJUMyJUEyJUMyJUJBJUM0JTgxJUMyJUExJUMzJUFEJUMzJThDJUMyJUExJUMzJTk4JUMzJUE0JUMyJUExJUMzJUFFJUMzJThCJUMyJUExJUMzJTk0JUMzJUI2JUMyJUExJUMzJUFEJUM0JTg0JUMyJUEyJUMyJUExJUMzJTk1JUMyJUExJUMzJTk2JUMzJUEwJUMyJUExJUMzJTlBJUMzJTlBJUMyJUExJUMzJUE5JUMyJUEzJUMyJUExJUMzJTk3JUMzJUI5JUMyJUExJUMzJUI2JUMzJUFGJUMyJUExJUMzJUJEJUMyJUIxJUMyJUExJUMzJUExJUMzJUI4JUMyJUExJUMzJUJFJUMzJUFBJUMyJUExJUMzJUEwJUMzJUE5JUMyJUExJUMzJThCJUMzJThDJUMyJUExJUMzJTk5JUMzJTk4JUMyJUExJUMzJUIxJUMzJTg5JUMyJUExJUMzJTkwJUMyJUIxJUMyJUExJUMzJTk4JUMzJTk2JUMyJUExJUMzJThEJUMzJUI4JUMyJUExJUMzJUJDJUMyJUI4JUMyJUExJUMzJTkyJUMzJUI5JUMyJUEyJUMzJTgyJUMzJUE3JUMyJUExJUMzJUFFJUMzJTk0JUMyJUExJUMzJUEzJUMyJUI4JUMyJUExJUMzJTg3JUMyJUFFJUMyJUExJUMzJTkyJUMzJUE0JUMyJUExJUM0JTgwJUMzJTk3JUMyJUExJUMzJTlDJUMzJUFEJUMyJUExJUMzJUI3JUMyJUIwJUMyJUExJUMzJTkwJUMzJUJCJUMyJUExJUMzJTg4JUMzJTg3JUMyJUExJUMzJTkzJUMyJUEzJUMyJUExJUMzJTkxJUMyJUE1JUMyJUExJUMzJThEJUMzJUFEJUMyJUExJUMzJUIwJUMzJTgyJUMyJUExJUMzJTk0JUMzJTgyJUMyJUExJUMzJTk1JUMzJTk5JUMyJUExJUMzJUFB;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=CNLDIJMCEFMDOKHAACILHJMM; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:37 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTkiLA0KInByb3ZpbmNlc2VxIjogIjMiLA0K
+        ImNpdHluYW1lX2VuIjogIkNob25nUWluZyIsDQoiY2l0eW5hbWVfY24iOiAi
+        6YeN5bqGIg0KfSwNCnsNCiJjaXR5c2VxIjogIjIwIiwNCiJwcm92aW5jZXNl
+        cSI6ICIzIiwNCiJjaXR5bmFtZV9lbiI6ICJDaG9uZ1FpbmdTaGlCaVNoYW5Y
+        aWFuIiwNCiJjaXR5bmFtZV9jbiI6ICLph43luobluILnkqflsbHljr8iDQp9
+        DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:34 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '100'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:38 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUE1JUMyJUEyJUMyJUE1JUMzJUI4JUMyJUEyJUMzJTk4JUMzJTk5JUMyJUEyJUMyJUI5JUMzJUE4JUMyJUExJUMzJTg1JUMzJUI1JUMyJUExJUMzJUE3JUMzJUExJUMyJUExJUMzJTlGJUMyJUFCJUMyJUExJUMzJUFFJUMzJTk4JUMyJUEyJUMyJUJCJUMzJTk1JUMyJUEyJUMyJUI2JUMzJUEyJUMyJUExJUMzJTk5JUMzJUEzJUMyJUExJUMzJUFCJUMzJUExJUMyJUExJUMzJTlGJUM0JTgwJUMyJUExJUMzJUIxJUMzJTlGJUMyJUExJUMzJTk2JUMzJUFFJUMyJUExJUMzJUE5JUMzJTgyJUMyJUExJUMzJTk2JUMzJTk2JUMyJUExJUMzJTk4JUMyJUIzJUMyJUExJUMzJTkxJUMzJThDJUMyJUExJUMzJTlFJUMzJUFEJUMyJUExJUMzJUEzJUMzJTlEJUMyJUExJUMzJThFJUMyJUJGJUMyJUExJUMzJTlGJUMzJUIyJUMyJUExJUMzJTk0JUMyJUFCJUMyJUExJUMzJTk0JUMyJUIzJUMyJUExJUMzJTg1JUMyJUFFJUMyJUExJUMzJTkzJUMyJUI0JUMyJUExJUMzJUExJUMzJThGJUMyJUExJUMzJUEyJUMzJThDJUMyJUExJUMzJTlFJUMzJTkxJUMyJUExJUMzJTlBJUMyJUFEJUMyJUExJUMzJTkyJUMyJUFDJUMyJUExJUMzJTkwJUMzJUI4JUMyJUEyJUMyJUJCJUMzJUEzJUMyJUEyJUMyJUE5JUMzJTk3JUMyJUExJUMzJUFGJUMzJTgzJUMyJUExJUMzJThCJUMyJUJFJUMyJUExJUMzJTlBJUMyJUI2JUMyJUExJUMzJUEyJUMzJTg0JUMyJUExJUMzJTk4JUMzJThCJUMyJUExJUMzJTlDJUMzJUFBJUMyJUExJUMzJTlDJUMyJUE5JUMyJUExJUMzJTg5JUMzJUFGJUMyJUExJUMzJUFGJUMzJThEJUMyJUExJUMzJTlCJUMzJUFGJUMyJUExJUMzJUJBJUMyJUIwJUMyJUExJUMzJTkyJUMzJTlCJUMyJUExJUMzJUFDJUMzJUI0JUMyJUExJUMzJTlGJUMzJUJDJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=DNLDIJMCJFHPAIILAFOHOBDC; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:37 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjEiLA0KInByb3ZpbmNlc2VxIjogIjUiLA0K
+        ImNpdHluYW1lX2VuIjogIkRhTGlhbiIsDQoiY2l0eW5hbWVfY24iOiAi5aSn
+        6L+eIg0KfQ0KXQ==
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:35 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '100'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:38 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTg2JUMyJUExJUMzJUIyJUMyJUFCJUMyJUEyJUMyJUFFJUMzJTg3JUMyJUEyJUMyJUIzJUMzJUIzJUMyJUExJUMzJThDJUMzJTlBJUMyJUExJUMzJUFBJUMyJUI3JUMyJUExJUMzJTkxJUMzJTlBJUMyJUEyJUMyJUEyJUMzJTk5JUMyJUEyJUMyJUJGJUMzJUIyJUMyJUEyJUMyJUIyJUM0JTgwJUMyJUExJUMzJUE1JUMyJUJFJUMyJUExJUMzJTlBJUMzJUFFJUMyJUExJUMzJUI0JUMyJUIxJUMyJUExJUMzJTkxJUMzJUFCJUMyJUExJUMzJUEzJUMyJUIzJUMyJUExJUMzJTg1JUMyJUJDJUMyJUExJUMzJTk4JUMyJUE5JUMyJUExJUMzJTg5JUMzJTkxJUMyJUExJUMzJUE2JUMyJUEzJUMyJUExJUMzJTk3JUMzJUExJUMyJUExJUMzJTk0JUMzJUEzJUMyJUExJUMzJUFDJUMzJUI4JUMyJUEyJUMyJUE3JUMzJTk2JUMyJUExJUMzJTlDJUMzJUFGJUMyJUExJUMzJUJFJUMyJUIyJUMyJUExJUMzJTg1JUMzJTgzJUMyJUExJUMzJTk5JUMyJUI4JUMyJUExJUMzJUEzJUMyJUI1JUMyJUExJUMzJTkyJUMzJTlGJUMyJUExJUMzJTlFJUMzJTgyJUMyJUExJUMzJTg5JUMzJTk1JUMyJUExJUMzJTk2JUMzJUEzJUMyJUExJUMzJUE5JUMzJUI4JUMyJUEyJUMyJUJCJUMzJUE4JUMyJUExJUMzJUI0JUMzJUE1JUMyJUEyJUMyJUEyJUMzJUI2JUMyJUExJUMzJUExJUMyJUIyJUMyJUExJUMzJTkyJUMzJThFJUMyJUExJUMzJUFFJUMzJUJBJUMyJUEyJUMyJUE0JUMzJUEzJUMyJUExJUMzJUIyJUMyJUI2JUMyJUExJUMzJTkwJUM0JTgzJUMyJUEyJUMyJUE0JUMyJUI1JUMyJUExJUMzJTg0JUMzJUExJUMyJUExJUMzJUExJUMzJUIzJUMyJUExJUMzJTk3JUMzJUE4JUMyJUExJUMzJTkyJUMzJUFBJUMyJUExJUMzJTlDJUMzJUFFJUMyJUExJUMzJUI1JUMyJUI3JUMyJUExJUMzJTk3;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=ENLDIJMCPPMDEEMCGKHNFNHL; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:39 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjIiLA0KInByb3ZpbmNlc2VxIjogIjYiLA0K
+        ImNpdHluYW1lX2VuIjogIkZ1WmhvdSIsDQoiY2l0eW5hbWVfY24iOiAi56aP
+        5beeIg0KfQ0KXQ==
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:35 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1575'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:38 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTg2JUMyJUExJUMzJUIyJUMyJUFDJUMyJUEyJUMyJUFFJUMyJUIwJUMyJUEyJUMyJUE1JUMzJUFEJUMyJUExJUMzJUEzJUMzJTgzJUMyJUExJUMzJTk4JUMyJUI3JUMyJUExJUMzJTkxJUMzJUEzJUMyJUEyJUMyJUEzJUMzJUI2JUMyJUEyJUMzJTg3JUMzJThEJUMyJUEyJUMyJUJCJUMyJUE1JUMyJUExJUMzJTgyJUMzJTlDJUMyJUExJUMzJUIyJUMzJTlEJUMyJUExJUMzJThCJUMzJThGJUMyJUExJUMzJUEwJUMzJUIzJUMyJUExJUMzJTk4JUMzJUE4JUMyJUExJUMzJTg1JUMzJUFBJUMyJUExJUMzJTlFJUMyJUIwJUMyJUExJUMzJTkwJUMzJTk4JUMyJUExJUMzJUExJUMzJUI2JUMyJUExJUMzJUI0JUMzJUExJUMyJUExJUMzJTk0JUMzJTlDJUMyJUExJUMzJUIzJUMzJUJFJUMyJUExJUMzJUIxJUMzJUFFJUMyJUExJUMzJUI4JUMzJTgyJUMyJUExJUMzJTk4JUMzJUFFJUMyJUExJUMzJUE5JUMzJTlDJUMyJUExJUMzJUIzJUMzJUE1JUMyJUExJUM0JTg0JUMyJUJEJUMyJUExJUMzJTlBJUMyJUIyJUMyJUExJUMzJTk5JUMzJTlBJUMyJUExJUMzJTlEJUMzJTg4JUMyJUExJUMzJUEyJUMyJUJEJUMyJUExJUMzJTk3JUMyJUFCJUMyJUExJUMzJUI1JUMzJUJGJUMyJUEyJUMyJUE4JUMzJUE1JUMyJUEyJUMyJUEyJUMzJUJEJUMyJUExJUMzJThEJUMyJUIxJUMyJUExJUMzJTkyJUMzJUFFJUMyJUEyJUMyJUEyJUMyJUI2JUMyJUExJUMzJTkwJUMzJTg1JUMyJUExJUMzJUEzJUM0JTgxJUMyJUExJUMzJUI4JUMzJTg4JUMyJUExJUMzJUEwJUMzJUI0JUMyJUExJUMzJTkzJUMzJUI5JUMyJUExJUM0JTgzJUMzJThEJUMyJUExJUMzJTk5JUMyJUEyJUMyJUExJUMzJTkyJUMzJUE0JUMyJUExJUMzJUFFJUMzJThGJUMyJUExJUMzJUEwJUMzJTlFJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=FNLDIJMCMDCNMMEHCAMNHJOA; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:39 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjMiLA0KInByb3ZpbmNlc2VxIjogIjciLA0K
+        ImNpdHluYW1lX2VuIjogIkJhaVlpbiIsDQoiY2l0eW5hbWVfY24iOiAi55m9
+        6ZO2Ig0KfSwNCnsNCiJjaXR5c2VxIjogIjI0IiwNCiJwcm92aW5jZXNlcSI6
+        ICI3IiwNCiJjaXR5bmFtZV9lbiI6ICJEaW5nWGkiLA0KImNpdHluYW1lX2Nu
+        IjogIuWumuilvyINCn0sDQp7DQoiY2l0eXNlcSI6ICIyNSIsDQoicHJvdmlu
+        Y2VzZXEiOiAiNyIsDQoiY2l0eW5hbWVfZW4iOiAiRG9uZ0ZlbmciLA0KImNp
+        dHluYW1lX2NuIjogIuS4nOmjjiINCn0sDQp7DQoiY2l0eXNlcSI6ICIyNiIs
+        DQoicHJvdmluY2VzZXEiOiAiNyIsDQoiY2l0eW5hbWVfZW4iOiAiSGVadW8i
+        LA0KImNpdHluYW1lX2NuIjogIuWQiOS9nCINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIyNyIsDQoicHJvdmluY2VzZXEiOiAiNyIsDQoiY2l0eW5hbWVfZW4iOiAi
+        SmlhWXVHdWFuIiwNCiJjaXR5bmFtZV9jbiI6ICLlmInls6rlhbMiDQp9LA0K
+        ew0KImNpdHlzZXEiOiAiMjgiLA0KInByb3ZpbmNlc2VxIjogIjciLA0KImNp
+        dHluYW1lX2VuIjogIkppbkNoYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLph5Hm
+        mIwiDQp9LA0Kew0KImNpdHlzZXEiOiAiMjkiLA0KInByb3ZpbmNlc2VxIjog
+        IjciLA0KImNpdHluYW1lX2VuIjogIkppdVF1YW4iLA0KImNpdHluYW1lX2Nu
+        IjogIumFkuaziSINCn0sDQp7DQoiY2l0eXNlcSI6ICIzMCIsDQoicHJvdmlu
+        Y2VzZXEiOiAiNyIsDQoiY2l0eW5hbWVfZW4iOiAiS3VhbmdRdSIsDQoiY2l0
+        eW5hbWVfY24iOiAi55+/5Yy6Ig0KfSwNCnsNCiJjaXR5c2VxIjogIjMxIiwN
+        CiJwcm92aW5jZXNlcSI6ICI3IiwNCiJjaXR5bmFtZV9lbiI6ICJMYW5aaG91
+        IiwNCiJjaXR5bmFtZV9jbiI6ICLlhbDlt54iDQp9LA0Kew0KImNpdHlzZXEi
+        OiAiMzIiLA0KInByb3ZpbmNlc2VxIjogIjciLA0KImNpdHluYW1lX2VuIjog
+        IkxpblhpYSIsDQoiY2l0eW5hbWVfY24iOiAi5Li05aSPIg0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjMzIiwNCiJwcm92aW5jZXNlcSI6ICI3IiwNCiJjaXR5bmFt
+        ZV9lbiI6ICJMb25nTmFuIiwNCiJjaXR5bmFtZV9jbiI6ICLpmYfljZciDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiMzQiLA0KInByb3ZpbmNlc2VxIjogIjciLA0K
+        ImNpdHluYW1lX2VuIjogIlBpbmdMaWFuZyIsDQoiY2l0eW5hbWVfY24iOiAi
+        5bmz5YeJIg0KfSwNCnsNCiJjaXR5c2VxIjogIjM1IiwNCiJwcm92aW5jZXNl
+        cSI6ICI3IiwNCiJjaXR5bmFtZV9lbiI6ICJRaW5nWWFuZyIsDQoiY2l0eW5h
+        bWVfY24iOiAi5bqG6ZizIg0KfSwNCnsNCiJjaXR5c2VxIjogIjM2IiwNCiJw
+        cm92aW5jZXNlcSI6ICI3IiwNCiJjaXR5bmFtZV9lbiI6ICJUaWFuU2h1aSIs
+        DQoiY2l0eW5hbWVfY24iOiAi5aSp5rC0Ig0KfSwNCnsNCiJjaXR5c2VxIjog
+        IjM3IiwNCiJwcm92aW5jZXNlcSI6ICI3IiwNCiJjaXR5bmFtZV9lbiI6ICJX
+        dVdlaSIsDQoiY2l0eW5hbWVfY24iOiAi5q2m5aiBIg0KfSwNCnsNCiJjaXR5
+        c2VxIjogIjM4IiwNCiJwcm92aW5jZXNlcSI6ICI3IiwNCiJjaXR5bmFtZV9l
+        biI6ICJaaGFuZ1llIiwNCiJjaXR5bmFtZV9jbiI6ICLlvKDmjpYiDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:36 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2085'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:40 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUJEJUMyJUExJUMzJUFFJUMyJUIyJUMyJUEyJUMyJUFFJUMyJUJEJUMyJUEyJUMyJUFDJUMzJUI4JUMyJUExJUMzJUFGJUMzJTkzJUMyJUExJUMzJThFJUMzJUFDJUMyJUExJUMzJUE4JUMzJUE3JUMyJUExJUMzJUE4JUMzJUFDJUMyJUEyJUMzJTgzJUMzJUFFJUMyJUEyJUMzJTk2JUMyJUJDJUMyJUExJUMzJThCJUMzJTk4JUMyJUExJUMzJUEyJUMzJUI5JUMyJUExJUM0JTgxJUMyJUI5JUMyJUExJUMzJTk0JUMzJUJBJUMyJUEyJUMyJUE1JUMzJUE1JUMyJUExJUMzJUE4JUMyJUFBJUMyJUExJUMzJThBJUMzJUJEJUMyJUExJUMzJTk4JUMzJUIwJUMyJUExJUM0JTgxJUMzJUFFJUMyJUExJUMzJUJDJUMzJUFDJUMyJUExJUMzJTlEJUMzJUIzJUMyJUExJUMzJTlBJUMzJTkxJUMyJUExJUMzJUI2JUMzJThEJUMyJUExJUMzJTlEJUMyJUE4JUMyJUExJUMzJThFJUMyJUFDJUMyJUExJUMzJTg1JUMzJTlCJUMyJUExJUMzJUFGJUMyJUI3JUMyJUExJUMzJUEyJUMyJUI5JUMyJUExJUMzJTk3JUMzJUIwJUMyJUExJUM0JTgwJUMzJTgyJUMyJUExJUMzJTg5JUMzJTlDJUMyJUExJUMzJUIyJUMyJUJBJUMyJUExJUMzJTk0JUMzJUEyJUMyJUEyJUMyJUE1JUMzJUE4JUMyJUExJUMzJUI0JUMzJUEyJUMyJUExJUMzJUI3JUMzJUE0JUMyJUExJUMzJUEzJUMyJUEyJUMyJUExJUMzJTkyJUMzJUE1JUMyJUEyJUMyJUExJUMzJUI3JUMyJUExJUMzJUIzJUMzJTg4JUMyJUExJUMzJUE5JUMzJUFEJUMyJUExJUMzJUFFJUMzJUE1JUMyJUExJUMzJUIzJUMyJUJEJUMyJUExJUMzJThDJUMyJUE4JUMyJUExJUMzJThDJUMzJThFJUMyJUExJUMzJTlDJUMyJUEyJUMyJUExJUMzJTkyJUMzJUEwJUMyJUExJUMzJTlBJUMzJTlDJUMyJUExJUMzJUIxJUMzJTkxJUMyJUExJUMzJUFC;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=GNLDIJMCPKPDEDFLHAIBCNAM; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:40 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMzkiLA0KInByb3ZpbmNlc2VxIjogIjgiLA0K
+        ImNpdHluYW1lX2VuIjogIkNoYW9aaG91IiwNCiJjaXR5bmFtZV9jbiI6ICLm
+        va7lt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiNDAiLA0KInByb3ZpbmNlc2Vx
+        IjogIjgiLA0KImNpdHluYW1lX2VuIjogIkRvbmdHdWFuIiwNCiJjaXR5bmFt
+        ZV9jbiI6ICLkuJzojp4iDQp9LA0Kew0KImNpdHlzZXEiOiAiNDEiLA0KInBy
+        b3ZpbmNlc2VxIjogIjgiLA0KImNpdHluYW1lX2VuIjogIkZvU2hhbiIsDQoi
+        Y2l0eW5hbWVfY24iOiAi5L2b5bGxIg0KfSwNCnsNCiJjaXR5c2VxIjogIjMz
+        MyIsDQoicHJvdmluY2VzZXEiOiAiOCIsDQoiY2l0eW5hbWVfZW4iOiAiR3Vh
+        bmdEb25nQmVuSmkiLA0KImNpdHluYW1lX2NuIjogIuW5v+S4nOacrOe6pyIN
+        Cn0sDQp7DQoiY2l0eXNlcSI6ICI0MiIsDQoicHJvdmluY2VzZXEiOiAiOCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiR3VhbmdaaG91IiwNCiJjaXR5bmFtZV9jbiI6
+        ICLlub/lt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiNDMiLA0KInByb3ZpbmNl
+        c2VxIjogIjgiLA0KImNpdHluYW1lX2VuIjogIkhlWXVhbiIsDQoiY2l0eW5h
+        bWVfY24iOiAi5rKz5rqQIg0KfSwNCnsNCiJjaXR5c2VxIjogIjQ0IiwNCiJw
+        cm92aW5jZXNlcSI6ICI4IiwNCiJjaXR5bmFtZV9lbiI6ICJIdWlaaG91IiwN
+        CiJjaXR5bmFtZV9jbiI6ICLmg6Dlt54iDQp9LA0Kew0KImNpdHlzZXEiOiAi
+        NDUiLA0KInByb3ZpbmNlc2VxIjogIjgiLA0KImNpdHluYW1lX2VuIjogIkpp
+        YW5nTWVuIiwNCiJjaXR5bmFtZV9jbiI6ICLmsZ/pl6giDQp9LA0Kew0KImNp
+        dHlzZXEiOiAiNDYiLA0KInByb3ZpbmNlc2VxIjogIjgiLA0KImNpdHluYW1l
+        X2VuIjogIkppZVlhbmciLA0KImNpdHluYW1lX2NuIjogIuaPremYsyINCn0s
+        DQp7DQoiY2l0eXNlcSI6ICI0NyIsDQoicHJvdmluY2VzZXEiOiAiOCIsDQoi
+        Y2l0eW5hbWVfZW4iOiAiTWFuZ01pbmciLA0KImNpdHluYW1lX2NuIjogIuiM
+        guWQjSINCn0sDQp7DQoiY2l0eXNlcSI6ICI0OCIsDQoicHJvdmluY2VzZXEi
+        OiAiOCIsDQoiY2l0eW5hbWVfZW4iOiAiTWVpWmhvdSIsDQoiY2l0eW5hbWVf
+        Y24iOiAi5qKF5beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjQ5IiwNCiJwcm92
+        aW5jZXNlcSI6ICI4IiwNCiJjaXR5bmFtZV9lbiI6ICJRaW5nWXVhbiIsDQoi
+        Y2l0eW5hbWVfY24iOiAi5riF6L+cIg0KfSwNCnsNCiJjaXR5c2VxIjogIjUw
+        IiwNCiJwcm92aW5jZXNlcSI6ICI4IiwNCiJjaXR5bmFtZV9lbiI6ICJTaGFu
+        VG91IiwNCiJjaXR5bmFtZV9jbiI6ICLmsZXlpLQiDQp9LA0Kew0KImNpdHlz
+        ZXEiOiAiNTEiLA0KInByb3ZpbmNlc2VxIjogIjgiLA0KImNpdHluYW1lX2Vu
+        IjogIlNoYW5XZWkiLA0KImNpdHluYW1lX2NuIjogIuaxleWwviINCn0sDQp7
+        DQoiY2l0eXNlcSI6ICI1MiIsDQoicHJvdmluY2VzZXEiOiAiOCIsDQoiY2l0
+        eW5hbWVfZW4iOiAiU2hhb0d1YW4iLA0KImNpdHluYW1lX2NuIjogIumftuWF
+        syINCn0sDQp7DQoiY2l0eXNlcSI6ICI1MyIsDQoicHJvdmluY2VzZXEiOiAi
+        OCIsDQoiY2l0eW5hbWVfZW4iOiAiWWFuZ0ppYW5nIiwNCiJjaXR5bmFtZV9j
+        biI6ICLpmLPmsZ8iDQp9LA0Kew0KImNpdHlzZXEiOiAiNTQiLA0KInByb3Zp
+        bmNlc2VxIjogIjgiLA0KImNpdHluYW1lX2VuIjogIll1bkZ1IiwNCiJjaXR5
+        bmFtZV9jbiI6ICLkupHmta4iDQp9LA0Kew0KImNpdHlzZXEiOiAiNTUiLA0K
+        InByb3ZpbmNlc2VxIjogIjgiLA0KImNpdHluYW1lX2VuIjogIlpoYW5KaWFu
+        ZyIsDQoiY2l0eW5hbWVfY24iOiAi5rmb5rGfIg0KfSwNCnsNCiJjaXR5c2Vx
+        IjogIjU2IiwNCiJwcm92aW5jZXNlcSI6ICI4IiwNCiJjaXR5bmFtZV9lbiI6
+        ICJaaGFvUWluZyIsDQoiY2l0eW5hbWVfY24iOiAi6IKH5bqGIg0KfSwNCnsN
+        CiJjaXR5c2VxIjogIjU3IiwNCiJwcm92aW5jZXNlcSI6ICI4IiwNCiJjaXR5
+        bmFtZV9lbiI6ICJaaG9uZ1NoYW4iLA0KImNpdHluYW1lX2NuIjogIuS4reWx
+        sSINCn0sDQp7DQoiY2l0eXNlcSI6ICI1OCIsDQoicHJvdmluY2VzZXEiOiAi
+        OCIsDQoiY2l0eW5hbWVfZW4iOiAiWmh1SGFpIiwNCiJjaXR5bmFtZV9jbiI6
+        ICLnj6DmtbciDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:36 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1484'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:40 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUFDJUMyJUExJUMzJUE2JUMyJUJBJUMyJUEyJUMyJUIyJUMzJUI0JUMyJUEyJUMyJUIzJUMyJUJEJUMyJUExJUMzJThDJUMzJTkxJUMyJUExJUMzJUE3JUMzJUIyJUMyJUExJUMzJTkwJUMzJTg2JUMyJUExJUMzJUJBJUMyJUIwJUMyJUEyJUMyJUFCJUMyJUJEJUMyJUEyJUMyJUI5JUMzJUI4JUMyJUExJUMzJUFGJUM0JTgyJUMyJUExJUM0JTgyJUMzJUEwJUMyJUExJUMzJTlBJUMzJTg2JUMyJUExJUMzJTlEJUMzJTlDJUMyJUExJUMzJUIxJUMzJUI5JUMyJUExJUMzJUI2JUMzJUFDJUMyJUExJUMzJUFBJUMzJTk0JUMyJUExJUMzJTkwJUMzJUFFJUMyJUExJUMzJUI1JUMzJTk5JUMyJUExJUMzJUFDJUM0JTg0JUMyJUEyJUMyJUExJUMzJUFGJUMyJUExJUMzJUJEJUMzJTgwJUMyJUExJUMzJUExJUMzJUJGJUMyJUExJUMzJUFDJUM0JTgyJUMyJUExJUM0JTg0JUMzJTg1JUMyJUExJUMzJThGJUMzJUE5JUMyJUExJUMzJTk5JUMzJTgzJUMyJUExJUMzJUE3JUMzJThGJUMyJUExJUMzJUEzJUMzJThFJUMyJUExJUMzJTlDJUMyJUJBJUMyJUExJUMzJTg5JUMyJUJBJUMyJUExJUMzJTk2JUMyJUIxJUMyJUExJUMzJTkwJUMzJTk3JUMyJUExJUM0JTgxJUMzJUFGJUMyJUEyJUMyJUJBJUMzJUFFJUMyJUEyJUMyJUEzJUMzJUEyJUMyJUExJUMzJTk5JUMyJUFGJUMyJUExJUMzJTkyJUMzJTg3JUMyJUExJUMzJUIwJUMzJThGJUMyJUExJUMzJTlGJUMyJUExJUMyJUExJUMzJTlBJUMzJUI3JUMyJUExJUMzJUIzJUMzJTg1JUMyJUExJUMzJTlBJUMyJUE5JUMyJUExJUMyJUJFJUMzJUE0JUMyJUExJUMzJUIwJUMzJUEwJUMyJUExJUMzJTlBJUMyJUI5JUMyJUExJUMzJTk1JUMzJUFDJUMyJUExJUMzJUE4JUMzJUEyJUMyJUExJUMzJUE1JUMzJUE0JUMyJUExJUMzJUI0;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=HNLDIJMCEIDLGCCKNAGKEPOP; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:40 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiNTkiLA0KInByb3ZpbmNlc2VxIjogIjkiLA0K
+        ImNpdHluYW1lX2VuIjogIkJhaVNlIiwNCiJjaXR5bmFtZV9jbiI6ICLnmb7o
+        ibIiDQp9LA0Kew0KImNpdHlzZXEiOiAiNjAiLA0KInByb3ZpbmNlc2VxIjog
+        IjkiLA0KImNpdHluYW1lX2VuIjogIkJlaUhhaSIsDQoiY2l0eW5hbWVfY24i
+        OiAi5YyX5rW3Ig0KfSwNCnsNCiJjaXR5c2VxIjogIjYxIiwNCiJwcm92aW5j
+        ZXNlcSI6ICI5IiwNCiJjaXR5bmFtZV9lbiI6ICJDaG9uZ1p1byIsDQoiY2l0
+        eW5hbWVfY24iOiAi5bSH5bemIg0KfSwNCnsNCiJjaXR5c2VxIjogIjYyIiwN
+        CiJwcm92aW5jZXNlcSI6ICI5IiwNCiJjaXR5bmFtZV9lbiI6ICJGYW5nQ2hl
+        bmdHYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLpmLLln47muK8iDQp9LA0Kew0K
+        ImNpdHlzZXEiOiAiMzM0IiwNCiJwcm92aW5jZXNlcSI6ICI5IiwNCiJjaXR5
+        bmFtZV9lbiI6ICJHdWFuZ1hpQmVuSmkiLA0KImNpdHluYW1lX2NuIjogIuW5
+        v+ilv+acrOe6pyINCn0sDQp7DQoiY2l0eXNlcSI6ICI2MyIsDQoicHJvdmlu
+        Y2VzZXEiOiAiOSIsDQoiY2l0eW5hbWVfZW4iOiAiR3VpR2FuZyIsDQoiY2l0
+        eW5hbWVfY24iOiAi6LS15rivIg0KfSwNCnsNCiJjaXR5c2VxIjogIjY0IiwN
+        CiJwcm92aW5jZXNlcSI6ICI5IiwNCiJjaXR5bmFtZV9lbiI6ICJHdWlMaW4i
+        LA0KImNpdHluYW1lX2NuIjogIuahguaelyINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICI2NSIsDQoicHJvdmluY2VzZXEiOiAiOSIsDQoiY2l0eW5hbWVfZW4iOiAi
+        SGVDaGkiLA0KImNpdHluYW1lX2NuIjogIuays+axoCINCn0sDQp7DQoiY2l0
+        eXNlcSI6ICI2NiIsDQoicHJvdmluY2VzZXEiOiAiOSIsDQoiY2l0eW5hbWVf
+        ZW4iOiAiSGVaaG91IiwNCiJjaXR5bmFtZV9jbiI6ICLotLrlt54iDQp9LA0K
+        ew0KImNpdHlzZXEiOiAiNjciLA0KInByb3ZpbmNlc2VxIjogIjkiLA0KImNp
+        dHluYW1lX2VuIjogIkxhaUJpbiIsDQoiY2l0eW5hbWVfY24iOiAi5p2l5a6+
+        Ig0KfSwNCnsNCiJjaXR5c2VxIjogIjY4IiwNCiJwcm92aW5jZXNlcSI6ICI5
+        IiwNCiJjaXR5bmFtZV9lbiI6ICJMaXVaaG91IiwNCiJjaXR5bmFtZV9jbiI6
+        ICLmn7Plt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiNjkiLA0KInByb3ZpbmNl
+        c2VxIjogIjkiLA0KImNpdHluYW1lX2VuIjogIk5hbk5pbmciLA0KImNpdHlu
+        YW1lX2NuIjogIuWNl+WugSINCn0sDQp7DQoiY2l0eXNlcSI6ICI3MCIsDQoi
+        cHJvdmluY2VzZXEiOiAiOSIsDQoiY2l0eW5hbWVfZW4iOiAiUWluWmhvdSIs
+        DQoiY2l0eW5hbWVfY24iOiAi6ZKm5beeIg0KfSwNCnsNCiJjaXR5c2VxIjog
+        IjcxIiwNCiJwcm92aW5jZXNlcSI6ICI5IiwNCiJjaXR5bmFtZV9lbiI6ICJX
+        dVpob3UiLA0KImNpdHluYW1lX2NuIjogIuaip+W3niINCn0sDQp7DQoiY2l0
+        eXNlcSI6ICI3MiIsDQoicHJvdmluY2VzZXEiOiAiOSIsDQoiY2l0eW5hbWVf
+        ZW4iOiAiWXVMaW4iLA0KImNpdHluYW1lX2NuIjogIueOieaelyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:37 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/10
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '890'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:40 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTlGJUMyJUExJUMzJUFCJUMzJUI4JUMyJUEyJUMzJTk4JUMzJThGJUMyJUEyJUMyJUI0JUMzJTlGJUMyJUExJUMzJThBJUMzJUIxJUMyJUExJUMzJThCJUMzJTlEJUMyJUExJUMzJThCJUMzJThFJUMyJUExJUMzJUJBJUMzJTlCJUMyJUEyJUMzJTg3JUMzJTk3JUMyJUEyJUMyJUJFJUMzJTg1JUMyJUExJUMzJThGJUM0JTgzJUMyJUEyJUMyJUE2JUMyJUI5JUMyJUExJUMzJTkzJUMzJTgxJUMyJUExJUMzJTkzJUMyJUI3JUMyJUExJUMzJTkyJUMyJUFEJUMyJUExJUMzJTg1JUMzJTk0JUMyJUExJUMzJTkyJUMyJUFCJUMyJUExJUMzJTkwJUMzJTgzJUMyJUExJUMzJTk3JUMzJThCJUMyJUExJUMzJTlCJUM0JTgyJUMyJUExJUMzJUI1JUMzJUFDJUMyJUExJUMzJUFCJUMzJTgzJUMyJUExJUMzJUE3JUMzJTlGJUMyJUExJUMzJTk5JUMzJTg0JUMyJUExJUMzJTlDJUMzJTlBJUMyJUExJUMzJTlEJUMzJUFDJUMyJUExJUMzJUFCJUMzJTgyJUMyJUExJUMzJUE1JUMyJUI2JUMyJUExJUMzJTk0JUMzJUExJUMyJUExJUMzJUEwJUMzJUIxJUMyJUExJUMyJUJFJUMzJUFEJUMyJUExJUMzJUIwJUMzJThEJUMyJUExJUMzJTk5JUMzJUEyJUMyJUEyJUMyJUE1JUMzJUEzJUMyJUEyJUMyJUE5JUMzJTg5JUMyJUExJUMzJUEwJUMzJUEwJUMyJUExJUMzJThGJUMzJUJFJUMyJUExJUMzJUEyJUMyJUEzJUMyJUExJUMzJUExJUMyJUJGJUMyJUExJUMzJThFJUMzJUFEJUMyJUExJUMzJUI3JUMzJThGJUMyJUExJUMzJTlGJUMzJTkwJUMyJUExJUMzJUEyJUMzJTlGJUMyJUExJUMzJThBJUMyJUJEJUMyJUExJUMzJTk5JUMzJTlFJUMyJUExJUMzJTkwJUMzJTg1JUMyJUExJUMzJTlDJUMzJTg4JUMyJUExJUMzJUEwJUMyJUFCJUMyJUExJUMzJTkxJUMzJUI3JUMyJUExJUMzJUI5;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=INLDIJMCBMBHFFBIAOJNFNGJ; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:41 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiNzMiLA0KInByb3ZpbmNlc2VxIjogIjEwIiwN
+        CiJjaXR5bmFtZV9lbiI6ICJBblNodW4iLA0KImNpdHluYW1lX2NuIjogIuWu
+        iemhuiINCn0sDQp7DQoiY2l0eXNlcSI6ICI3NCIsDQoicHJvdmluY2VzZXEi
+        OiAiMTAiLA0KImNpdHluYW1lX2VuIjogIkJpSmllIiwNCiJjaXR5bmFtZV9j
+        biI6ICLmr5XoioIiDQp9LA0Kew0KImNpdHlzZXEiOiAiNzUiLA0KInByb3Zp
+        bmNlc2VxIjogIjEwIiwNCiJjaXR5bmFtZV9lbiI6ICJEdVl1biIsDQoiY2l0
+        eW5hbWVfY24iOiAi6YO95YyAIg0KfSwNCnsNCiJjaXR5c2VxIjogIjc2IiwN
+        CiJwcm92aW5jZXNlcSI6ICIxMCIsDQoiY2l0eW5hbWVfZW4iOiAiR3VpWWFu
+        ZyIsDQoiY2l0eW5hbWVfY24iOiAi6LS16ZizIg0KfSwNCnsNCiJjaXR5c2Vx
+        IjogIjc3IiwNCiJwcm92aW5jZXNlcSI6ICIxMCIsDQoiY2l0eW5hbWVfZW4i
+        OiAiS2FpTGkiLA0KImNpdHluYW1lX2NuIjogIuWHr+mHjCINCn0sDQp7DQoi
+        Y2l0eXNlcSI6ICI3OCIsDQoicHJvdmluY2VzZXEiOiAiMTAiLA0KImNpdHlu
+        YW1lX2VuIjogIkxpdVBhblNodWkiLA0KImNpdHluYW1lX2NuIjogIuWFreeb
+        mOawtCINCn0sDQp7DQoiY2l0eXNlcSI6ICI3OSIsDQoicHJvdmluY2VzZXEi
+        OiAiMTAiLA0KImNpdHluYW1lX2VuIjogIlRvbmdSZW4iLA0KImNpdHluYW1l
+        X2NuIjogIumTnOS7gSINCn0sDQp7DQoiY2l0eXNlcSI6ICI4MCIsDQoicHJv
+        dmluY2VzZXEiOiAiMTAiLA0KImNpdHluYW1lX2VuIjogIlhpbmdZaSIsDQoi
+        Y2l0eW5hbWVfY24iOiAi5YW05LmJIg0KfSwNCnsNCiJjaXR5c2VxIjogIjgx
+        IiwNCiJwcm92aW5jZXNlcSI6ICIxMCIsDQoiY2l0eW5hbWVfZW4iOiAiWnVu
+        WWkiLA0KImNpdHluYW1lX2NuIjogIumBteS5iSINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:37 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/11
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '101'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:40 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUJCJUMyJUExJUMzJUFCJUMzJUI3JUMyJUEyJUMzJTkxJUMzJUE0JUMyJUEyJUMzJTgzJUMyJUJFJUMyJUExJUMzJThEJUMyJUI3JUMyJUExJUMzJTkzJUMyJUI4JUMyJUExJUMzJTkyJUMzJUFBJUMyJUExJUMzJUJBJUMzJUIzJUMyJUEyJUMyJUIyJUMyJUFDJUMyJUEyJUMyJUIyJUMzJUEzJUMyJUExJUMzJTlFJUMzJTg0JUMyJUExJUMzJTlBJUMyJUFFJUMyJUExJUMzJTkwJUMzJTlCJUMyJUExJUMzJUFEJUMzJTlFJUMyJUExJUMzJTkxJUMzJTlBJUMyJUExJUMzJTlEJUMzJTlGJUMyJUExJUMzJTk3JUMzJThCJUMyJUExJUMzJTkzJUMzJUI3JUMyJUExJUMzJUI0JUMzJUFFJUMyJUExJUMzJUJDJUMyJUFCJUMyJUExJUMzJTg1JUMzJTlEJUMyJUExJUMzJThFJUMzJTgyJUMyJUExJUMzJUE1JUMyJUE5JUMyJUExJUMzJThEJUMyJUIyJUMyJUExJUMzJTk0JUMzJTlDJUMyJUExJUMzJUE1JUMzJThEJUMyJUExJUMzJTlDJUMzJTk1JUMyJUExJUMzJUE1JUMzJThBJUMyJUExJUMzJTk0JUMyJUI1JUMyJUExJUMzJTkwJUMzJThDJUMyJUExJUMzJThCJUMyJUE5JUMyJUExJUMzJThCJUMzJUE4JUMyJUExJUMzJTkwJUMyJUI2JUMyJUExJUMzJUI1JUMzJTg1JUMyJUExJUMzJUJFJUMzJThFJUMyJUExJUMzJUFGJUMzJUFDJUMyJUExJUMzJTlEJUMyJUE1JUMyJUExJUMzJThGJUMyJUEzJUMyJUExJUMzJUExJUMyJUI2JUMyJUExJUMzJTkwJUMzJTgxJUMyJUExJUMzJTlCJUMzJTg4JUMyJUExJUMzJUEwJUMzJUIzJUMyJUExJUMzJTk3JUMzJTg3JUMyJUExJUMzJTkzJUMyJUIxJUMyJUExJUMzJTkyJUMyJUEyJUMyJUExJUMzJTkwJUMzJTlCJUMyJUExJUMzJUFFJUMzJUE5JUMyJUExJUMzJTk2JUMyJUE4JUMyJUExJUMzJThCJUMyJUFCJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=JNLDIJMCGCKPPIHHPDMMNJOG; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:41 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiODIiLA0KInByb3ZpbmNlc2VxIjogIjExIiwN
+        CiJjaXR5bmFtZV9lbiI6ICJIYWlOYW4iLA0KImNpdHluYW1lX2NuIjogIua1
+        t+WNlyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:38 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/12
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1118'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:42 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUJCJUMyJUExJUMzJUFCJUMyJUE1JUMyJUEyJUMyJUFCJUMzJThGJUMyJUEyJUMyJUI0JUMzJUE0JUMyJUExJUMzJUEzJUMzJUIzJUMyJUExJUMzJTk5JUMyJUI4JUMyJUExJUMzJTkyJUMzJTlBJUMyJUEyJUMyJUEyJUMzJUFFJUMyJUEyJUMzJThGJUMzJThBJUMyJUEyJUMyJUIyJUMzJTlDJUMyJUExJUMzJUE1JUMzJTgzJUMyJUExJUMzJTk4JUMzJTg1JUMyJUExJUMzJTlBJUMzJTkyJUMyJUExJUMzJUE5JUMzJThGJUMyJUExJUMzJUEwJUMzJTlGJUMyJUExJUMzJThBJUMzJTgyJUMyJUExJUMzJTk2JUMyJUE0JUMyJUExJUMzJThFJUMzJTk4JUMyJUExJUMzJUExJUMyJUIyJUMyJUExJUMzJTk4JUMyJUI0JUMyJUExJUMzJTg1JUMzJUJEJUMyJUExJUMzJTlCJUM0JTgwJUMyJUExJUM0JTgxJUMzJTk3JUMyJUExJUMzJUEwJUMzJTk3JUMyJUExJUMzJUEwJUMzJTk0JUMyJUExJUMzJTg1JUMzJUI5JUMyJUExJUM0JTg0JUMyJUI4JUMyJUExJUMzJUEzJUMyJUJBJUMyJUExJUMzJTk4JUMzJUIzJUMyJUExJUMzJTk5JUMzJUIxJUMyJUExJUMyJUJFJUMzJUFCJUMyJUExJUMzJUE0JUMyJUE1JUMyJUExJUMzJThEJUMzJThDJUMyJUExJUMzJUJCJUMzJUEzJUMyJUEyJUMyJUE5JUMzJTkwJUMyJUExJUMzJUI1JUMzJThFJUMyJUExJUMzJTkxJUMzJUI3JUMyJUExJUMzJUI1JUMyJUJBJUMyJUExJUMzJUE2JUMzJTg2JUMyJUExJUMzJTlDJUMzJTg5JUMyJUExJUMzJTk2JUMzJUJEJUMyJUExJUMzJTk4JUMyJUIzJUMyJUExJUMzJTkwJUMzJTk0JUMyJUExJUMzJTg1JUMzJTlGJUMyJUExJUMzJTk3JUMyJUI5JUMyJUExJUMzJTkzJUMzJTk5JUMyJUExJUMzJUE2JUMyJUJFJUMyJUExJUMzJTk4JUMzJUIyJUMyJUExJUMzJTkxJUMyJUE0JUMyJUExJUMzJTk0;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=KNLDIJMCHPHPHKOPKOEBGOLB; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:42 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiODMiLA0KInByb3ZpbmNlc2VxIjogIjEyIiwN
+        CiJjaXR5bmFtZV9lbiI6ICJCYW9EaW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLk
+        v53lrpoiDQp9LA0Kew0KImNpdHlzZXEiOiAiODQiLA0KInByb3ZpbmNlc2Vx
+        IjogIjEyIiwNCiJjaXR5bmFtZV9lbiI6ICJDYW5nWmhvdSIsDQoiY2l0eW5h
+        bWVfY24iOiAi5rKn5beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjg1IiwNCiJw
+        cm92aW5jZXNlcSI6ICIxMiIsDQoiY2l0eW5hbWVfZW4iOiAiQ2hlbmdEZSIs
+        DQoiY2l0eW5hbWVfY24iOiAi5om/5b63Ig0KfSwNCnsNCiJjaXR5c2VxIjog
+        Ijg2IiwNCiJwcm92aW5jZXNlcSI6ICIxMiIsDQoiY2l0eW5hbWVfZW4iOiAi
+        SGFuRGFuIiwNCiJjaXR5bmFtZV9jbiI6ICLpgq/pg7giDQp9LA0Kew0KImNp
+        dHlzZXEiOiAiODciLA0KInByb3ZpbmNlc2VxIjogIjEyIiwNCiJjaXR5bmFt
+        ZV9lbiI6ICJIZW5nU2h1aSIsDQoiY2l0eW5hbWVfY24iOiAi6KGh5rC0Ig0K
+        fSwNCnsNCiJjaXR5c2VxIjogIjg4IiwNCiJwcm92aW5jZXNlcSI6ICIxMiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiTGFuZ0ZhbmciLA0KImNpdHluYW1lX2NuIjog
+        IuW7iuWdiiINCn0sDQp7DQoiY2l0eXNlcSI6ICI4OSIsDQoicHJvdmluY2Vz
+        ZXEiOiAiMTIiLA0KImNpdHluYW1lX2VuIjogIlFpbmdIdWFuZ0RhbyIsDQoi
+        Y2l0eW5hbWVfY24iOiAi56em55qH5bKbIg0KfSwNCnsNCiJjaXR5c2VxIjog
+        IjkwIiwNCiJwcm92aW5jZXNlcSI6ICIxMiIsDQoiY2l0eW5hbWVfZW4iOiAi
+        U2hpSmlhWmh1YW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLnn7PlrrbluoQiDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiOTEiLA0KInByb3ZpbmNlc2VxIjogIjEyIiwN
+        CiJjaXR5bmFtZV9lbiI6ICJUYW5nU2hhbiIsDQoiY2l0eW5hbWVfY24iOiAi
+        5ZSQ5bGxIg0KfSwNCnsNCiJjaXR5c2VxIjogIjkyIiwNCiJwcm92aW5jZXNl
+        cSI6ICIxMiIsDQoiY2l0eW5hbWVfZW4iOiAiWGluZ1RhaSIsDQoiY2l0eW5h
+        bWVfY24iOiAi6YKi5Y+wIg0KfSwNCnsNCiJjaXR5c2VxIjogIjkzIiwNCiJw
+        cm92aW5jZXNlcSI6ICIxMiIsDQoiY2l0eW5hbWVfZW4iOiAiWmhhbmdKaWFL
+        b3UiLA0KImNpdHluYW1lX2NuIjogIuW8oOWutuWPoyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:38 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1329'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:42 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTgyJUMyJUExJUMzJUFBJUMzJUE0JUMyJUEyJUMzJThDJUMzJThDJUMyJUEyJUMyJUFCJUMzJTgwJUMyJUExJUMzJTg1JUMyJUE3JUMyJUExJUMzJThEJUMzJTk4JUMyJUExJUMzJUEwJUMyJUI0JUMyJUExJUMzJUFFJUMzJUIwJUMyJUEyJUMzJTlCJUMzJUJFJUMyJUEyJUMzJTgyJUMzJThFJUMyJUExJUMzJTkxJUMzJTlGJUMyJUExJUMzJTk3JUMzJTk1JUMyJUExJUMzJTk0JUMzJTlFJUMyJUExJUMzJTkxJUMzJTlGJUMyJUExJUMzJTk2JUMyJUIxJUMyJUExJUMzJTg1JUMzJTlDJUMyJUExJUMzJUIyJUMzJTgzJUMyJUExJUMzJTk2JUMyJUE3JUMyJUExJUMzJThDJUMyJUFBJUMyJUExJUMzJTkwJUMyJUFDJUMyJUExJUMzJTg1JUMzJTk1JUMyJUExJUMzJTk3JUMzJTg1JUMyJUExJUMzJUFCJUMyJUFFJUMyJUExJUMzJTk0JUMyJUJCJUMyJUExJUMzJTk5JUMzJUE5JUMyJUExJUMzJThCJUMyJUIyJUMyJUExJUMzJTkzJUMzJUIyJUMyJUExJUMzJUExJUMzJTg0JUMyJUExJUMzJTlDJUMyJUE1JUMyJUExJUMzJThGJUMzJTlFJUMyJUExJUMzJTg1JUMzJUIyJUMyJUExJUMzJTkyJUMzJTg0JUMyJUExJUMzJTk4JUM0JTgyJUMyJUEyJUMzJTgxJUMzJUFCJUMyJUEyJUMyJUEyJUMyJUFGJUMyJUExJUMzJUEzJUMzJUI2JUMyJUExJUMzJUExJUMzJUJGJUMyJUExJUMzJUFBJUMzJUEzJUMyJUExJUMzJUJCJUMyJUE1JUMyJUExJUMzJThEJUMzJUFBJUMyJUExJUMzJUE1JUMzJUI0JUMyJUExJUMzJTlFJUMzJTkxJUMyJUExJUMzJUE1JUMzJTlCJUMyJUExJUMzJUExJUMzJUEyJUMyJUExJUMzJUE2JUMzJTkxJUMyJUExJUMzJUE1JUMzJUIzJUMyJUExJUMzJTk5JUMzJUIwJUMyJUExJUM0JTgwJUMzJTkyJUMyJUExJUMzJUE5JUMzJTlGJUMyJUExJUMzJTlC;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=LNLDIJMCMHJOGHLHKMJMPGFH; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:42 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiOTQiLA0KInByb3ZpbmNlc2VxIjogIjEzIiwN
+        CiJjaXR5bmFtZV9lbiI6ICJEYVFpbmciLA0KImNpdHluYW1lX2NuIjogIuWk
+        p+W6hiINCn0sDQp7DQoiY2l0eXNlcSI6ICI5NSIsDQoicHJvdmluY2VzZXEi
+        OiAiMTMiLA0KImNpdHluYW1lX2VuIjogIkRhWGluZ0FuTGluZyIsDQoiY2l0
+        eW5hbWVfY24iOiAi5aSn5YW05a6J5bKtIg0KfSwNCnsNCiJjaXR5c2VxIjog
+        Ijk2IiwNCiJwcm92aW5jZXNlcSI6ICIxMyIsDQoiY2l0eW5hbWVfZW4iOiAi
+        SGFFckJpbiIsDQoiY2l0eW5hbWVfY24iOiAi5ZOI5bCU5ruoIg0KfSwNCnsN
+        CiJjaXR5c2VxIjogIjk3IiwNCiJwcm92aW5jZXNlcSI6ICIxMyIsDQoiY2l0
+        eW5hbWVfZW4iOiAiSGVHYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLpuaTlspci
+        DQp9LA0Kew0KImNpdHlzZXEiOiAiOTgiLA0KInByb3ZpbmNlc2VxIjogIjEz
+        IiwNCiJjaXR5bmFtZV9lbiI6ICJIZWlIZSIsDQoiY2l0eW5hbWVfY24iOiAi
+        6buR5rKzIg0KfSwNCnsNCiJjaXR5c2VxIjogIjk5IiwNCiJwcm92aW5jZXNl
+        cSI6ICIxMyIsDQoiY2l0eW5hbWVfZW4iOiAiSmlhTXVTaSIsDQoiY2l0eW5h
+        bWVfY24iOiAi5L2z5pyo5pavIg0KfSwNCnsNCiJjaXR5c2VxIjogIjEwMCIs
+        DQoicHJvdmluY2VzZXEiOiAiMTMiLA0KImNpdHluYW1lX2VuIjogIkppWGki
+        LA0KImNpdHluYW1lX2NuIjogIum4oeilvyINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIxMDEiLA0KInByb3ZpbmNlc2VxIjogIjEzIiwNCiJjaXR5bmFtZV9lbiI6
+        ICJNdURhbkppYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLniaHkuLnmsZ8iDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiMTAyIiwNCiJwcm92aW5jZXNlcSI6ICIxMyIs
+        DQoiY2l0eW5hbWVfZW4iOiAiUWlRaUhhRXIiLA0KImNpdHluYW1lX2NuIjog
+        Ium9kOm9kOWTiOWwlCINCn0sDQp7DQoiY2l0eXNlcSI6ICIxMDMiLA0KInBy
+        b3ZpbmNlc2VxIjogIjEzIiwNCiJjaXR5bmFtZV9lbiI6ICJRaVRhaUhlIiwN
+        CiJjaXR5bmFtZV9jbiI6ICLkuIPlj7DmsrMiDQp9LA0Kew0KImNpdHlzZXEi
+        OiAiMTA0IiwNCiJwcm92aW5jZXNlcSI6ICIxMyIsDQoiY2l0eW5hbWVfZW4i
+        OiAiU2h1YW5nWWFTaGFuIiwNCiJjaXR5bmFtZV9jbiI6ICLlj4zpuK3lsbEi
+        DQp9LA0Kew0KImNpdHlzZXEiOiAiMTA1IiwNCiJwcm92aW5jZXNlcSI6ICIx
+        MyIsDQoiY2l0eW5hbWVfZW4iOiAiU3VpSHVhIiwNCiJjaXR5bmFtZV9jbiI6
+        ICLnu6XljJYiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTA2IiwNCiJwcm92aW5j
+        ZXNlcSI6ICIxMyIsDQoiY2l0eW5hbWVfZW4iOiAiWWlDaHVuIiwNCiJjaXR5
+        bmFtZV9jbiI6ICLkvIrmmKUiDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:39 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/14
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1718'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:42 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTg3JUMyJUExJUMzJUI0JUMzJTkwJUMyJUEyJUMzJTgwJUMzJThBJUMyJUEyJUMyJUE1JUMzJTlBJUMyJUExJUMzJTlEJUMyJUE1JUMyJUExJUMzJThGJUM0JTgyJUMyJUExJUM0JTgwJUMzJTk5JUMyJUExJUM0JTgyJUMyJUJEJUMyJUEyJUMyJUIyJUMyJUI3JUMyJUEyJUMyJUIzJUMyJUJBJUMyJUExJUMzJTg5JUMzJUFGJUMyJUExJUMzJUJDJUMyJUI0JUMyJUExJUMzJTkwJUMzJTk1JUMyJUExJUMzJTk1JUMzJUEyJUMyJUExJUMzJUE1JUMyJUI5JUMyJUExJUMzJTg4JUMzJUIyJUMyJUExJUMzJTkyJUMyJUIzJUMyJUExJUMzJTkwJUMyJUE5JUMyJUExJUMzJThBJUMzJTg2JUMyJUExJUMzJUE0JUMyJUI2JUMyJUExJUMzJTg1JUMzJTk0JUMyJUExJUMzJTkzJUMyJUI5JUMyJUExJUMzJUE0JUMyJUFFJUMyJUExJUMzJTk0JUMzJUE5JUMyJUExJUMzJTlBJUMyJUJBJUMyJUExJUMzJTg5JUMzJUExJUMyJUExJUMzJUEyJUMzJUFBJUMyJUExJUMzJUFEJUMyJUI2JUMyJUExJUMzJTk0JUMzJTgyJUMyJUExJUMzJTk3JUMzJUEwJUMyJUExJUMzJThGJUMzJUI3JUMyJUExJUMzJUI1JUMzJTkwJUMyJUExJUMzJUEyJUMzJThCJUMyJUExJUMzJUI4JUMyJUIzJUMyJUExJUMzJUI0JUMzJUFBJUMyJUExJUMzJUFGJUMzJUJBJUMyJUExJUMzJUJEJUMzJUI1JUMyJUExJUMzJUE3JUMyJUE5JUMyJUExJUMzJTlCJUMzJTlBJUMyJUExJUMzJUE4JUMzJThFJUMyJUExJUMzJUE1JUMzJTk0JUMyJUExJUMzJTkwJUMzJUFBJUMyJUExJUMzJTlDJUMyJUJCJUMyJUExJUMzJThBJUMzJUIxJUMyJUExJUMzJThCJUMyJUI4JUMyJUExJUMzJTkyJUMzJUI1JUMyJUExJUMzJUE3JUMyJUE0JUMyJUExJUMzJThFJUMyJUFEJUMyJUExJUMzJTkxJUMzJUFDJUMyJUExJUMzJUFF;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=MNLDIJMCPJALBELBJPKOFNDE; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:43 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTA3IiwNCiJwcm92aW5jZXNlcSI6ICIxNCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQW5ZYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLl
+        ronpmLMiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTA4IiwNCiJwcm92aW5jZXNl
+        cSI6ICIxNCIsDQoiY2l0eW5hbWVfZW4iOiAiSGVCaSIsDQoiY2l0eW5hbWVf
+        Y24iOiAi6bmk5aOBIg0KfSwNCnsNCiJjaXR5c2VxIjogIjEwOSIsDQoicHJv
+        dmluY2VzZXEiOiAiMTQiLA0KImNpdHluYW1lX2VuIjogIkppYW9adW8iLA0K
+        ImNpdHluYW1lX2NuIjogIueEpuS9nCINCn0sDQp7DQoiY2l0eXNlcSI6ICIx
+        MTAiLA0KInByb3ZpbmNlc2VxIjogIjE0IiwNCiJjaXR5bmFtZV9lbiI6ICJL
+        YWlGZW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLlvIDlsIEiDQp9LA0Kew0KImNp
+        dHlzZXEiOiAiMTExIiwNCiJwcm92aW5jZXNlcSI6ICIxNCIsDQoiY2l0eW5h
+        bWVfZW4iOiAiTHVvSGUiLA0KImNpdHluYW1lX2NuIjogIua8r+aysyINCn0s
+        DQp7DQoiY2l0eXNlcSI6ICIxMTMiLA0KInByb3ZpbmNlc2VxIjogIjE0IiwN
+        CiJjaXR5bmFtZV9lbiI6ICJMdW9ZYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLm
+        tJvpmLMiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTE0IiwNCiJwcm92aW5jZXNl
+        cSI6ICIxNCIsDQoiY2l0eW5hbWVfZW4iOiAiTmFuWWFuZyIsDQoiY2l0eW5h
+        bWVfY24iOiAi5Y2X6ZizIg0KfSwNCnsNCiJjaXR5c2VxIjogIjExNSIsDQoi
+        cHJvdmluY2VzZXEiOiAiMTQiLA0KImNpdHluYW1lX2VuIjogIlBpbmdEaW5n
+        U2hhbiIsDQoiY2l0eW5hbWVfY24iOiAi5bmz6aG25bGxIg0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjExNiIsDQoicHJvdmluY2VzZXEiOiAiMTQiLA0KImNpdHlu
+        YW1lX2VuIjogIlB1WWFuZyIsDQoiY2l0eW5hbWVfY24iOiAi5r+u6ZizIg0K
+        fSwNCnsNCiJjaXR5c2VxIjogIjExNyIsDQoicHJvdmluY2VzZXEiOiAiMTQi
+        LA0KImNpdHluYW1lX2VuIjogIlNhbk1lblhpYSIsDQoiY2l0eW5hbWVfY24i
+        OiAi5LiJ6Zeo5bOhIg0KfSwNCnsNCiJjaXR5c2VxIjogIjExOCIsDQoicHJv
+        dmluY2VzZXEiOiAiMTQiLA0KImNpdHluYW1lX2VuIjogIlNoYW5nUWl1IiwN
+        CiJjaXR5bmFtZV9jbiI6ICLllYbkuJgiDQp9LA0Kew0KImNpdHlzZXEiOiAi
+        MTE5IiwNCiJwcm92aW5jZXNlcSI6ICIxNCIsDQoiY2l0eW5hbWVfZW4iOiAi
+        WGluWGlhbmciLA0KImNpdHluYW1lX2NuIjogIuaWsOS5oSINCn0sDQp7DQoi
+        Y2l0eXNlcSI6ICIxMjAiLA0KInByb3ZpbmNlc2VxIjogIjE0IiwNCiJjaXR5
+        bmFtZV9lbiI6ICJYaW5ZYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLkv6HpmLMi
+        DQp9LA0Kew0KImNpdHlzZXEiOiAiMTIxIiwNCiJwcm92aW5jZXNlcSI6ICIx
+        NCIsDQoiY2l0eW5hbWVfZW4iOiAiWHVDaGFuZyIsDQoiY2l0eW5hbWVfY24i
+        OiAi6K645piMIg0KfSwNCnsNCiJjaXR5c2VxIjogIjEyMiIsDQoicHJvdmlu
+        Y2VzZXEiOiAiMTQiLA0KImNpdHluYW1lX2VuIjogIlpoZW5nWmhvdSIsDQoi
+        Y2l0eW5hbWVfY24iOiAi6YOR5beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjEy
+        MyIsDQoicHJvdmluY2VzZXEiOiAiMTQiLA0KImNpdHluYW1lX2VuIjogIlpo
+        b3VLb3UiLA0KImNpdHluYW1lX2NuIjogIuWRqOWPoyINCn0sDQp7DQoiY2l0
+        eXNlcSI6ICIxMjQiLA0KInByb3ZpbmNlc2VxIjogIjE0IiwNCiJjaXR5bmFt
+        ZV9lbiI6ICJaaHVNYURpYW4iLA0KImNpdHluYW1lX2NuIjogIumpu+mprOW6
+        lyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:39 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/15
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1301'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:42 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUFDJUMyJUExJUMzJUE2JUMzJUI4JUMyJUEyJUMzJTk4JUM0JTg0JUMyJUEyJUMzJUE1JUMzJUFBJUMyJUExJUMzJTkxJUMzJTlCJUMyJUExJUMzJUFFJUMyJUJEJUMyJUExJUMzJTk3JUMyJUI5JUMyJUExJUMzJUIxJUMyJUI0JUMyJUEyJUMyJUFCJUMzJUE5JUMyJUEyJUMyJUI4JUMzJThEJUMyJUExJUMzJThFJUMzJTlBJUMyJUExJUMzJUFBJUMzJTlDJUMyJUExJUMzJUIwJUMzJUI2JUMyJUExJUMzJUFEJUMzJTgzJUMyJUExJUMzJTk3JUMzJUE0JUMyJUExJUMzJUEzJUMyJUJEJUMyJUExJUMzJTk5JUMyJUJEJUMyJUExJUMzJTk3JUMzJTgyJUMyJUExJUMzJTk1JUMzJTlBJUMyJUExJUMzJUIwJUMyJUI3JUMyJUExJUMzJTg2JUMzJThEJUMyJUExJUMzJTlDJUMzJUFEJUMyJUExJUMzJUJGJUMzJTgzJUMyJUExJUMzJTlBJUM0JTgwJUMyJUExJUMzJUI0JUMyJUIxJUMyJUExJUMzJTg1JUMzJTk1JUMyJUExJUMzJTk3JUMyJUIxJUMyJUExJUMzJUExJUMyJUJGJUMyJUExJUMzJTkyJUMzJUI5JUMyJUExJUM0JTg0JUMzJTkwJUMyJUExJUMzJTk3JUMzJUI3JUMyJUExJUMzJUI1JUMzJUIzJUMyJUExJUMzJTk3JUMzJUFEJUMyJUEyJUMyJUFGJUMyJUE2JUMyJUExJUMzJUIwJUMzJTgwJUMyJUExJUMzJUEzJUMzJThEJUMyJUExJUMzJThFJUMzJUI1JUMyJUExJUMzJUE3JUMzJTlEJUMyJUExJUMzJTlEJUMyJUIzJUMyJUExJUMzJTkwJUMzJUE0JUMyJUExJUMzJUI3JUMzJTkyJUMyJUExJUMzJUE4JUMyJUJCJUMyJUExJUMzJTk1JUMzJUIyJUMyJUExJUMzJTg1JUMzJThFJUMyJUExJUMzJTlFJUMzJTlEJUMyJUExJUMzJThCJUMzJTlFJUMyJUExJUMzJTkyJUMyJUIxJUMyJUExJUMzJTkwJUMzJTgwJUMyJUExJUMzJTkxJUMyJUFEJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=NNLDIJMCGNEMBEMDDOFBGDOE; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:43 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTI1IiwNCiJwcm92aW5jZXNlcSI6ICIxNSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiRW5TaGkiLA0KImNpdHluYW1lX2NuIjogIuaB
+        qeaWvSINCn0sDQp7DQoiY2l0eXNlcSI6ICIxMjYiLA0KInByb3ZpbmNlc2Vx
+        IjogIjE1IiwNCiJjaXR5bmFtZV9lbiI6ICJFWmhvdSIsDQoiY2l0eW5hbWVf
+        Y24iOiAi6YSC5beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjEyNyIsDQoicHJv
+        dmluY2VzZXEiOiAiMTUiLA0KImNpdHluYW1lX2VuIjogIkh1YW5nR2FuZyIs
+        DQoiY2l0eW5hbWVfY24iOiAi6buE5YaIIg0KfSwNCnsNCiJjaXR5c2VxIjog
+        IjEyOCIsDQoicHJvdmluY2VzZXEiOiAiMTUiLA0KImNpdHluYW1lX2VuIjog
+        Ikh1YW5nU2hpIiwNCiJjaXR5bmFtZV9jbiI6ICLpu4Tnn7MiDQp9LA0Kew0K
+        ImNpdHlzZXEiOiAiMTI5IiwNCiJwcm92aW5jZXNlcSI6ICIxNSIsDQoiY2l0
+        eW5hbWVfZW4iOiAiSmluZ01lbiIsDQoiY2l0eW5hbWVfY24iOiAi6I2G6Zeo
+        Ig0KfSwNCnsNCiJjaXR5c2VxIjogIjEzMCIsDQoicHJvdmluY2VzZXEiOiAi
+        MTUiLA0KImNpdHluYW1lX2VuIjogIkppbmdaaG91IiwNCiJjaXR5bmFtZV9j
+        biI6ICLojYblt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiMTMxIiwNCiJwcm92
+        aW5jZXNlcSI6ICIxNSIsDQoiY2l0eW5hbWVfZW4iOiAiU2FuWGlhIiwNCiJj
+        aXR5bmFtZV9jbiI6ICLkuInls6EiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTMy
+        IiwNCiJwcm92aW5jZXNlcSI6ICIxNSIsDQoiY2l0eW5hbWVfZW4iOiAiU2hp
+        WWFuIiwNCiJjaXR5bmFtZV9jbiI6ICLljYHloLAiDQp9LA0Kew0KImNpdHlz
+        ZXEiOiAiMTMzIiwNCiJwcm92aW5jZXNlcSI6ICIxNSIsDQoiY2l0eW5hbWVf
+        ZW4iOiAiU3VpWmhvdSIsDQoiY2l0eW5hbWVfY24iOiAi6ZqP5beeIg0KfSwN
+        CnsNCiJjaXR5c2VxIjogIjEzNCIsDQoicHJvdmluY2VzZXEiOiAiMTUiLA0K
+        ImNpdHluYW1lX2VuIjogIld1SGFuIiwNCiJjaXR5bmFtZV9jbiI6ICLmrabm
+        sYkiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTM1IiwNCiJwcm92aW5jZXNlcSI6
+        ICIxNSIsDQoiY2l0eW5hbWVfZW4iOiAiWGlhbmdGYW4iLA0KImNpdHluYW1l
+        X2NuIjogIuilhOaoiiINCn0sDQp7DQoiY2l0eXNlcSI6ICIxMzYiLA0KInBy
+        b3ZpbmNlc2VxIjogIjE1IiwNCiJjaXR5bmFtZV9lbiI6ICJYaWFuTmluZyIs
+        DQoiY2l0eW5hbWVfY24iOiAi5ZK45a6BIg0KfSwNCnsNCiJjaXR5c2VxIjog
+        IjEzNyIsDQoicHJvdmluY2VzZXEiOiAiMTUiLA0KImNpdHluYW1lX2VuIjog
+        IlhpYW9HYW4iLA0KImNpdHluYW1lX2NuIjogIuWtneaEnyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:40 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1415'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:44 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJThFJUMyJUExJUMzJUIyJUMzJUFDJUMyJUEyJUMzJTg2JUMzJUI2JUMyJUEyJUMzJTgxJUMzJTg2JUMyJUExJUMzJTkxJUMzJUE0JUMyJUExJUMzJUIwJUMzJUFEJUMyJUExJUMzJUFFJUMyJUFDJUMyJUExJUMzJUFFJUMzJTkzJUMyJUEyJUMyJUE3JUM0JTgzJUMyJUEyJUMzJUFBJUMzJUI1JUMyJUExJUMzJTlBJUMzJUEzJUMyJUExJUMzJUFCJUM0JTgzJUMyJUEyJUMyJUE0JUMzJThBJUMyJUExJUMzJTkxJUM0JTg0JUMyJUEyJUMyJUFEJUMyJUI3JUMyJUExJUMzJTg2JUM0JTg0JUMyJUEyJUMyJUFFJUMzJThGJUMyJUExJUMzJTlGJUMzJTg1JUMyJUExJUMzJTlCJUMzJUE4JUMyJUExJUMzJTk4JUMzJTk5JUMyJUExJUMzJTk5JUMzJThGJUMyJUExJUMzJUEyJUMzJTkyJUMyJUExJUMzJUI5JUMzJUE1JUMyJUExJUMzJUI3JUMyJUE2JUMyJUExJUMzJTkwJUMyJUJBJUMyJUExJUMzJTg5JUMyJUIyJUMyJUExJUMzJTkzJUMzJUEwJUMyJUExJUMzJUFCJUMzJTkyJUMyJUExJUMzJUFDJUMzJTg2JUMyJUExJUMzJUEwJUMyJUJDJUMyJUExJUMzJThCJUMzJUJBJUMyJUEyJUMyJUE2JUMyJUI4JUMyJUExJUMzJTkyJUMzJUI3JUMyJUEyJUMyJUI0JUMyJUI5JUMyJUExJUMzJUI3JUMzJUJEJUMyJUExJUMzJUFCJUMzJTkxJUMyJUExJUMzJTlBJUMzJUIwJUMyJUExJUM0JTgyJUMzJTkxJUMyJUExJUMzJUI3JUMzJUE3JUMyJUExJUMzJThBJUMzJTg3JUMyJUExJUMzJUE3JUMzJThCJUMyJUExJUMzJTkzJUMzJUI4JUMyJUExJUMzJUJBJUMzJUFEJUMyJUExJUMzJUEzJUMyJUJBJUMyJUExJUMzJTk2JUMyJUEyJUMyJUExJUMzJTkwJUMzJTlBJUMyJUExJUMzJUFBJUMzJTlBJUMyJUExJUMzJUE4JUMzJThCJUMyJUExJUMzJTk0JUMyJUIwJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=ONLDIJMCOAHMGPJENKHJFICC; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:44 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTM4IiwNCiJwcm92aW5jZXNlcSI6ICIxNiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQ2hhbmdTaGEiLA0KImNpdHluYW1lX2NuIjog
+        IumVv+aymSINCn0sDQp7DQoiY2l0eXNlcSI6ICIxMzkiLA0KInByb3ZpbmNl
+        c2VxIjogIjE2IiwNCiJjaXR5bmFtZV9lbiI6ICJDaGFuZ1pob3UiLA0KImNp
+        dHluYW1lX2NuIjogIuW4uOW+tyINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNDAi
+        LA0KInByb3ZpbmNlc2VxIjogIjE2IiwNCiJjaXR5bmFtZV9lbiI6ICJDaGVu
+        WmhvdSIsDQoiY2l0eW5hbWVfY24iOiAi6YO05beeIg0KfSwNCnsNCiJjaXR5
+        c2VxIjogIjE0MSIsDQoicHJvdmluY2VzZXEiOiAiMTYiLA0KImNpdHluYW1l
+        X2VuIjogIkhlbmdZYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLooaHpmLMiDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiMTQyIiwNCiJwcm92aW5jZXNlcSI6ICIxNiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiSHVhaUh1YSIsDQoiY2l0eW5hbWVfY24iOiAi
+        5oCA5YyWIg0KfSwNCnsNCiJjaXR5c2VxIjogIjE0MyIsDQoicHJvdmluY2Vz
+        ZXEiOiAiMTYiLA0KImNpdHluYW1lX2VuIjogIkxvdURpIiwNCiJjaXR5bmFt
+        ZV9jbiI6ICLlqITlupUiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTQ0IiwNCiJw
+        cm92aW5jZXNlcSI6ICIxNiIsDQoiY2l0eW5hbWVfZW4iOiAiU2hhb1lhbmci
+        LA0KImNpdHluYW1lX2NuIjogIumCtemYsyINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIxNDUiLA0KInByb3ZpbmNlc2VxIjogIjE2IiwNCiJjaXR5bmFtZV9lbiI6
+        ICJYaWFuZ1RhbiIsDQoiY2l0eW5hbWVfY24iOiAi5rmY5r2tIg0KfSwNCnsN
+        CiJjaXR5c2VxIjogIjE0NiIsDQoicHJvdmluY2VzZXEiOiAiMTYiLA0KImNp
+        dHluYW1lX2VuIjogIlhpYW5nWGkiLA0KImNpdHluYW1lX2NuIjogIua5mOil
+        vyINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNDciLA0KInByb3ZpbmNlc2VxIjog
+        IjE2IiwNCiJjaXR5bmFtZV9lbiI6ICJZaVlhbmciLA0KImNpdHluYW1lX2Nu
+        IjogIuebiumYsyINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNDgiLA0KInByb3Zp
+        bmNlc2VxIjogIjE2IiwNCiJjaXR5bmFtZV9lbiI6ICJZb25nWmhvdSIsDQoi
+        Y2l0eW5hbWVfY24iOiAi5rC45beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjE0
+        OSIsDQoicHJvdmluY2VzZXEiOiAiMTYiLA0KImNpdHluYW1lX2VuIjogIll1
+        ZVlhbmciLA0KImNpdHluYW1lX2NuIjogIuWys+mYsyINCn0sDQp7DQoiY2l0
+        eXNlcSI6ICIxNTAiLA0KInByb3ZpbmNlc2VxIjogIjE2IiwNCiJjaXR5bmFt
+        ZV9lbiI6ICJaaGFuZ0ppYUppZSIsDQoiY2l0eW5hbWVfY24iOiAi5byg5a62
+        55WMIg0KfSwNCnsNCiJjaXR5c2VxIjogIjE1MSIsDQoicHJvdmluY2VzZXEi
+        OiAiMTYiLA0KImNpdHluYW1lX2VuIjogIlpodVpob3UiLA0KImNpdHluYW1l
+        X2NuIjogIuagqua0siINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:40 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/39
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '119'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:44 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJThCJUMyJUExJUMzJUE5JUMzJTk5JUMyJUEyJUMzJTgyJUMzJUI0JUMyJUEyJUMyJUIzJUMzJTk3JUMyJUExJUMzJTkxJUMzJUEyJUMyJUExJUMzJUE2JUMyJUIzJUMyJUExJUMzJTkwJUMzJTkwJUMyJUExJUM0JTgwJUMyJUE5JUMyJUEyJUMyJUE0JUMzJTg2JUMyJUEyJUMyJUJFJUMzJUExJUMyJUExJUMzJTk0JUMzJUFBJUMyJUExJUMzJTlFJUMzJTk4JUMyJUExJUMzJUEwJUMzJTgyJUMyJUExJUMzJTk1JUMzJUI0JUMyJUExJUMzJTlGJUMzJTg4JUMyJUExJUMzJTk1JUMzJTgwJUMyJUExJUMzJTkyJUMyJUI2JUMyJUExJUMzJTkwJUMzJTg3JUMyJUExJUMzJTlGJUMyJUIzJUMyJUExJUMzJTk4JUMzJUEzJUMyJUExJUMzJTlFJUMzJThFJUMyJUExJUMzJTlGJUMzJTg1JUMyJUExJUMzJUFCJUMzJTlBJUMyJUExJUMzJUFDJUMzJTlFJUMyJUExJUMzJTk0JUMzJUE1JUMyJUExJUMzJUE4JUMzJUEyJUMyJUExJUMzJUE3JUMzJTk4JUMyJUExJUMzJUIxJUMzJThFJUMyJUExJUMzJUEwJUMzJUEzJUMyJUExJUMzJUFFJUMyJUI2JUMyJUExJUMzJTg1JUMzJUJGJUMyJUExJUMzJUFBJUMyJUJBJUMyJUExJUMzJTk0JUMzJTgwJUMyJUExJUMzJUI1JUMzJTkxJUMyJUEyJUMyJUE1JUMzJTlEJUMyJUExJUMzJTlFJUMzJTgxJUMyJUExJUMzJTg3JUMzJUE3JUMyJUExJUMzJThDJUMzJUE3JUMyJUExJUMzJTlDJUMzJTgyJUMyJUExJUMzJTk0JUMyJUFCJUMyJUExJUMzJTk5JUMyJUIzJUMyJUExJUMzJTkwJUMyJUI3JUMyJUExJUMzJTkxJUMzJThEJUMyJUExJUMzJThFJUMzJTlDJUMyJUExJUMzJUIyJUMzJUFEJUMyJUExJUMzJUFFJUMzJTkzJUMyJUExJUMzJThFJUMzJUE3JUMyJUExJUMzJThBJUMyJUFGJUMyJUExJUMzJTkxJUMzJTg3JUMyJUExJUMzJUE0;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=PNLDIJMCKHOEMNOHNBDKINDE; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:44 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMzM3IiwNCiJwcm92aW5jZXNlcSI6ICIzOSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiSSBoYXZlIG5vIGlkZWEiLA0KImNpdHluYW1l
+        X2NuIjogIuecgeW4guS4jeehruWumiINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:41 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/17
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1517'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:44 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUExJUMyJUExJUMzJUE3JUMzJUFBJUMyJUEyJUMyJUJBJUMzJUFCJUMyJUEyJUMyJUI3JUMzJTgxJUMyJUExJUMzJTg3JUMzJTlEJUMyJUExJUMzJThEJUMzJTg4JUMyJUExJUMzJUEwJUMyJUI4JUMyJUExJUMzJUIwJUMzJUFGJUMyJUEyJUMzJTk1JUMzJUI2JUMyJUEyJUMzJThFJUMyJUIxJUMyJUExJUMzJTg1JUMyJUFEJUMyJUExJUMzJTkyJUMyJUFCJUMyJUExJUMzJTkwJUMzJTlCJUMyJUExJUMzJUFEJUMyJUIwJUMyJUExJUMzJTkxJUMzJUFBJUMyJUExJUMzJTkxJUMzJUE5JUMyJUExJUMzJTk4JUMzJTkyJUMyJUExJUMzJUE4JUMzJUE0JUMyJUExJUMzJUFGJUMzJTk5JUMyJUExJUMzJUFDJUMzJUE0JUMyJUExJUMzJUEzJUMzJTlGJUMyJUExJUMzJTk4JUMyJUFDJUMyJUExJUMzJUExJUMzJTg5JUMyJUExJUMzJTkxJUMyJUI5JUMyJUExJUMzJTk3JUMyJUI0JUMyJUExJUMzJTg1JUMzJTgwJUMyJUExJUMzJTkzJUMzJTk2JUMyJUExJUMzJUE5JUMzJThEJUMyJUExJUMzJTlEJUMzJThFJUMyJUExJUMzJUExJUMyJUJEJUMyJUExJUMzJThDJUMzJUI4JUMyJUExJUMzJUJDJUMzJUE5JUMyJUExJUMzJTk2JUMzJUExJUMyJUExJUM0JTg0JUMyJUFGJUMyJUExJUMzJUI0JUMyJUE5JUMyJUExJUMzJTlDJUMyJUFCJUMyJUExJUMzJTg1JUMzJUFBJUMyJUExJUMzJTlFJUMzJTlGJUMyJUExJUMzJUE3JUMzJUFFJUMyJUExJUMzJUI0JUMyJUFEJUMyJUExJUMzJTk5JUMyJUE4JUMyJUExJUMzJThBJUMzJTlBJUMyJUExJUMzJUE4JUMzJUFCJUMyJUExJUMzJTk3JUMzJUE1JUMyJUExJUMzJUI1JUMzJUExJUMyJUExJUMzJTlGJUMzJUI4JUMyJUExJUMzJUJDJUMzJTkwJUMyJUExJUMzJUEyJUMyJUI4JUMyJUExJUMzJTkzJUMzJTgxJUMyJUExJUMzJTk4;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=AOLDIJMCOBPAJOJBMIPLIIJA; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:45 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTUyIiwNCiJwcm92aW5jZXNlcSI6ICIxNyIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQ2hhbmdaaG91IiwNCiJjaXR5bmFtZV9jbiI6
+        ICLluLjlt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiMTUzIiwNCiJwcm92aW5j
+        ZXNlcSI6ICIxNyIsDQoiY2l0eW5hbWVfZW4iOiAiSHVhaUFuIiwNCiJjaXR5
+        bmFtZV9jbiI6ICLmt67lrokiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTU0IiwN
+        CiJwcm92aW5jZXNlcSI6ICIxNyIsDQoiY2l0eW5hbWVfZW4iOiAiSmlhbmdT
+        dUJlbkppIiwNCiJjaXR5bmFtZV9jbiI6ICLmsZ/oi4/mnKznuqciDQp9LA0K
+        ew0KImNpdHlzZXEiOiAiMTU1IiwNCiJwcm92aW5jZXNlcSI6ICIxNyIsDQoi
+        Y2l0eW5hbWVfZW4iOiAiTGlhbll1bkdhbmciLA0KImNpdHluYW1lX2NuIjog
+        Iui/nuS6kea4ryINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNTYiLA0KInByb3Zp
+        bmNlc2VxIjogIjE3IiwNCiJjaXR5bmFtZV9lbiI6ICJOYW5KaW5nIiwNCiJj
+        aXR5bmFtZV9jbiI6ICLljZfkuqwiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTU3
+        IiwNCiJwcm92aW5jZXNlcSI6ICIxNyIsDQoiY2l0eW5hbWVfZW4iOiAiTmFu
+        VG9uZyIsDQoiY2l0eW5hbWVfY24iOiAi5Y2X6YCaIg0KfSwNCnsNCiJjaXR5
+        c2VxIjogIjE1OCIsDQoicHJvdmluY2VzZXEiOiAiMTciLA0KImNpdHluYW1l
+        X2VuIjogIlN1UWlhbiIsDQoiY2l0eW5hbWVfY24iOiAi5a6/6L+BIg0KfSwN
+        CnsNCiJjaXR5c2VxIjogIjE1OSIsDQoicHJvdmluY2VzZXEiOiAiMTciLA0K
+        ImNpdHluYW1lX2VuIjogIlN1WmhvdSIsDQoiY2l0eW5hbWVfY24iOiAi6IuP
+        5beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjE2MCIsDQoicHJvdmluY2VzZXEi
+        OiAiMTciLA0KImNpdHluYW1lX2VuIjogIlRhaVpob3UiLA0KImNpdHluYW1l
+        X2NuIjogIuazsOW3niINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNjEiLA0KInBy
+        b3ZpbmNlc2VxIjogIjE3IiwNCiJjaXR5bmFtZV9lbiI6ICJXdVhpIiwNCiJj
+        aXR5bmFtZV9jbiI6ICLml6DplKEiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTYy
+        IiwNCiJwcm92aW5jZXNlcSI6ICIxNyIsDQoiY2l0eW5hbWVfZW4iOiAiWHVQ
+        dSIsDQoiY2l0eW5hbWVfY24iOiAi6IOl5rWmIg0KfSwNCnsNCiJjaXR5c2Vx
+        IjogIjE2MyIsDQoicHJvdmluY2VzZXEiOiAiMTciLA0KImNpdHluYW1lX2Vu
+        IjogIlh1WmhvdSIsDQoiY2l0eW5hbWVfY24iOiAi5b6Q5beeIg0KfSwNCnsN
+        CiJjaXR5c2VxIjogIjE2NCIsDQoicHJvdmluY2VzZXEiOiAiMTciLA0KImNp
+        dHluYW1lX2VuIjogIllhbkNoZW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLnm5Dl
+        n44iDQp9LA0Kew0KImNpdHlzZXEiOiAiMTY1IiwNCiJwcm92aW5jZXNlcSI6
+        ICIxNyIsDQoiY2l0eW5hbWVfZW4iOiAiWWFuZ1pob3UiLA0KImNpdHluYW1l
+        X2NuIjogIuaJrOW3niINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNjYiLA0KInBy
+        b3ZpbmNlc2VxIjogIjE3IiwNCiJjaXR5bmFtZV9lbiI6ICJaaGVuSmlhbmci
+        LA0KImNpdHluYW1lX2NuIjogIumVh+axnyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:41 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/18
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1107'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:46 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUIxJUMyJUExJUMzJUE2JUMzJTk2JUMyJUEyJUMyJUI2JUMzJUE5JUMyJUEyJUMyJUFCJUMzJTlCJUMyJUExJUMzJUExJUMzJUE0JUMyJUExJUMzJUIwJUMzJTlGJUMyJUExJUMzJTk1JUMzJTkzJUMyJUExJUMzJUFBJUMyJUJEJUMyJUEyJUMyJUIyJUMyJUIwJUMyJUEyJUMyJUIyJUMzJUI3JUMyJUExJUMzJUE4JUMyJUIzJUMyJUExJUMzJTkyJUMzJUE0JUMyJUExJUMzJUFFJUMzJThBJUMyJUExJUMzJTkxJUMyJUIzJUMyJUExJUMzJTkxJUMzJUIxJUMyJUExJUMyJUJFJUMyJUFEJUMyJUExJUMzJTkyJUMyJUFGJUMyJUExJUMzJTkwJUMzJTlFJUMyJUExJUMzJTkxJUMzJUI1JUMyJUExJUMzJUFEJUMzJUFGJUMyJUExJUMzJUFGJUMzJTlGJUMyJUExJUMzJTk4JUM0JTgyJUMyJUEyJUMyJUFEJUMzJTg5JUMyJUExJUMzJTkxJUMzJUIwJUMyJUExJUM0JTg0JUMzJUEwJUMyJUExJUMzJThGJUMzJUFGJUMyJUExJUMzJUJEJUMzJThEJUMyJUExJUMzJUFBJUMyJUJGJUMyJUExJUMzJTkyJUMzJUFCJUMyJUExJUMzJUE4JUMyJUI3JUMyJUExJUMzJTg2JUMzJUJEJUMyJUExJUMzJTlBJUMzJUFCJUMyJUExJUMzJUEyJUMyJUIzJUMyJUExJUMzJUI1JUMzJTkyJUMyJUEyJUMyJUE4JUMzJUE0JUMyJUExJUM0JTgxJUMyJUFGJUMyJUExJUMzJTg1JUMzJUExJUMyJUExJUMzJUExJUMzJUJGJUMyJUExJUMzJUJBJUMyJUJGJUMyJUExJUMzJThFJUMzJUFBJUMyJUExJUMzJUE1JUMzJUExJUMyJUExJUMzJTlGJUMzJUE5JUMyJUExJUMzJTk2JUMzJThCJUMyJUExJUMzJTg4JUMzJUI0JUMyJUExJUMzJUEwJUMzJTkyJUMyJUExJUMzJUE4JUMzJUIyJUMyJUExJUMzJTkyJUMzJTlEJUMyJUExJUMzJThCJUMzJUI3JUMyJUExJUMzJUI0JUMzJThFJUMyJUExJUMzJUEy;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=BOLDIJMCIKLFPIGDOJAINJFC; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:45 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTY3IiwNCiJwcm92aW5jZXNlcSI6ICIxOCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiRnVaaG91IiwNCiJjaXR5bmFtZV9jbiI6ICLm
+        iprlt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiMTY4IiwNCiJwcm92aW5jZXNl
+        cSI6ICIxOCIsDQoiY2l0eW5hbWVfZW4iOiAiR2FuWmhvdSIsDQoiY2l0eW5h
+        bWVfY24iOiAi6LWj5beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjE2OSIsDQoi
+        cHJvdmluY2VzZXEiOiAiMTgiLA0KImNpdHluYW1lX2VuIjogIkppQW4iLA0K
+        ImNpdHluYW1lX2NuIjogIuWQieWuiSINCn0sDQp7DQoiY2l0eXNlcSI6ICIx
+        NzAiLA0KInByb3ZpbmNlc2VxIjogIjE4IiwNCiJjaXR5bmFtZV9lbiI6ICJK
+        aW5nRGVaaGVuIiwNCiJjaXR5bmFtZV9jbiI6ICLmma/lvrfplYciDQp9LA0K
+        ew0KImNpdHlzZXEiOiAiMTcxIiwNCiJwcm92aW5jZXNlcSI6ICIxOCIsDQoi
+        Y2l0eW5hbWVfZW4iOiAiSml1SmlhbmciLA0KImNpdHluYW1lX2NuIjogIuS5
+        neaxnyINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNzIiLA0KInByb3ZpbmNlc2Vx
+        IjogIjE4IiwNCiJjaXR5bmFtZV9lbiI6ICJOYW5DaGFuZyIsDQoiY2l0eW5h
+        bWVfY24iOiAi5Y2X5piMIg0KfSwNCnsNCiJjaXR5c2VxIjogIjE3MyIsDQoi
+        cHJvdmluY2VzZXEiOiAiMTgiLA0KImNpdHluYW1lX2VuIjogIlBpbmdYaWFu
+        ZyIsDQoiY2l0eW5hbWVfY24iOiAi6JCN5LmhIg0KfSwNCnsNCiJjaXR5c2Vx
+        IjogIjE3NCIsDQoicHJvdmluY2VzZXEiOiAiMTgiLA0KImNpdHluYW1lX2Vu
+        IjogIlNoYW5nUmFvIiwNCiJjaXR5bmFtZV9jbiI6ICLkuIrppbYiDQp9LA0K
+        ew0KImNpdHlzZXEiOiAiMTc1IiwNCiJwcm92aW5jZXNlcSI6ICIxOCIsDQoi
+        Y2l0eW5hbWVfZW4iOiAiWGluWXUiLA0KImNpdHluYW1lX2NuIjogIuaWsOS9
+        mSINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNzYiLA0KInByb3ZpbmNlc2VxIjog
+        IjE4IiwNCiJjaXR5bmFtZV9lbiI6ICJZaUNodW4iLA0KImNpdHluYW1lX2Nu
+        IjogIuWunOaYpSINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNzciLA0KInByb3Zp
+        bmNlc2VxIjogIjE4IiwNCiJjaXR5bmFtZV9lbiI6ICJZaW5nVGFuIiwNCiJj
+        aXR5bmFtZV9jbiI6ICLpubDmva0iDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:42 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/19
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '905'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:46 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUFEJUMyJUExJUMzJUE2JUMyJUJCJUMyJUEyJUMyJUIzJUMzJUI5JUMyJUEyJUMzJTk2JUMyJUI3JUMyJUExJUMzJTg2JUMzJUIzJUMyJUExJUMzJTk5JUMyJUE1JUMyJUExJUMzJThEJUMyJUFEJUMyJUExJUMzJUFFJUMyJUI1JUMyJUEyJUMyJUFBJUMzJUE0JUMyJUEyJUMzJTkwJUMzJUFBJUMyJUExJUMzJTkxJUMzJThGJUMyJUExJUMzJUExJUMzJUI0JUMyJUExJUMzJTlFJUMzJTlGJUMyJUExJUMzJTk2JUMzJTgyJUMyJUExJUMzJTk1JUMzJTgzJUMyJUExJUMzJThCJUMzJTg3JUMyJUExJUMzJUEwJUMzJThFJUMyJUExJUMzJTlDJUMyJUFDJUMyJUExJUMzJTkxJUMzJUFEJUMyJUExJUMzJUI2JUMzJUIwJUMyJUExJUMzJUI1JUMyJUI3JUMyJUExJUMzJTk0JUMzJTg3JUMyJUExJUMzJUFGJUMyJUExJUMyJUExJUMzJTk1JUMzJTk1JUMyJUExJUMzJTk4JUMzJUI1JUMyJUExJUMzJTlBJUMyJUE3JUMyJUExJUMzJThFJUMyJUFFJUMyJUExJUMzJUExJUMzJTkzJUMyJUExJUMzJTkwJUM0JTgxJUMyJUExJUMzJUJFJUMzJUJEJUMyJUExJUMzJThEJUM0JTg0JUMyJUEyJUMyJUFFJUMyJUIxJUMyJUExJUMzJTkwJUMzJTk2JUMyJUExJUMzJUJEJUMzJTlBJUMyJUEyJUMyJUE4JUMzJTgzJUMyJUExJUMzJUE5JUMzJTk3JUMyJUExJUMzJTkxJUMzJTlFJUMyJUExJUMzJTkyJUMzJThFJUMyJUExJUMzJUFFJUMyJUE4JUMyJUExJUMzJThBJUMyJUIyJUMyJUExJUMzJTk5JUMzJUEyJUMyJUExJUMzJUE0JUMyJUI3JUMyJUExJUMzJTkxJUMzJThBJUMyJUExJUMzJTg1JUMzJUI3JUMyJUExJUMzJUI1JUMzJTk3JUMyJUExJUMzJTlDJUMyJUIwJUMyJUExJUMzJTkyJUMyJUI2JUMyJUExJUMzJTkwJUMzJTgzJUMyJUExJUMzJTk3JUMyJUFGJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=COLDIJMCCDPNEPABCAPINBCM; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:46 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTc4IiwNCiJwcm92aW5jZXNlcSI6ICIxOSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQmFpQ2hlbmciLA0KImNpdHluYW1lX2NuIjog
+        IueZveWfjiINCn0sDQp7DQoiY2l0eXNlcSI6ICIxNzkiLA0KInByb3ZpbmNl
+        c2VxIjogIjE5IiwNCiJjaXR5bmFtZV9lbiI6ICJCYWlTaGFuIiwNCiJjaXR5
+        bmFtZV9jbiI6ICLnmb3lsbEiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTgwIiwN
+        CiJwcm92aW5jZXNlcSI6ICIxOSIsDQoiY2l0eW5hbWVfZW4iOiAiQ2hhbmdD
+        aHVuIiwNCiJjaXR5bmFtZV9jbiI6ICLplb/mmKUiDQp9LA0Kew0KImNpdHlz
+        ZXEiOiAiMTgyIiwNCiJwcm92aW5jZXNlcSI6ICIxOSIsDQoiY2l0eW5hbWVf
+        ZW4iOiAiSmlMaW4iLA0KImNpdHluYW1lX2NuIjogIuWQieaelyINCn0sDQp7
+        DQoiY2l0eXNlcSI6ICIxODMiLA0KInByb3ZpbmNlc2VxIjogIjE5IiwNCiJj
+        aXR5bmFtZV9lbiI6ICJMaWFvWXVhbiIsDQoiY2l0eW5hbWVfY24iOiAi6L69
+        5rqQIg0KfSwNCnsNCiJjaXR5c2VxIjogIjE4NCIsDQoicHJvdmluY2VzZXEi
+        OiAiMTkiLA0KImNpdHluYW1lX2VuIjogIlNpUGluZyIsDQoiY2l0eW5hbWVf
+        Y24iOiAi5Zub5bmzIg0KfSwNCnsNCiJjaXR5c2VxIjogIjE4NSIsDQoicHJv
+        dmluY2VzZXEiOiAiMTkiLA0KImNpdHluYW1lX2VuIjogIlNvbmdZdWFuIiwN
+        CiJjaXR5bmFtZV9jbiI6ICLmnb7ljp8iDQp9LA0Kew0KImNpdHlzZXEiOiAi
+        MTg2IiwNCiJwcm92aW5jZXNlcSI6ICIxOSIsDQoiY2l0eW5hbWVfZW4iOiAi
+        VG9uZ0h1YSIsDQoiY2l0eW5hbWVfY24iOiAi6YCa5YyWIg0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjE4NyIsDQoicHJvdmluY2VzZXEiOiAiMTkiLA0KImNpdHlu
+        YW1lX2VuIjogIllhbkJpYW4iLA0KImNpdHluYW1lX2NuIjogIuW7tui+uSIN
+        Cn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:43 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1303'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:46 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUExJUMyJUExJUMzJUI1JUM0JTgyJUMyJUEyJUMzJTlFJUMzJThDJUMyJUEyJUMyJUFCJUMzJUFDJUMyJUExJUMzJTlEJUMzJTgyJUMyJUExJUMzJTk2JUMzJUFBJUMyJUExJUMzJTlDJUMyJUJFJUMyJUExJUMzJUI2JUMzJUFCJUMyJUEyJUMyJUJEJUMzJUJFJUMyJUEyJUMzJTgyJUMyJUI3JUMyJUExJUMzJTg2JUMzJTkwJUMyJUExJUMzJUE0JUMzJThEJUMyJUExJUMzJTk5JUMzJUEzJUMyJUExJUMzJUFBJUMyJUE3JUMyJUExJUMzJThDJUMzJTlBJUMyJUExJUMzJTlEJUMyJUIwJUMyJUExJUMzJTkyJUMzJUJGJUMyJUExJUMzJUE4JUMzJUE1JUMyJUExJUMzJUI0JUMzJTk1JUMyJUExJUMzJTlDJUMzJUFGJUMyJUExJUMzJUFGJUMyJUI0JUMyJUExJUMzJTkzJUMzJTgyJUMyJUExJUMzJUE1JUMzJUFFJUMyJUExJUMzJUI4JUMzJUIxJUMyJUExJUMzJThEJUMyJUE1JUMyJUExJUMzJTgyJUMyJUFBJUMyJUExJUMzJThCJUMyJUFFJUMyJUExJUMzJUExJUMzJTgzJUMyJUExJUMzJTlBJUMyJUJBJUMyJUExJUMzJTlCJUMzJTk5JUMyJUExJUMzJTk5JUMzJTlFJUMyJUExJUMzJTkyJUMzJTk3JUMyJUExJUMzJTlDJUMzJUFCJUMyJUEyJUMyJUEzJUMzJThFJUMyJUExJUM0JTgwJUM0JTgxJUMyJUEyJUMyJUE3JUMzJTk2JUMyJUExJUMzJThEJUMzJUE2JUMyJUExJUMzJUJBJUMyJUIzJUMyJUExJUMzJUEyJUMzJUIyJUMyJUExJUMzJTkwJUMzJUI0JUMyJUExJUMzJUE3JUMyJUIwJUMyJUExJUMzJTkwJUMzJTgzJUMyJUExJUMzJTk2JUMyJUE1JUMyJUExJUMzJTgyJUMzJTkwJUMyJUExJUMzJUE0JUMzJTk0JUMyJUExJUMzJTkwJUMyJUJCJUMyJUExJUMzJTk3JUMzJUFCJUMyJUExJUMzJUEyJUMzJUI5JUMyJUExJUM0JTgyJUMzJTgyJUMyJUExJUMzJTlB;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=DOLDIJMCHEHMCEACEBCHEGAJ; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:46 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMTg4IiwNCiJwcm92aW5jZXNlcSI6ICIyMCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQW5TaGFuIiwNCiJjaXR5bmFtZV9jbiI6ICLp
+        no3lsbEiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTg5IiwNCiJwcm92aW5jZXNl
+        cSI6ICIyMCIsDQoiY2l0eW5hbWVfZW4iOiAiQ2hhb1lhbmciLA0KImNpdHlu
+        YW1lX2NuIjogIuacnemYsyINCn0sDQp7DQoiY2l0eXNlcSI6ICIzMzYiLA0K
+        InByb3ZpbmNlc2VxIjogIjIwIiwNCiJjaXR5bmFtZV9lbiI6ICJEYUxpYW4i
+        LA0KImNpdHluYW1lX2NuIjogIuWkp+i/niINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIxOTAiLA0KInByb3ZpbmNlc2VxIjogIjIwIiwNCiJjaXR5bmFtZV9lbiI6
+        ICJEYW5Eb25nIiwNCiJjaXR5bmFtZV9jbiI6ICLkuLnkuJwiDQp9LA0Kew0K
+        ImNpdHlzZXEiOiAiMTkxIiwNCiJwcm92aW5jZXNlcSI6ICIyMCIsDQoiY2l0
+        eW5hbWVfZW4iOiAiRnVTaHVuIiwNCiJjaXR5bmFtZV9jbiI6ICLmiprpoboi
+        DQp9LA0Kew0KImNpdHlzZXEiOiAiMTkyIiwNCiJwcm92aW5jZXNlcSI6ICIy
+        MCIsDQoiY2l0eW5hbWVfZW4iOiAiRnVYaW4iLA0KImNpdHluYW1lX2NuIjog
+        IumYnOaWsCINCn0sDQp7DQoiY2l0eXNlcSI6ICIxOTMiLA0KInByb3ZpbmNl
+        c2VxIjogIjIwIiwNCiJjaXR5bmFtZV9lbiI6ICJIdUx1RGFvIiwNCiJjaXR5
+        bmFtZV9jbiI6ICLokavoiqblspsiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTk0
+        IiwNCiJwcm92aW5jZXNlcSI6ICIyMCIsDQoiY2l0eW5hbWVfZW4iOiAiSmlu
+        WmhvdSIsDQoiY2l0eW5hbWVfY24iOiAi6ZSm5beeIg0KfSwNCnsNCiJjaXR5
+        c2VxIjogIjE5NSIsDQoicHJvdmluY2VzZXEiOiAiMjAiLA0KImNpdHluYW1l
+        X2VuIjogIkxpYW9ZYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLovr3pmLMiDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiMTk2IiwNCiJwcm92aW5jZXNlcSI6ICIyMCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiUGFuSmluIiwNCiJjaXR5bmFtZV9jbiI6ICLn
+        m5jplKYiDQp9LA0Kew0KImNpdHlzZXEiOiAiMTk3IiwNCiJwcm92aW5jZXNl
+        cSI6ICIyMCIsDQoiY2l0eW5hbWVfZW4iOiAiU2hlbllhbmciLA0KImNpdHlu
+        YW1lX2NuIjogIuayiOmYsyINCn0sDQp7DQoiY2l0eXNlcSI6ICIxOTgiLA0K
+        InByb3ZpbmNlc2VxIjogIjIwIiwNCiJjaXR5bmFtZV9lbiI6ICJUaWVMaW5n
+        IiwNCiJjaXR5bmFtZV9jbiI6ICLpk4Hlsq0iDQp9LA0Kew0KImNpdHlzZXEi
+        OiAiMTk5IiwNCiJwcm92aW5jZXNlcSI6ICIyMCIsDQoiY2l0eW5hbWVfZW4i
+        OiAiWWluZ0tvdSIsDQoiY2l0eW5hbWVfY24iOiAi6JCl5Y+jIg0KfQ0KXQ==
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:43 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/21
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1355'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:46 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTlFJUMyJUExJUMzJUE2JUMzJTlFJUMyJUEyJUMyJUFFJUMzJTkxJUMyJUEyJUMyJUJBJUMzJTkxJUMyJUExJUMzJTlBJUMzJThGJUMyJUExJUMzJUExJUMyJUJBJUMyJUExJUMzJTk0JUMzJUE4JUMyJUExJUMzJUFFJUMzJUFDJUMyJUEyJUMzJTgzJUMzJTk4JUMyJUEyJUMzJTgyJUMyJUIzJUMyJUExJUMzJTg1JUMzJUI2JUMyJUExJUMzJUFFJUMzJTlFJUMyJUExJUMzJTkwJUM0JTgyJUMyJUExJUM0JTgxJUMzJTgwJUMyJUExJUMzJTkxJUMyJUEzJUMyJUExJUMzJTg0JUMzJTgwJUMyJUExJUMzJTkyJUMyJUI5JUMyJUExJUMzJTkzJUMyJUE5JUMyJUExJUMzJThBJUMzJThEJUMyJUExJUMzJUExJUMzJUJBJUMyJUExJUMzJUJEJUMzJUE3JUMyJUExJUMzJThEJUMzJUExJUMyJUExJUMzJUIwJUMzJTkwJUMyJUExJUMzJUE2JUMzJTk2JUMyJUExJUMzJTlDJUMyJUJCJUMyJUExJUMzJThBJUMyJUJDJUMyJUExJUMzJTk5JUMzJUE4JUMyJUExJUMzJUExJUMzJThDJUMyJUExJUMzJTlBJUMzJTg2JUMyJUExJUMzJUEzJUMzJTg1JUMyJUExJUMzJThGJUMzJUE0JUMyJUExJUMzJUIwJUMzJUI3JUMyJUExJUMzJUIzJUMyJUJEJUMyJUExJUMzJUJDJUMzJUEwJUMyJUExJUMzJUJFJUMzJUExJUMyJUExJUMzJUIyJUMzJUJFJUMyJUExJUMzJTk1JUMzJUEzJUMyJUExJUMzJUFCJUMzJTg5JUMyJUExJUMzJTlGJUMzJUE1JUMyJUExJUMzJUIzJUMyJUIyJUMyJUExJUMzJTk5JUMyJUIxJUMyJUExJUMzJTkwJUMzJUFCJUMyJUExJUMzJUEyJUMzJUJFJUMyJUExJUMzJTk1JUMzJThBJUMyJUExJUMzJTkyJUMzJUEyJUMyJUExJUMzJUE0JUMzJThCJUMyJUExJUMzJTk1JUMzJTg0JUMyJUExJUMzJTk4JUMzJTg1JUMyJUExJUMzJTlCJUMzJUJEJUMyJUExJUMzJTlF;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=EOLDIJMCOMLEEAFOMLIGFJGK; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:47 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjAwIiwNCiJwcm92aW5jZXNlcSI6ICIyMSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQU1lbmciLA0KImNpdHluYW1lX2NuIjogIumY
+        v+ebnyINCn0sDQp7DQoiY2l0eXNlcSI6ICIyMDEiLA0KInByb3ZpbmNlc2Vx
+        IjogIjIxIiwNCiJjaXR5bmFtZV9lbiI6ICJCYW9Ub3UiLA0KImNpdHluYW1l
+        X2NuIjogIuWMheWktCINCn0sDQp7DQoiY2l0eXNlcSI6ICIyMDIiLA0KInBy
+        b3ZpbmNlc2VxIjogIjIxIiwNCiJjaXR5bmFtZV9lbiI6ICJCYVlhblpodW9F
+        ciIsDQoiY2l0eW5hbWVfY24iOiAi5be05b2m5reW5bCUIg0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjIwMyIsDQoicHJvdmluY2VzZXEiOiAiMjEiLA0KImNpdHlu
+        YW1lX2VuIjogIkNoaUZlbmciLA0KImNpdHluYW1lX2NuIjogIui1pOWzsCIN
+        Cn0sDQp7DQoiY2l0eXNlcSI6ICIyMDQiLA0KInByb3ZpbmNlc2VxIjogIjIx
+        IiwNCiJjaXR5bmFtZV9lbiI6ICJFRXJEdW9TaSIsDQoiY2l0eW5hbWVfY24i
+        OiAi6YSC5bCU5aSa5pavIg0KfSwNCnsNCiJjaXR5c2VxIjogIjIwNSIsDQoi
+        cHJvdmluY2VzZXEiOiAiMjEiLA0KImNpdHluYW1lX2VuIjogIkh1SGVIYW9U
+        ZSIsDQoiY2l0eW5hbWVfY24iOiAi5ZG85ZKM5rWp54m5Ig0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjIwNiIsDQoicHJvdmluY2VzZXEiOiAiMjEiLA0KImNpdHlu
+        YW1lX2VuIjogIkh1THVuQmVpRXIiLA0KImNpdHluYW1lX2NuIjogIuWRvOS8
+        pui0neWwlCINCn0sDQp7DQoiY2l0eXNlcSI6ICIyMDciLA0KInByb3ZpbmNl
+        c2VxIjogIjIxIiwNCiJjaXR5bmFtZV9lbiI6ICJNYW5aaG91TGkiLA0KImNp
+        dHluYW1lX2NuIjogIua7oea0sumHjCINCn0sDQp7DQoiY2l0eXNlcSI6ICIy
+        MDgiLA0KInByb3ZpbmNlc2VxIjogIjIxIiwNCiJjaXR5bmFtZV9lbiI6ICJU
+        b25nTGlhbyIsDQoiY2l0eW5hbWVfY24iOiAi6YCa6L69Ig0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjIwOSIsDQoicHJvdmluY2VzZXEiOiAiMjEiLA0KImNpdHlu
+        YW1lX2VuIjogIld1SGFpIiwNCiJjaXR5bmFtZV9jbiI6ICLkuYzmtbciDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiMjEwIiwNCiJwcm92aW5jZXNlcSI6ICIyMSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiV3VMYW5DaGFCdSIsDQoiY2l0eW5hbWVfY24i
+        OiAi5LmM5YWw5a+f5biDIg0KfSwNCnsNCiJjaXR5c2VxIjogIjIxMSIsDQoi
+        cHJvdmluY2VzZXEiOiAiMjEiLA0KImNpdHluYW1lX2VuIjogIld1TGFuSGFv
+        VGUiLA0KImNpdHluYW1lX2NuIjogIuS5jOWFsOa1qeeJuSINCn0sDQp7DQoi
+        Y2l0eXNlcSI6ICIyMTIiLA0KInByb3ZpbmNlc2VxIjogIjIxIiwNCiJjaXR5
+        bmFtZV9lbiI6ICJYaU1lbmciLA0KImNpdHluYW1lX2NuIjogIumUoeebnyIN
+        Cn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:44 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/22
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:48 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUIxJUMyJUExJUMzJUE2JUMzJUE4JUMyJUEyJUMyJUFFJUMzJUFEJUMyJUEyJUMzJTgzJUMzJUE2JUMyJUExJUMzJUFEJUMzJUI2JUMyJUExJUMzJUFFJUMzJThBJUMyJUExJUMzJTkwJUMyJUI4JUMyJUExJUMzJUIwJUMzJTk0JUMyJUEyJUMyJUFCJUMzJTk2JUMyJUEyJUMyJUJBJUMzJTlCJUMyJUExJUMzJUExJUMzJUFCJUMyJUExJUMzJUE0JUMzJThEJUMyJUExJUMzJTk5JUMzJThCJUMyJUExJUMzJTk0JUMzJUI3JUMyJUExJUMzJUI0JUMzJUE1JUMyJUExJUMzJUE4JUMzJUFFJUMyJUExJUMzJUI2JUMyJUEzJUMyJUExJUMzJThGJUMzJUI4JUMyJUExJUMzJUJCJUMyJUFCJUMyJUExJUMzJTk4JUMzJTgxJUMyJUExJUMzJTg3JUMzJTk5JUMyJUExJUMzJUE3JUMzJUFDJUMyJUExJUMzJUI5JUMzJTg0JUMyJUExJUMzJTlDJUMzJUEzJUMyJUExJUMzJUFEJUMzJUI4JUMyJUExJUMzJUFGJUMzJTkzJUMyJUExJUMzJThGJUMzJTgwJUMyJUExJUMzJUExJUMzJUE5JUMyJUExJUMzJTlBJUMzJTk1JUMyJUExJUMzJTlDJUMyJUE5JUMyJUExJUMyJUJFJUMyJUE0JUMyJUExJUMzJTkwJUMzJUI0JUMyJUExJUMzJTlFJUMzJUE5JUMyJUExJUMzJUJCJUMzJUEyJUMyJUEyJUMyJUE0JUMyJUFGJUMyJUExJUMzJUEzJUMyJUI4JUMyJUExJUMzJTg3JUMzJThFJUMyJUExJUMzJTlFJUMzJUIyJUMyJUExJUMzJUEyJUMzJTk5JUMyJUExJUMzJUE0JUMyJUI5JUMyJUExJUMzJTlDJUMzJUFEJUMyJUExJUMzJUFFJUMzJTk2JUMyJUExJUMzJTk4JUMzJTkzJUMyJUExJUMzJTgxJUMzJUFGJUMyJUExJUMzJUJDJUMyJUE1JUMyJUExJUMzJThEJUMzJUE0JUMyJUExJUMzJUIwJUMzJUJEJUMyJUExJUMzJTk4JUMzJTlCJUMyJUExJUMzJUFEJUMzJUI2JUMyJUExJUMzJUIy;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=FOLDIJMCJJJCABEONCADCLNE; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:47 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjEzIiwNCiJwcm92aW5jZXNlcSI6ICIyMiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiTmluZ0JvIiwNCiJjaXR5bmFtZV9jbiI6ICLl
+        roHms6IiDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:44 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '520'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:48 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTk1JUMyJUExJUMzJUFBJUMzJUEwJUMyJUEyJUMyJUI4JUMyJUI0JUMyJUEyJUMyJUE1JUMzJUE3JUMyJUExJUMyJUJGJUMyJUIxJUMyJUExJUMzJTkyJUMzJUI4JUMyJUExJUMzJUJBJUMyJUEzJUMyJUExJUMzJUFEJUMzJUJFJUMyJUEyJUMyJUJCJUMyJUI4JUMyJUEyJUMyJUI0JUMyJUJDJUMyJUExJUMzJThCJUMyJUE4JUMyJUExJUMzJThDJUMzJThBJUMyJUExJUMzJTkwJUM0JTgwJUMyJUExJUMzJUIxJUMzJUEwJUMyJUExJUMzJTlCJUMzJThGJUMyJUExJUMzJTk0JUMzJTlCJUMyJUExJUMzJUFFJUMzJUIzJUMyJUExJUMzJTk3JUMzJTkxJUMyJUExJUMzJUE2JUMzJThBJUMyJUExJUMzJTk4JUMyJUI2JUMyJUExJUMzJTg1JUMzJTkwJUMyJUExJUMzJUE1JUMyJUE5JUMyJUExJUMzJTlBJUMzJTg2JUMyJUExJUMzJUEwJUMzJUJFJUMyJUExJUMzJUE0JUMyJUI5JUMyJUExJUMzJTg4JUMyJUI2JUMyJUExJUMzJTkzJUM0JTgwJUMyJUExJUM0JTgxJUMzJUE1JUMyJUExJUMzJUI3JUM0JTgyJUMyJUEyJUMyJUE0JUMzJUI1JUMyJUExJUMzJTlBJUMzJTg1JUMyJUExJUMzJTlDJUMzJUE4JUMyJUExJUMzJTkwJUMzJUE5JUMyJUExJUMzJUJCJUMzJThCJUMyJUExJUMzJUI3JUMyJUIyJUMyJUExJUMzJUEzJUMzJThEJUMyJUExJUMzJThFJUMzJThCJUMyJUExJUMzJTk1JUMzJThEJUMyJUExJUMzJUFCJUMyJUJDJUMyJUExJUMzJTk2JUMzJUIxJUMyJUExJUMzJTkyJUMzJTg0JUMyJUExJUMzJTk4JUMzJTlFJUMyJUExJUMzJTkwJUMyJUIzJUMyJUExJUMzJTg1JUMyJUI2JUMyJUExJUMzJTkyJUMzJUFGJUMyJUExJUMzJUJBJUMyJUIxJUMyJUExJUMzJTkyJUMyJUJDJUMyJUExJUMzJTk2JUMyJUE5JUMyJUExJUMzJThBJUMzJTg4JUMyJUExJUMzJUE2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=GOLDIJMCBNBPGBNGHJKJLPNI; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:48 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjE0IiwNCiJwcm92aW5jZXNlcSI6ICIyMyIs
+        DQoiY2l0eW5hbWVfZW4iOiAiR3VZdWFuIiwNCiJjaXR5bmFtZV9jbiI6ICLl
+        m7rljp8iDQp9LA0Kew0KImNpdHlzZXEiOiAiMjE1IiwNCiJwcm92aW5jZXNl
+        cSI6ICIyMyIsDQoiY2l0eW5hbWVfZW4iOiAiTmluZ1hpYUJlbkppIiwNCiJj
+        aXR5bmFtZV9jbiI6ICLlroHlpI/mnKznuqciDQp9LA0Kew0KImNpdHlzZXEi
+        OiAiMjE2IiwNCiJwcm92aW5jZXNlcSI6ICIyMyIsDQoiY2l0eW5hbWVfZW4i
+        OiAiU2hpWnVpU2hhbiIsDQoiY2l0eW5hbWVfY24iOiAi55+z5Zi05bGxIg0K
+        fSwNCnsNCiJjaXR5c2VxIjogIjIxNyIsDQoicHJvdmluY2VzZXEiOiAiMjMi
+        LA0KImNpdHluYW1lX2VuIjogIld1WmhvbmciLA0KImNpdHluYW1lX2NuIjog
+        IuWQtOW/oCINCn0sDQp7DQoiY2l0eXNlcSI6ICIyMTgiLA0KInByb3ZpbmNl
+        c2VxIjogIjIzIiwNCiJjaXR5bmFtZV9lbiI6ICJZaW5DaHVhbiIsDQoiY2l0
+        eW5hbWVfY24iOiAi6ZO25bedIg0KfQ0KXQ==
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:45 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/24
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '103'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:48 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTg2JUMyJUExJUMzJUIyJUMzJTlBJUMyJUEyJUMzJTg2JUMyJUI2JUMyJUEyJUMyJUE1JUMzJUE4JUMyJUExJUMzJTg1JUMyJUIyJUMyJUExJUMzJTkyJUMzJUFFJUMyJUExJUMzJUI0JUMyJUE0JUMyJUExJUMzJUFDJUMzJTlCJUMyJUEyJUMzJTg3JUMzJTk0JUMyJUEyJUMyJUIyJUMzJThEJUMyJUExJUMzJThFJUMzJTlBJUMyJUExJUMzJUFBJUMzJUFGJUMyJUExJUMzJUJBJUM0JTgyJUMyJUExJUM0JTgxJUMzJUI0JUMyJUExJUMzJTlGJUMzJTlFJUMyJUExJUMzJTg1JUMyJUI4JUMyJUExJUMzJTk0JUMzJTk1JUMyJUExJUMzJTk0JUMyJUFEJUMyJUExJUMzJTkxJUMyJUIzJUMyJUExJUMzJTk4JUMzJTg4JUMyJUExJUMzJTk1JUMyJUEzJUMyJUExJUMzJTkyJUMzJUE4JUMyJUExJUMzJUExJUMzJThEJUMyJUExJUMzJTlEJUMzJUIyJUMyJUExJUMzJTk0JUMzJUFDJUMyJUExJUMzJTlEJUMzJThEJUMyJUExJUMzJTlDJUMyJUJGJUMyJUExJUMzJTlGJUMzJTk2JUMyJUExJUMzJTlDJUMzJUI0JUMyJUExJUMzJUE3JUMzJTg0JUMyJUExJUMzJThEJUMyJUE2JUMyJUExJUMzJThFJUMyJUIxJUMyJUExJUMzJTkwJUMzJUI0JUMyJUExJUM0JTgzJUMzJTk0JUMyJUExJUMzJUI0JUMzJUJBJUMyJUEyJUMyJUI3JUMyJUJEJUMyJUExJUMzJThDJUMzJTg2JUMyJUExJUMzJTlFJUMzJUI4JUMyJUEyJUMyJUE4JUMyJUJDJUMyJUExJUMzJTk2JUMzJUFFJUMyJUExJUMzJUJEJUMzJUI3JUMyJUExJUMzJUIzJUMzJUIwJUMyJUExJUM0JTgwJUM0JTgxJUMyJUExJUMzJUFEJUMyJUJFJUMyJUExJUMzJTlBJUMzJThEJUMyJUExJUMzJTk5JUMzJUEyJUMyJUExJUMzJUE2JUMyJUJEJUMyJUExJUMzJTk3JUMzJTlGJUMyJUExJUMzJTk2JUMzJUIyJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=HOLDIJMCJPGCLHBPHGEANOCO; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:48 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjE5IiwNCiJwcm92aW5jZXNlcSI6ICIyNCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiUWluZ0RhbyIsDQoiY2l0eW5hbWVfY24iOiAi
+        6Z2S5bKbIg0KfQ0KXQ==
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:45 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/25
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:48 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUI3JUMyJUExJUMzJUE3JUMzJUI2JUMyJUEyJUMzJThBJUMzJUE1JUMyJUEyJUMzJTg4JUMzJUFDJUMyJUExJUMzJTlEJUMzJTk5JUMyJUExJUMzJUE2JUMzJThFJUMyJUExJUMzJTlDJUMzJTlCJUMyJUEyJUMyJUE2JUMzJTgyJUMyJUEyJUMyJUFGJUMyJUIwJUMyJUEyJUMyJUIyJUMzJTk5JUMyJUExJUMzJTk5JUMzJUIxJUMyJUExJUMzJThCJUMzJThGJUMyJUExJUMzJTlGJUMzJThGJUMyJUExJUMzJUEwJUMzJUFBJUMyJUExJUMzJTlEJUMzJTg5JUMyJUExJUMzJTgyJUMzJUI5JUMyJUExJUM0JTgzJUMzJTk3JUMyJUExJUMzJTlDJUMzJUI2JUMyJUExJUMzJUFEJUMzJUJGJUMyJUExJUMzJUIwJUMyJUJEJUMyJUExJUMzJThDJUMyJUJDJUMyJUExJUMzJTk5JUMzJTlGJUMyJUExJUMzJUE2JUMyJUI5JUMyJUExJUMzJTk3JUMyJUJCJUMyJUExJUMzJTk5JUMzJUI0JUMyJUExJUMzJTkzJUMzJTlBJUMyJUExJUMzJUFCJUMzJTk4JUMyJUExJUMzJUIxJUMzJTkzJUMyJUExJUMzJTkwJUMzJUEwJUMyJUExJUMzJUEzJUMyJUE0JUMyJUExJUMzJTgzJUMzJThEJUMyJUExJUMzJTlCJUMzJUJBJUMyJUEyJUMyJUE0JUMzJUJGJUMyJUEyJUMyJUE5JUMzJUFGJUMyJUEyJUMyJUJBJUMyJUI3JUMyJUExJUMzJUE0JUMyJUEyJUMyJUExJUMzJTg1JUMzJTg3JUMyJUExJUMzJUEwJUMzJUJDJUMyJUExJUMzJUEyJUMyJUFFJUMyJUExJUMzJTkwJUMzJUExJUMyJUExJUMzJUE4JUMzJUE0JUMyJUExJUMzJUFFJUMzJUIzJUMyJUExJUMzJTk3JUMyJUFGJUMyJUExJUMzJTg1JUMzJUEyJUMyJUExJUMzJUE2JUMzJThEJUMyJUExJUMzJTk5JUMyJUEzJUMyJUExJUMzJTkxJUMzJTg1JUMyJUExJUMzJTlBJUMzJTlGJUMyJUExJUMzJTk2JUM0JTg0JUMyJUEyJUMyJUIy;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=IOLDIJMCDMJGPNONGKLIFKOK; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:48 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjIwIiwNCiJwcm92aW5jZXNlcSI6ICIyNSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiWGlOaW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLo
+        pb/lroEiDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:46 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/26
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1701'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:50 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUIwJUMyJUEyJUMyJUIyJUMzJTg4JUMyJUEyJUMyJUJFJUMzJTk1JUMyJUEyJUMyJUE5JUMyJUIyJUMyJUExJUMzJTg1JUMzJThFJUMyJUExJUMzJTlFJUMzJTlBJUMyJUExJUMzJUE4JUMyJUJEJUMyJUExJUMzJUI1JUMzJTg5JUMyJUEyJUMyJUE4JUMzJThBJUMyJUEyJUMyJUIyJUMzJUI0JUMyJUExJUMzJTkzJUMzJUI5JUMyJUExJUM0JTgzJUMzJTgxJUMyJUExJUMzJTkyJUMzJTgyJUMyJUExJUMzJTk1JUMzJUEwJUMyJUExJUMzJTlCJUMzJTk4JUMyJUExJUMzJTk1JUMzJThFJUMyJUExJUMzJTlFJUMyJUJCJUMyJUExJUMzJTk1JUMzJUFEJUMyJUExJUMzJUFGJUMzJUFFJUMyJUExJUMzJUJDJUMyJUJEJUMyJUExJUMzJThDJUMzJUIzJUMyJUExJUMzJTlBJUMzJUIyJUMyJUExJUMzJUExJUMzJTkwJUMyJUExJUMzJUE2JUMzJUE5JUMyJUExJUMzJTlBJUMzJUEzJUMyJUExJUMzJTlFJUMzJUEwJUMyJUExJUMzJTlEJUMzJUFEJUMyJUExJUMzJUJGJUMzJThFJUMyJUExJUMzJUExJUMzJTlBJUMyJUExJUMzJUE4JUMyJUI5JUMyJUExJUMzJTg4JUMzJThEJUMyJUExJUMzJTlCJUMyJUIxJUMyJUExJUMzJTkwJUMzJTg2JUMyJUExJUM0JTgxJUMzJTlGJUMyJUExJUMzJUI5JUMzJTk0JUMyJUExJUMzJUEzJUMzJTgyJUMyJUExJUMzJTg5JUMyJUJBJUMyJUExJUMzJTk2JUMzJUFCJUMyJUExJUMzJUI0JUMzJThCJUMyJUExJUMzJTkzJUMyJUFGJUMyJUExJUMzJTk5JUMyJUI4JUMyJUExJUMzJTkyJUMyJUFEJUMyJUExJUMzJTkwJUMyJUFFJUMyJUExJUMzJTg1JUM0JTgwJUMyJUExJUMzJUIyJUMzJUJFJUMyJUExJUMzJUEwJUMyJUE4JUMyJUExJUMzJThDJUMzJUEzJUMyJUExJUMzJUE5JUMzJUI2JUMyJUExJUMzJUFEJUMzJTlBJUMyJUExJUMzJUFF;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=JOLDIJMCFGBLLEDCFDMFGIGP; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:50 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjIxIiwNCiJwcm92aW5jZXNlcSI6ICIyNiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQmluWmhvdSIsDQoiY2l0eW5hbWVfY24iOiAi
+        5ruo5beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjIyMiIsDQoicHJvdmluY2Vz
+        ZXEiOiAiMjYiLA0KImNpdHluYW1lX2VuIjogIkRlWmhvdSIsDQoiY2l0eW5h
+        bWVfY24iOiAi5b635beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjIyMyIsDQoi
+        cHJvdmluY2VzZXEiOiAiMjYiLA0KImNpdHluYW1lX2VuIjogIkRvbmdZaW5n
+        IiwNCiJjaXR5bmFtZV9jbiI6ICLkuJzokKUiDQp9LA0Kew0KImNpdHlzZXEi
+        OiAiMjI0IiwNCiJwcm92aW5jZXNlcSI6ICIyNiIsDQoiY2l0eW5hbWVfZW4i
+        OiAiSGVaZSIsDQoiY2l0eW5hbWVfY24iOiAi6I+P5rO9Ig0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjIyNSIsDQoicHJvdmluY2VzZXEiOiAiMjYiLA0KImNpdHlu
+        YW1lX2VuIjogIkppTmFuIiwNCiJjaXR5bmFtZV9jbiI6ICLmtY7ljZciDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiMjI2IiwNCiJwcm92aW5jZXNlcSI6ICIyNiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiSmlOaW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLm
+        tY7lroEiDQp9LA0Kew0KImNpdHlzZXEiOiAiMjI3IiwNCiJwcm92aW5jZXNl
+        cSI6ICIyNiIsDQoiY2l0eW5hbWVfZW4iOiAiTGFpV3UiLA0KImNpdHluYW1l
+        X2NuIjogIuiOseiKnCINCn0sDQp7DQoiY2l0eXNlcSI6ICIyMjgiLA0KInBy
+        b3ZpbmNlc2VxIjogIjI2IiwNCiJjaXR5bmFtZV9lbiI6ICJMaWFvQ2hlbmci
+        LA0KImNpdHluYW1lX2NuIjogIuiBiuWfjiINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIyMjkiLA0KInByb3ZpbmNlc2VxIjogIjI2IiwNCiJjaXR5bmFtZV9lbiI6
+        ICJMaW5ZaSIsDQoiY2l0eW5hbWVfY24iOiAi5Li05rKCIg0KfSwNCnsNCiJj
+        aXR5c2VxIjogIjIzMCIsDQoicHJvdmluY2VzZXEiOiAiMjYiLA0KImNpdHlu
+        YW1lX2VuIjogIlJpWmhhbyIsDQoiY2l0eW5hbWVfY24iOiAi5pel54WnIg0K
+        fSwNCnsNCiJjaXR5c2VxIjogIjIzMSIsDQoicHJvdmluY2VzZXEiOiAiMjYi
+        LA0KImNpdHluYW1lX2VuIjogIlNoYW5Eb25nQmVuSmkiLA0KImNpdHluYW1l
+        X2NuIjogIuWxseS4nOacrOe6pyINCn0sDQp7DQoiY2l0eXNlcSI6ICIyMzIi
+        LA0KInByb3ZpbmNlc2VxIjogIjI2IiwNCiJjaXR5bmFtZV9lbiI6ICJUYWlB
+        biIsDQoiY2l0eW5hbWVfY24iOiAi5rOw5a6JIg0KfSwNCnsNCiJjaXR5c2Vx
+        IjogIjIzMyIsDQoicHJvdmluY2VzZXEiOiAiMjYiLA0KImNpdHluYW1lX2Vu
+        IjogIldlaUZhbmciLA0KImNpdHluYW1lX2NuIjogIua9jeWdiiINCn0sDQp7
+        DQoiY2l0eXNlcSI6ICIyMzQiLA0KInByb3ZpbmNlc2VxIjogIjI2IiwNCiJj
+        aXR5bmFtZV9lbiI6ICJXZWlIYWkiLA0KImNpdHluYW1lX2NuIjogIuWogea1
+        tyINCn0sDQp7DQoiY2l0eXNlcSI6ICIyMzUiLA0KInByb3ZpbmNlc2VxIjog
+        IjI2IiwNCiJjaXR5bmFtZV9lbiI6ICJZYW5UYWkiLA0KImNpdHluYW1lX2Nu
+        IjogIueDn+WPsCINCn0sDQp7DQoiY2l0eXNlcSI6ICIyMzYiLA0KInByb3Zp
+        bmNlc2VxIjogIjI2IiwNCiJjaXR5bmFtZV9lbiI6ICJaYW9aaHVhbmciLA0K
+        ImNpdHluYW1lX2NuIjogIuaeo+W6hCINCn0sDQp7DQoiY2l0eXNlcSI6ICIy
+        MzciLA0KInByb3ZpbmNlc2VxIjogIjI2IiwNCiJjaXR5bmFtZV9lbiI6ICJa
+        aUJvIiwNCiJjaXR5bmFtZV9jbiI6ICLmt4TljZoiDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:46 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/27
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '104'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:50 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUI2JUMyJUExJUM0JTgyJUMzJUJFJUMyJUEyJUMyJUJFJUMzJTlCJUMyJUEyJUMzJTgxJUMzJUE4JUMyJUExJUMzJTg1JUMzJTlCJUMyJUExJUMzJUFFJUM0JTgzJUMyJUEyJUMyJUE0JUMzJUE4JUMyJUExJUMzJUFFJUMzJTk1JUMyJUEyJUMyJUFGJUMzJUJFJUMyJUEyJUMzJTgyJUMzJUI5JUMyJUExJUMzJUI2JUMyJUJCJUMyJUExJUMzJTk3JUMzJTlBJUMyJUExJUMzJUE4JUMzJTk2JUMyJUExJUMzJTk5JUM0JTgzJUMyJUEyJUMyJUE1JUMzJUJCJUMyJUExJUMyJUJEJUMzJTlFJUMyJUExJUMzJTkyJUMzJTkwJUMyJUExJUMzJUEyJUMyJUIxJUMyJUExJUMzJTkxJUMzJUE2JUMyJUExJUM0JTgwJUMyJUJGJUMyJUExJUMzJTgzJUMzJThDJUMyJUExJUMzJTk5JUMzJTgyJUMyJUExJUMzJUE1JUMyJUE3JUMyJUExJUMzJThGJUMzJThFJUMyJUExJUMzJUEwJUMzJUI4JUMyJUExJUMzJUFGJUMzJUE4JUMyJUExJUMzJTkzJUMzJThEJUMyJUExJUMzJUFBJUMzJTk4JUMyJUExJUMzJUE1JUMzJUE4JUMyJUExJUMzJTkwJUMzJUJGJUMyJUExJUMzJTlEJUMzJThCJUMyJUExJUMzJTk1JUMzJTkxJUMyJUExJUMzJUE1JUMzJUE5JUMyJUExJUMzJUJCJUMzJUIwJUMyJUEyJUMzJTgwJUMyJUJEJUMyJUExJUMzJUFBJUMzJUFBJUMyJUExJUMzJTkxJUMzJTgyJUMyJUExJUMzJTk2JUMyJUIwJUMyJUExJUMzJUEyJUMyJUI0JUMyJUExJUMzJTkwJUMzJTkxJUMyJUExJUMzJUFFJUMyJUFFJUMyJUExJUMzJTkwJUMzJTk1JUMyJUExJUMzJTk0JUMyJUFEJUMyJUExJUMzJTg1JUM0JTgzJUMyJUEyJUMyJUE2JUMyJUIyJUMyJUExJUMzJTkwJUMzJTgyJUMyJUExJUMzJTk2JUMyJUJDJUMyJUExJUMzJTk2JUMzJThDJUMyJUExJUMzJTk3JUMyJUIxJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=KOLDIJMCANMMOOLGPGCADFDG; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:50 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjM4IiwNCiJwcm92aW5jZXNlcSI6ICIyNyIs
+        DQoiY2l0eW5hbWVfZW4iOiAiU2hhbmdIYWkiLA0KImNpdHluYW1lX2NuIjog
+        IuS4iua1tyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:47 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/28
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1099'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:50 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMyJUI2JUMyJUExJUMzJUE2JUMyJUEzJUMyJUEyJUMyJUFEJUMzJUI0JUMyJUEyJUMyJUIzJUMzJThFJUMyJUExJUMzJTkxJUMzJUEwJUMyJUExJUMzJTlDJUMzJTg1JUMyJUExJUMzJTlBJUMzJTg0JUMyJUExJUMzJUI2JUMzJTgxJUMyJUEyJUMyJUFEJUMzJTg4JUMyJUEyJUMzJTgyJUMzJThCJUMyJUExJUMzJTg4JUMyJUJEJUMyJUExJUMzJTk5JUMzJUFDJUMyJUExJUMzJUE4JUMzJUFFJUMyJUExJUMzJUI1JUMzJThDJUMyJUExJUMzJTk3JUMzJThBJUMyJUExJUMzJTg1JUMzJTlBJUMyJUExJUMzJUFBJUMzJUIzJUMyJUExJUMzJTk3JUMzJTg5JUMyJUExJUMzJThFJUMzJTlBJUMyJUExJUMzJUIwJUMyJUJDJUMyJUExJUMzJThCJUMzJUFBJUMyJUExJUMzJTlGJUMyJUEzJUMyJUExJUMzJUEwJUMyJUJGJUMyJUExJUMzJTkyJUMzJUExJUMyJUExJUMzJUEzJUMzJTk5JUMyJUExJUMzJTk5JUMzJUE4JUMyJUExJUMzJTkzJUMyJUI3JUMyJUExJUMzJUEyJUMyJUJDJUMyJUExJUMzJTlCJUMzJTgyJUMyJUExJUMzJTk1JUMyJUEzJUMyJUExJUMzJTg0JUMzJUFCJUMyJUExJUMzJUE0JUMyJUE3JUMyJUExJUMzJThCJUMzJUE4JUMyJUExJUMzJUI1JUMzJUEwJUMyJUExJUMzJUJFJUMyJUI4JUMyJUExJUMzJUE1JUMzJTkxJUMyJUExJUMzJTlBJUMyJUI4JUMyJUExJUMzJTk0JUMzJUE2JUMyJUEyJUMyJUE2JUMzJUEzJUMyJUExJUMzJUE5JUMzJThCJUMyJUExJUMzJTlDJUMzJTlCJUMyJUExJUMzJUFDJUMzJThEJUMyJUExJUMzJTk5JUMyJUJGJUMyJUExJUMzJTgzJUMzJUE5JUMyJUExJUMzJTk4JUMzJTk2JUMyJUExJUMzJTk4JUMzJTkyJUMyJUExJUMzJUFBJUMyJUIwJUMyJUExJUMzJTkwJUMyJUIzJUMyJUExJUMzJTkxJUMyJUIwJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=LOLDIJMCFEIFAGCIADDFAMJC; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:51 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjM5IiwNCiJwcm92aW5jZXNlcSI6ICIyOCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQ2hhbmdaaGkiLA0KImNpdHluYW1lX2NuIjog
+        IumVv+ayuyINCn0sDQp7DQoiY2l0eXNlcSI6ICIyNDEiLA0KInByb3ZpbmNl
+        c2VxIjogIjI4IiwNCiJjaXR5bmFtZV9lbiI6ICJEYVRvbmciLA0KImNpdHlu
+        YW1lX2NuIjogIuWkp+WQjCINCn0sDQp7DQoiY2l0eXNlcSI6ICIyNDIiLA0K
+        InByb3ZpbmNlc2VxIjogIjI4IiwNCiJjaXR5bmFtZV9lbiI6ICJKaW5DaGVu
+        ZyIsDQoiY2l0eW5hbWVfY24iOiAi5pmL5Z+OIg0KfSwNCnsNCiJjaXR5c2Vx
+        IjogIjI0MyIsDQoicHJvdmluY2VzZXEiOiAiMjgiLA0KImNpdHluYW1lX2Vu
+        IjogIkxpbkZlbiIsDQoiY2l0eW5hbWVfY24iOiAi5Li05rG+Ig0KfSwNCnsN
+        CiJjaXR5c2VxIjogIjI0NCIsDQoicHJvdmluY2VzZXEiOiAiMjgiLA0KImNp
+        dHluYW1lX2VuIjogIkxpU2hpIiwNCiJjaXR5bmFtZV9jbiI6ICLnprvnn7Mi
+        DQp9LA0Kew0KImNpdHlzZXEiOiAiMjQ1IiwNCiJwcm92aW5jZXNlcSI6ICIy
+        OCIsDQoiY2l0eW5hbWVfZW4iOiAiU3VaaG91IiwNCiJjaXR5bmFtZV9jbiI6
+        ICLmnJTlt54iDQp9LA0Kew0KImNpdHlzZXEiOiAiMjQ2IiwNCiJwcm92aW5j
+        ZXNlcSI6ICIyOCIsDQoiY2l0eW5hbWVfZW4iOiAiVGFpWXVhbiIsDQoiY2l0
+        eW5hbWVfY24iOiAi5aSq5Y6fIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI0NyIs
+        DQoicHJvdmluY2VzZXEiOiAiMjgiLA0KImNpdHluYW1lX2VuIjogIlhpblpo
+        b3UiLA0KImNpdHluYW1lX2NuIjogIuW/u+W3niINCn0sDQp7DQoiY2l0eXNl
+        cSI6ICIyNDgiLA0KInByb3ZpbmNlc2VxIjogIjI4IiwNCiJjaXR5bmFtZV9l
+        biI6ICJZYW5nUXVhbiIsDQoiY2l0eW5hbWVfY24iOiAi6Ziz5rOJIg0KfSwN
+        CnsNCiJjaXR5c2VxIjogIjI0OSIsDQoicHJvdmluY2VzZXEiOiAiMjgiLA0K
+        ImNpdHluYW1lX2VuIjogIll1Q2kiLA0KImNpdHluYW1lX2NuIjogIuamhuas
+        oSINCn0sDQp7DQoiY2l0eXNlcSI6ICIyNTAiLA0KInByb3ZpbmNlc2VxIjog
+        IjI4IiwNCiJjaXR5bmFtZV9lbiI6ICJZdW5DaGVuZyIsDQoiY2l0eW5hbWVf
+        Y24iOiAi6L+Q5Z+OIg0KfQ0KXQ==
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:47 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/29
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '997'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:50 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUI2JUMyJUExJUM0JTgyJUMyJUEyJUMyJUEyJUMyJUFFJUMyJUFGJUMyJUEyJUMyJUE1JUMyJUFFJUMyJUExJUMzJTg1JUMyJUE2JUMyJUExJUMzJThFJUM0JTgzJUMyJUEyJUMyJUE0JUMzJUEwJUMyJUExJUMzJUI4JUMzJUFDJUMyJUEyJUMzJTgzJUMzJUFEJUMyJUEyJUMzJTkwJUMzJUE4JUMyJUExJUMzJTg1JUMzJTk4JUMyJUExJUMzJUEyJUMzJUExJUMyJUExJUMzJTlGJUMzJUI1JUMyJUExJUMzJUE2JUMzJUE5JUMyJUExJUMzJTk3JUMzJUFEJUMyJUExJUMzJUEzJUMzJUE1JUMyJUExJUMzJUI1JUMyJUI5JUMyJUExJUMzJTkzJUMzJUJEJUMyJUExJUMzJTk5JUMzJUI0JUMyJUExJUMzJUE2JUMzJTg4JUMyJUExJUMzJTk1JUMzJUE0JUMyJUExJUMzJUIxJUMyJUFDJUMyJUExJUMzJUExJUMzJUEzJUMyJUExJUMzJUFEJUMzJTg1JUMyJUExJUMzJTlFJUMzJTlCJUMyJUExJUMzJUExJUMzJThBJUMyJUExJUMzJTkzJUMzJTk1JUMyJUExJUMzJUE1JUMzJTkwJUMyJUExJUMzJUE3JUMzJUI5JUMyJUExJUM0JTgyJUMzJTk4JUMyJUExJUMzJTk1JUMyJUE2JUMyJUExJUMzJThFJUMyJUI4JUMyJUExJUMzJTkyJUMzJTg1JUMyJUExJUMzJUJGJUMzJTgyJUMyJUExJUMzJUI4JUMyJUJEJUMyJUExJUMzJUFBJUMzJTkzJUMyJUExJUMzJTgxJUMyJUI5JUMyJUExJUMzJTk1JUMzJTlEJUMyJUExJUMzJTlEJUMzJTlBJUMyJUExJUMzJUE4JUMyJUIxJUMyJUExJUMzJTk5JUMzJTk1JUMyJUExJUMzJTk0JUMzJUJBJUMyJUEyJUMyJUE0JUM0JTgxJUMyJUExJUMzJUFEJUMzJUE2JUMyJUExJUMzJUJBJUMzJUI0JUMyJUExJUMzJTlFJUMzJTlGJUMyJUExJUMzJTk3JUMzJTlCJUMyJUExJUMzJUFDJUM0JTgxJUMyJUExJUMzJUI5JUMzJTkxJUMyJUExJUMzJUFC;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=MOLDIJMCNNHKPGBHOOBEDNJJ; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:51 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjUxIiwNCiJwcm92aW5jZXNlcSI6ICIyOSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQW5LYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLl
+        ronlurciDQp9LA0Kew0KImNpdHlzZXEiOiAiMjUyIiwNCiJwcm92aW5jZXNl
+        cSI6ICIyOSIsDQoiY2l0eW5hbWVfZW4iOiAiQmFvSmkiLA0KImNpdHluYW1l
+        X2NuIjogIuWunem4oSINCn0sDQp7DQoiY2l0eXNlcSI6ICIyNTMiLA0KInBy
+        b3ZpbmNlc2VxIjogIjI5IiwNCiJjaXR5bmFtZV9lbiI6ICJIYW5aaG9uZyIs
+        DQoiY2l0eW5hbWVfY24iOiAi5rGJ5LitIg0KfSwNCnsNCiJjaXR5c2VxIjog
+        IjI1NCIsDQoicHJvdmluY2VzZXEiOiAiMjkiLA0KImNpdHluYW1lX2VuIjog
+        IlNoYW5nTHVvIiwNCiJjaXR5bmFtZV9jbiI6ICLllYbmtJsiDQp9LA0Kew0K
+        ImNpdHlzZXEiOiAiMjU1IiwNCiJwcm92aW5jZXNlcSI6ICIyOSIsDQoiY2l0
+        eW5hbWVfZW4iOiAiVG9uZ0NodWFuIiwNCiJjaXR5bmFtZV9jbiI6ICLpk5zl
+        t50iDQp9LA0Kew0KImNpdHlzZXEiOiAiMjU2IiwNCiJwcm92aW5jZXNlcSI6
+        ICIyOSIsDQoiY2l0eW5hbWVfZW4iOiAiV2VpTmFuIiwNCiJjaXR5bmFtZV9j
+        biI6ICLmuK3ljZciDQp9LA0Kew0KImNpdHlzZXEiOiAiMjU3IiwNCiJwcm92
+        aW5jZXNlcSI6ICIyOSIsDQoiY2l0eW5hbWVfZW4iOiAiWGlBbiIsDQoiY2l0
+        eW5hbWVfY24iOiAi6KW/5a6JIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI1OCIs
+        DQoicHJvdmluY2VzZXEiOiAiMjkiLA0KImNpdHluYW1lX2VuIjogIlhpYW5Z
+        YW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLlkrjpmLMiDQp9LA0Kew0KImNpdHlz
+        ZXEiOiAiMjU5IiwNCiJwcm92aW5jZXNlcSI6ICIyOSIsDQoiY2l0eW5hbWVf
+        ZW4iOiAiWWFuQW4iLA0KImNpdHluYW1lX2NuIjogIuW7tuWuiSINCn0sDQp7
+        DQoiY2l0eXNlcSI6ICIyNjAiLA0KInByb3ZpbmNlc2VxIjogIjI5IiwNCiJj
+        aXR5bmFtZV9lbiI6ICJZdUxpbiIsDQoiY2l0eW5hbWVfY24iOiAi5qaG5p6X
+        Ig0KfQ0KXQ==
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:48 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/30
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '104'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:52 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUIzJUMyJUExJUMzJUFEJUMzJUE5JUMyJUEyJUMyJUI0JUMyJUFEJUMyJUEyJUMyJUE1JUMzJTg4JUMyJUExJUMzJTk1JUMyJUE0JUMyJUExJUMzJTkwJUMzJTgwJUMyJUExJUMzJTkwJUMyJUEyJUMyJUExJUMzJUFFJUMyJUJBJUMyJUEyJUMyJUFGJUMyJUIwJUMyJUEyJUMyJUIyJUMzJTk0JUMyJUExJUMzJTg1JUMzJTlGJUMyJUExJUMzJTk3JUMyJUI2JUMyJUExJUMzJTkwJUMzJUFEJUMyJUExJUMzJUFGJUMzJUFDJUMyJUExJUMzJUE5JUMzJUFCJUMyJUExJUMzJTk3JUMyJUI0JUMyJUExJUMzJTkyJUMyJUExJUMyJUExJUMzJTkxJUM0JTgwJUMyJUExJUMzJUIxJUMyJUI2JUMyJUExJUMzJTk4JUMzJTkyJUMyJUExJUMzJTlEJUMzJUEzJUMyJUExJUMzJUFDJUMzJUI4JUMyJUEyJUMyJUE3JUMzJUEzJUMyJUExJUMzJUFEJUMzJUJEJUMyJUExJUMzJTlDJUMzJUJEJUMyJUExJUMzJThEJUM0JTgyJUMyJUExJUM0JTgzJUMzJThDJUMyJUExJUMzJUE3JUMzJTgzJUMyJUExJUMzJTlCJUMyJUJDJUMyJUExJUMzJTk4JUMzJTlCJUMyJUExJUMzJUExJUMyJUFDJUMyJUExJUMzJTkyJUMzJTg0JUMyJUExJUMzJTk4JUMzJUE4JUMyJUExJUMzJUI1JUMzJUE0JUMyJUEyJUMyJUFFJUMzJUI4JUMyJUEyJUMyJUE5JUMzJTk3JUMyJUExJUMzJTkxJUMyJUIwJUMyJUExJUMzJTkyJUMyJUEzJUMyJUExJUMzJUExJUMyJUFCJUMyJUExJUMzJTkwJUMzJUI5JUMyJUEyJUMyJUE2JUMyJUJFJUMyJUExJUMzJTk4JUMyJUI5JUMyJUExJUMzJTkzJUMzJUExJUMyJUExJUMzJTk0JUMzJUI1JUMyJUExJUMzJUE3JUMzJUE0JUMyJUExJUMzJUFFJUMzJUExJUMyJUExJUMzJUExJUMzJTlFJUMyJUExJUMzJTkwJUMzJUE1JUMyJUExJUMzJUI0JUMzJTk1JUMyJUExJUMzJTlB;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=NOLDIJMCIIDBAGBOGBBCKKJA; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:52 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjYxIiwNCiJwcm92aW5jZXNlcSI6ICIzMCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiU2hlblpoZW4iLA0KImNpdHluYW1lX2NuIjog
+        Iua3seWcsyINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:48 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/31
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2204'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:52 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUM0JTgyJUMyJUEyJUMyJUIyJUMzJThFJUMyJUEyJUMyJUJBJUMyJUIzJUMyJUEyJUMyJUE1JUMzJUJFJUMyJUExJUMzJTk1JUMyJUJDJUMyJUExJUMzJTk4JUMzJUEwJUMyJUExJUMzJTlBJUMzJTk1JUMyJUExJUMzJUIyJUMyJUJCJUMyJUEyJUMyJUIwJUMzJUE0JUMyJUEyJUMzJTkwJUMzJThGJUMyJUExJUMzJTk0JUMzJUJCJUMyJUExJUMzJThBJUMzJTkwJUMyJUExJUMzJUEyJUMyJUE3JUMyJUExJUMzJThDJUMyJUFDJUMyJUExJUMzJTkxJUMyJUJEJUMyJUExJUMzJThDJUMzJTg0JUMyJUExJUMzJTlBJUMyJUI2JUMyJUExJUMzJTkwJUMzJThFJUMyJUExJUMzJTlEJUMyJUFFJUMyJUExJUMzJTk4JUMzJThBJUMyJUExJUMzJTg1JUMyJUJCJUMyJUExJUMzJTk4JUMzJTg4JUMyJUExJUMzJUIxJUMyJUJCJUMyJUExJUMzJTk5JUMzJUExJUMyJUExJUMzJUEzJUMyJUI4JUMyJUExJUMzJTg3JUMyJUJCJUMyJUExJUMzJTk4JUMyJUFEJUMyJUExJUMzJUExJUMzJThDJUMyJUExJUMzJTlCJUMyJUJGJUMyJUExJUMzJTkwJUMzJTg3JUMyJUExJUMzJTkzJUMyJUIyJUMyJUExJUMzJTkyJUMzJUE0JUMyJUExJUMzJUFFJUMyJUJBJUMyJUExJUMzJUI5JUMzJUFDJUMyJUEyJUMyJUE4JUMzJTk4JUMyJUExJUMzJUIzJUMzJUJGJUMyJUExJUMzJTlEJUMyJUI3JUMyJUExJUMzJTkzJUMzJThDJUMyJUExJUMzJUE4JUMzJUFFJUMyJUExJUMzJUI0JUMyJUI3JUMyJUExJUMzJTlBJUMyJUFCJUMyJUExJUMzJTkwJUMzJUExJUMyJUExJUMzJTlGJUMzJTlGJUMyJUExJUMzJThBJUMzJUI3JUMyJUExJUMzJUI1JUMzJUE5JUMyJUExJUMzJTk2JUM0JTg0JUMyJUEyJUMyJUFFJUMzJTgxJUMyJUExJUMzJTkyJUMyJUIxJUMyJUExJUMzJTkxJUMyJUI2JUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=OOLDIJMCIOKMACJPOPOIDOFG; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:52 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjYyIiwNCiJwcm92aW5jZXNlcSI6ICIzMSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQmFaaG9uZyIsDQoiY2l0eW5hbWVfY24iOiAi
+        5be05LitIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI2MyIsDQoicHJvdmluY2Vz
+        ZXEiOiAiMzEiLA0KImNpdHluYW1lX2VuIjogIkNoZW5nRHUiLA0KImNpdHlu
+        YW1lX2NuIjogIuaIkOmDvSINCn0sDQp7DQoiY2l0eXNlcSI6ICIyNjQiLA0K
+        InByb3ZpbmNlc2VxIjogIjMxIiwNCiJjaXR5bmFtZV9lbiI6ICJEYVpob3Ui
+        LA0KImNpdHluYW1lX2NuIjogIui+vuW3niINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIyNjUiLA0KInByb3ZpbmNlc2VxIjogIjMxIiwNCiJjaXR5bmFtZV9lbiI6
+        ICJEZVlhbmciLA0KImNpdHluYW1lX2NuIjogIuW+t+mYsyINCn0sDQp7DQoi
+        Y2l0eXNlcSI6ICIyNjYiLA0KInByb3ZpbmNlc2VxIjogIjMxIiwNCiJjaXR5
+        bmFtZV9lbiI6ICJHdWFuZ0FuIiwNCiJjaXR5bmFtZV9jbiI6ICLlub/lroki
+        DQp9LA0Kew0KImNpdHlzZXEiOiAiMjY3IiwNCiJwcm92aW5jZXNlcSI6ICIz
+        MSIsDQoiY2l0eW5hbWVfZW4iOiAiR3VhbmdZdWFuIiwNCiJjaXR5bmFtZV9j
+        biI6ICLlub/lhYMiDQp9LA0Kew0KImNpdHlzZXEiOiAiMjY4IiwNCiJwcm92
+        aW5jZXNlcSI6ICIzMSIsDQoiY2l0eW5hbWVfZW4iOiAiTGVTaGFuIiwNCiJj
+        aXR5bmFtZV9jbiI6ICLkuZDlsbEiDQp9LA0Kew0KImNpdHlzZXEiOiAiMjY5
+        IiwNCiJwcm92aW5jZXNlcSI6ICIzMSIsDQoiY2l0eW5hbWVfZW4iOiAiTGlh
+        bmdTaGFuIiwNCiJjaXR5bmFtZV9jbiI6ICLlh4nlsbEiDQp9LA0Kew0KImNp
+        dHlzZXEiOiAiMjcwIiwNCiJwcm92aW5jZXNlcSI6ICIzMSIsDQoiY2l0eW5h
+        bWVfZW4iOiAiTHVaaG91IiwNCiJjaXR5bmFtZV9jbiI6ICLms7jlt54iDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiMjcxIiwNCiJwcm92aW5jZXNlcSI6ICIzMSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiTWVpU2hhbiIsDQoiY2l0eW5hbWVfY24iOiAi
+        55yJ5bGxIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI3MiIsDQoicHJvdmluY2Vz
+        ZXEiOiAiMzEiLA0KImNpdHluYW1lX2VuIjogIk1pYW5ZYW5nIiwNCiJjaXR5
+        bmFtZV9jbiI6ICLnu7XpmLMiDQp9LA0Kew0KImNpdHlzZXEiOiAiMjczIiwN
+        CiJwcm92aW5jZXNlcSI6ICIzMSIsDQoiY2l0eW5hbWVfZW4iOiAiTmFuQ2hv
+        bmciLA0KImNpdHluYW1lX2NuIjogIuWNl+WFhSINCn0sDQp7DQoiY2l0eXNl
+        cSI6ICIyNzQiLA0KInByb3ZpbmNlc2VxIjogIjMxIiwNCiJjaXR5bmFtZV9l
+        biI6ICJOZWlKaWFuZyIsDQoiY2l0eW5hbWVfY24iOiAi5YaF5rGfIg0KfSwN
+        CnsNCiJjaXR5c2VxIjogIjI3NSIsDQoicHJvdmluY2VzZXEiOiAiMzEiLA0K
+        ImNpdHluYW1lX2VuIjogIlBhblpoaUh1YSIsDQoiY2l0eW5hbWVfY24iOiAi
+        5pSA5p6d6IqxIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI3NiIsDQoicHJvdmlu
+        Y2VzZXEiOiAiMzEiLA0KImNpdHluYW1lX2VuIjogIlNpQ2h1YW5TaGVuZ0FC
+        YVpob3UiLA0KImNpdHluYW1lX2NuIjogIuWbm+W3neecgemYv+WdneW3niIN
+        Cn0sDQp7DQoiY2l0eXNlcSI6ICIyNzciLA0KInByb3ZpbmNlc2VxIjogIjMx
+        IiwNCiJjaXR5bmFtZV9lbiI6ICJTaUNodWFuU2hlbmdHYW5aaVphbmdadVpp
+        WmhpWmhvdSIsDQoiY2l0eW5hbWVfY24iOiAi5Zub5bed55yB55SY5a2c6JeP
+        5peP6Ieq5rK75beeIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI3OCIsDQoicHJv
+        dmluY2VzZXEiOiAiMzEiLA0KImNpdHluYW1lX2VuIjogIlNpQ2h1YW5TaGVu
+        Z1ppWWFuZ1NoaSIsDQoiY2l0eW5hbWVfY24iOiAi5Zub5bed55yB6LWE6Ziz
+        5biCIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI3OSIsDQoicHJvdmluY2VzZXEi
+        OiAiMzEiLA0KImNpdHluYW1lX2VuIjogIlN1aU5pbmciLA0KImNpdHluYW1l
+        X2NuIjogIumBguWugSINCn0sDQp7DQoiY2l0eXNlcSI6ICIyODAiLA0KInBy
+        b3ZpbmNlc2VxIjogIjMxIiwNCiJjaXR5bmFtZV9lbiI6ICJZYUFuIiwNCiJj
+        aXR5bmFtZV9jbiI6ICLpm4XlrokiDQp9LA0Kew0KImNpdHlzZXEiOiAiMjgx
+        IiwNCiJwcm92aW5jZXNlcSI6ICIzMSIsDQoiY2l0eW5hbWVfZW4iOiAiWWlC
+        aW4iLA0KImNpdHluYW1lX2NuIjogIuWunOWuviINCn0sDQp7DQoiY2l0eXNl
+        cSI6ICIyODIiLA0KInByb3ZpbmNlc2VxIjogIjMxIiwNCiJjaXR5bmFtZV9l
+        biI6ICJaaUdvbmciLA0KImNpdHluYW1lX2NuIjogIuiHqui0oSINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:49 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/32
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '104'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:52 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTk4JUMyJUExJUMzJUI2JUMzJUI5JUMyJUEyJUMzJTlGJUMzJUJEJUMyJUEyJUMyJUFEJUMyJUJBJUMyJUExJUMzJTg5JUMyJUE2JUMyJUExJUMzJThFJUMzJUI1JUMyJUExJUMzJUE1JUMyJUI4JUMyJUExJUMzJUIwJUMzJTgzJUMyJUEyJUMyJUIxJUMzJUJFJUMyJUEyJUMzJTgyJUMzJUFBJUMyJUExJUMzJTkxJUM0JTgzJUMyJUEyJUMyJUE2JUMzJTgxJUMyJUExJUMzJTkyJUMzJUJFJUMyJUExJUMzJUExJUMzJUJDJUMyJUExJUMzJTkxJUMzJTgzJUMyJUExJUMzJThCJUMzJUIzJUMyJUExJUMzJTk5JUMzJUJFJUMyJUExJUMzJUEwJUMyJUJCJUMyJUExJUMzJTk2JUM0JTgxJUMyJUExJUM0JTgwJUMzJTk0JUMyJUExJUMzJTg1JUMzJUIzJUMyJUExJUMzJTlBJUMzJTlCJUMyJUExJUMzJUJEJUMzJTkxJUMyJUExJUMzJUE5JUMyJUI2JUMyJUExJUMzJTk0JUMzJUI2JUMyJUExJUMzJUExJUMyJUI3JUMyJUExJUMzJTk0JUMzJTgyJUMyJUExJUMzJUE1JUMzJTg3JUMyJUExJUMzJUEzJUMzJTg0JUMyJUExJUMzJTlCJUMzJTlCJUMyJUExJUMzJUExJUMyJUIzJUMyJUExJUMzJTkyJUMzJUFDJUMyJUExJUMzJUE4JUMzJTlCJUMyJUEyJUMyJUFEJUMzJTlBJUMyJUEyJUMyJUE4JUMzJUI2JUMyJUExJUMzJUJGJUMyJUJCJUMyJUExJUMzJThBJUMyJUIzJUMyJUExJUMzJTkyJUMyJUJBJUMyJUExJUMzJUE2JUMyJUIyJUMyJUExJUMzJTkwJUMzJTk1JUMyJUExJUMzJTlEJUMzJUFDJUMyJUExJUMzJUE4JUMzJUI1JUMyJUExJUMzJUE1JUMzJTlGJUMyJUExJUMzJThBJUMzJTg2JUMyJUExJUMzJTlFJUMzJTgxJUMyJUExJUMzJTkyJUM0JTgwJUMyJUExJUMzJUIyJUMzJTk1JUMyJUExJUMzJTk0JUMzJThBJUMyJUExJUMzJTkxJUMzJUIwJUMyJUEyJUMyJUEy;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=POLDIJMCMANMEOIPEGKACHOK; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:53 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjgzIiwNCiJwcm92aW5jZXNlcSI6ICIzMiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiVGlhbkppbmciLA0KImNpdHluYW1lX2NuIjog
+        IuWkqea0pSINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:49 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/33
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:52 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUE3JUMyJUExJUMzJUEwJUMyJUE0JUMyJUEyJUMyJUFDJUMzJTg1JUMyJUEyJUMyJUFGJUMzJTk5JUMyJUExJUMzJTk5JUMzJTgxJUMyJUExJUMzJTk0JUM0JTgwJUMyJUExJUMzJUIwJUMyJUFGJUMyJUExJUMzJUFFJUMzJUI0JUMyJUEyJUMyJUI5JUMzJTlBJUMyJUEyJUMzJThBJUMzJTlCJUMyJUExJUMzJUExJUMzJUFFJUMyJUExJUMzJUI2JUMyJUFDJUMyJUExJUMzJTkwJUMyJUI2JUMyJUExJUMzJTkxJUMzJTk4JUMyJUExJUMzJUExJUM0JTgxJUMyJUExJUMzJUFEJUMyJUJBJUMyJUExJUMzJTk2JUMyJUFDJUMyJUExJUMzJTkwJUMzJTkxJUMyJUExJUMzJUE2JUMzJTk1JUMyJUExJUMzJTlDJUMzJTk1JUMyJUExJUMzJTg5JUMzJThCJUMyJUExJUMzJTk2JUMzJThDJUMyJUExJUMzJUE3JUMyJUEzJUMyJUExJUMzJTkzJUMyJUI5JUMyJUExJUMzJTk3JUMyJUE2JUMyJUExJUMzJTgxJUMzJTlBJUMyJUExJUMzJUFCJUMyJUIwJUMyJUExJUMzJUExJUMzJTg2JUMyJUExJUMzJUExJUMzJTkwJUMyJUExJUMzJUE1JUMzJUE2JUMyJUExJUMzJUFEJUMzJUI1JUMyJUExJUMzJUE3JUMzJTg0JUMyJUExJUMzJTk4JUMzJUIzJUMyJUExJUMzJUJDJUMyJUFEJUMyJUExJUMzJUI0JUMyJUFGJUMyJUExJUMzJUEzJUMyJUJEJUMyJUExJUMzJThDJUMyJUIwJUMyJUExJUMzJTkyJUMyJUJDJUMyJUExJUMzJUE4JUMzJThFJUMyJUExJUMzJTlDJUMzJTgyJUMyJUExJUMzJTlEJUMzJTlGJUMyJUExJUMzJTk1JUMyJUI4JUMyJUExJUMzJTkyJUMzJTlCJUMyJUExJUMzJUExJUM0JTgzJUMyJUEyJUMyJUE2JUMzJTk1JUMyJUExJUMzJTk0JUMzJUFCJUMyJUExJUMzJUE0JUMzJUIzJUMyJUExJUMzJTk3JUMzJTg3JUMyJUExJUMzJTlGJUMzJThBJUMyJUExJUMzJTk2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=APLDIJMCAIGNAEGENLNCGHMA; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:53 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjg0IiwNCiJwcm92aW5jZXNlcSI6ICIzMyIs
+        DQoiY2l0eW5hbWVfZW4iOiAiWGlhTWVuIiwNCiJjaXR5bmFtZV9jbiI6ICLl
+        jqbpl6giDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:50 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/34
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1513'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:54 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUFBJUMyJUExJUMzJUIyJUMzJTkwJUMyJUEyJUMzJTgwJUMzJUFDJUMyJUEyJUMyJUJEJUMyJUJBJUMyJUExJUMzJTg5JUMzJUExJUMyJUExJUMzJUExJUMzJTk2JUMyJUExJUMzJTk4JUMzJThFJUMyJUExJUMzJUJBJUMyJUIwJUMyJUEyJUMyJUFCJUMzJUJBJUMyJUEyJUMzJUFBJUMzJTk4JUMyJUExJUMzJTk1JUMzJUJBJUMyJUEyJUMyJUE2JUMzJUJCJUMyJUExJUMzJTg4JUMyJUJGJUMyJUExJUMzJThGJUMyJUI5JUMyJUExJUMzJTk0JUMzJTg3JUMyJUExJUMzJTkzJUMyJUIxJUMyJUExJUMzJTkyJUMzJUE0JUMyJUExJUMzJUFFJUMzJUI1JUMyJUExJUMzJUE2JUMzJUI1JUMyJUExJUMzJUFEJUMzJTlDJUMyJUExJUMzJUE1JUMyJUE2JUMyJUExJUMzJThGJUMzJUIxJUMyJUExJUMzJTlBJUMyJUE0JUMyJUExJUMzJTkyJUMzJTk2JUMyJUExJUMzJTlDJUMzJThFJUMyJUExJUMzJTkxJUMyJUI0JUMyJUExJUMzJTkzJUMzJTk3JUMyJUExJUMzJUFEJUMyJUFDJUMyJUExJUMzJTk1JUMzJTgyJUMyJUExJUMzJTk4JUMzJTk0JUMyJUExJUMzJTg1JUMzJThBJUMyJUExJUMzJTkyJUMzJUFFJUMyJUExJUMzJUI0JUMzJUIzJUMyJUExJUMzJUJDJUMzJTkwJUMyJUEyJUMyJUEyJUMzJTg2JUMyJUExJUMzJUFGJUMzJTk4JUMyJUExJUMzJTk1JUMyJUFBJUMyJUExJUMzJThBJUMzJTgxJUMyJUExJUMzJUE0JUMyJUJBJUMyJUExJUMzJTk0JUMzJUFFJUMyJUExJUMzJUJEJUMyJUFCJUMyJUExJUMzJTkwJUMyJUI1JUMyJUExJUMzJThGJUMzJThFJUMyJUExJUMzJTkxJUMzJTk5JUMyJUExJUMzJUE2JUMyJUI4JUMyJUExJUMzJTkyJUMzJUI5JUMyJUExJUM0JTgzJUMzJTk2JUMyJUExJUMzJTk4JUMzJThDJUMyJUExJUMzJTk3JUMyJUE1JUMyJUExJUMzJTkz;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=BPLDIJMCMAOJFBHOBOMJOBPI; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:53 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMjg1IiwNCiJwcm92aW5jZXNlcSI6ICIzNCIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQUtlU3UiLA0KImNpdHluYW1lX2NuIjogIumY
+        v+WFi+iLjyINCn0sDQp7DQoiY2l0eXNlcSI6ICIyODciLA0KInByb3ZpbmNl
+        c2VxIjogIjM0IiwNCiJjaXR5bmFtZV9lbiI6ICJBTGVUYWkiLA0KImNpdHlu
+        YW1lX2NuIjogIumYv+WLkuazsCINCn0sDQp7DQoiY2l0eXNlcSI6ICIyODki
+        LA0KInByb3ZpbmNlc2VxIjogIjM0IiwNCiJjaXR5bmFtZV9lbiI6ICJCYVpo
+        b3UiLA0KImNpdHluYW1lX2NuIjogIuW3tOW3niINCn0sDQp7DQoiY2l0eXNl
+        cSI6ICIyOTAiLA0KInByb3ZpbmNlc2VxIjogIjM0IiwNCiJjaXR5bmFtZV9l
+        biI6ICJCb1pob3UiLA0KImNpdHluYW1lX2NuIjogIuWNmuW3niINCn0sDQp7
+        DQoiY2l0eXNlcSI6ICIyOTEiLA0KInByb3ZpbmNlc2VxIjogIjM0IiwNCiJj
+        aXR5bmFtZV9lbiI6ICJDaGFuZ0ppIiwNCiJjaXR5bmFtZV9jbiI6ICLmmIzl
+        kIkiDQp9LA0Kew0KImNpdHlzZXEiOiAiMjkyIiwNCiJwcm92aW5jZXNlcSI6
+        ICIzNCIsDQoiY2l0eW5hbWVfZW4iOiAiSGFNaSIsDQoiY2l0eW5hbWVfY24i
+        OiAi5ZOI5a+GIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI5NCIsDQoicHJvdmlu
+        Y2VzZXEiOiAiMzQiLA0KImNpdHluYW1lX2VuIjogIkhlVGlhbiIsDQoiY2l0
+        eW5hbWVfY24iOiAi5ZKM55SwIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI5NSIs
+        DQoicHJvdmluY2VzZXEiOiAiMzQiLA0KImNpdHluYW1lX2VuIjogIkthU2hp
+        IiwNCiJjaXR5bmFtZV9jbiI6ICLlloDku4AiDQp9LA0Kew0KImNpdHlzZXEi
+        OiAiMjk2IiwNCiJwcm92aW5jZXNlcSI6ICIzNCIsDQoiY2l0eW5hbWVfZW4i
+        OiAiS2VMYU1hWWkiLA0KImNpdHluYW1lX2NuIjogIuWFi+aLieeOm+S+nSIN
+        Cn0sDQp7DQoiY2l0eXNlcSI6ICIyOTciLA0KInByb3ZpbmNlc2VxIjogIjM0
+        IiwNCiJjaXR5bmFtZV9lbiI6ICJNYUxhbiIsDQoiY2l0eW5hbWVfY24iOiAi
+        6ams5YWwIg0KfSwNCnsNCiJjaXR5c2VxIjogIjI5OCIsDQoicHJvdmluY2Vz
+        ZXEiOiAiMzQiLA0KImNpdHluYW1lX2VuIjogIlNoaUhlWmkiLA0KImNpdHlu
+        YW1lX2NuIjogIuefs+ays+WtkCINCn0sDQp7DQoiY2l0eXNlcSI6ICIzMDAi
+        LA0KInByb3ZpbmNlc2VxIjogIjM0IiwNCiJjaXR5bmFtZV9lbiI6ICJUYUNo
+        ZW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLloZTln44iDQp9LA0Kew0KImNpdHlz
+        ZXEiOiAiMzAyIiwNCiJwcm92aW5jZXNlcSI6ICIzNCIsDQoiY2l0eW5hbWVf
+        ZW4iOiAiVHVMdUZhbiIsDQoiY2l0eW5hbWVfY24iOiAi5ZCQ6bKB55WqIg0K
+        fSwNCnsNCiJjaXR5c2VxIjogIjMwMyIsDQoicHJvdmluY2VzZXEiOiAiMzQi
+        LA0KImNpdHluYW1lX2VuIjogIld1THVNdVFpIiwNCiJjaXR5bmFtZV9jbiI6
+        ICLkuYzpsoHmnKjpvZAiDQp9LA0Kew0KImNpdHlzZXEiOiAiMzA0IiwNCiJw
+        cm92aW5jZXNlcSI6ICIzNCIsDQoiY2l0eW5hbWVfZW4iOiAiWWlMaSIsDQoi
+        Y2l0eW5hbWVfY24iOiAi5LyK54qBIg0KfQ0KXQ==
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:50 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/35
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:54 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJTg2JUMyJUExJUMzJUIyJUMzJTkwJUMyJUEyJUMzJTgwJUM0JTgxJUMyJUEyJUMzJThEJUMzJUFBJUMyJUExJUMzJTkxJUMyJUE4JUMyJUExJUMzJThDJUMyJUIxJUMyJUExJUMzJTkwJUMzJUFCJUMyJUExJUM0JTgwJUMzJTkxJUMyJUEyJUMzJTgwJUMzJTg1JUMyJUEyJUMyJUJDJUMzJUI1JUMyJUExJUMzJTlBJUMyJUJCJUMyJUExJUMzJTk3JUMzJUI5JUMyJUExJUM0JTgxJUMzJTk5JUMyJUExJUMzJUE1JUMzJTk2JUMyJUExJUMzJTk5JUMzJUExJUMyJUExJUMzJTk0JUMyJUJDJUMyJUExJUMzJTk4JUMzJUIxJUMyJUExJUMzJTg5JUMzJThGJUMyJUExJUMzJUEwJUMzJTg4JUMyJUExJUMzJUE4JUMzJTk1JUMyJUExJUMzJTg5JUM0JTg0JUMyJUEyJUMyJUFGJUMzJUI5JUMyJUEyJUMyJUFFJUMzJTg5JUMyJUExJUMzJTkxJUMyJUJBJUMyJUExJUMzJTk4JUMzJTkwJUMyJUExJUMzJTk3JUMzJUFGJUMyJUExJUMzJUJEJUMzJUFBJUMyJUExJUMzJUFEJUMzJTgwJUMyJUExJUMzJTk1JUMzJUI5JUMyJUEyJUMyJUExJUMyJUFGJUMyJUExJUMzJTg1JUMzJTk1JUMyJUExJUMzJTk2JUMyJUFGJUMyJUExJUMzJTkwJUMzJTkwJUMyJUEyJUMyJUEzJUMyJUIyJUMyJUExJUMzJUI0JUMzJThDJUMyJUExJUMzJUE5JUMzJUE0JUMyJUExJUMzJUEzJUMyJUFDJUMyJUExJUMzJTkyJUMzJTgyJUMyJUExJUMzJUE2JUMyJUIwJUMyJUExJUMzJTkwJUMzJThDJUMyJUExJUMzJTlGJUMyJUE0JUMyJUExJUMzJThFJUMzJUExJUMyJUExJUMzJTlGJUMyJUFDJUMyJUExJUMzJTg1JUMzJTk3JUMyJUExJUMzJTlFJUMzJTk2JUMyJUExJUMzJTk4JUMyJUFDJUMyJUExJUMzJTkyJUMyJUE3JUMyJUExJUMzJThCJUMzJTgwJUMyJUExJUMzJTkxJUMzJTg3JUMyJUExJUMzJUE0;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=CPLDIJMCGILIEFOIHIDJMOPJ; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:54 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMzA1IiwNCiJwcm92aW5jZXNlcSI6ICIzNSIs
+        DQoiY2l0eW5hbWVfZW4iOiAiWGlaYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLo
+        pb/ol48iDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:51 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/36
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1590'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:54 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUFBJUMyJUExJUMzJUIyJUMzJThGJUMyJUEyJUMyJUJEJUMyJUI2JUMyJUEyJUMyJUE1JUMzJTkwJUMyJUExJUMzJTk3JUMyJUFDJUMyJUExJUMzJTkyJUMzJTk2JUMyJUExJUMzJTk4JUMzJTkxJUMyJUExJUM0JTgzJUMzJTg3JUMyJUEyJUMyJUI5JUMzJUFBJUMyJUEyJUMyJUJFJUMzJTkwJUMyJUExJUMzJTk3JUMyJUJEJUMyJUExJUMzJTk5JUMyJUIwJUMyJUExJUMzJTkwJUMzJTlFJUMyJUExJUMzJTkxJUMyJUIzJUMyJUExJUMzJTkxJUMyJUIwJUMyJUExJUMzJTg1JUMyJUI5JUMyJUExJUMzJTk1JUMzJTg0JUMyJUExJUMzJTk4JUMzJTlFJUMyJUExJUMzJTkxJUMyJUIyJUMyJUExJUMzJTk4JUMzJTlCJUMyJUExJUMzJUExJUMyJUJFJUMyJUExJUMzJTlCJUMzJTlBJUMyJUExJUMzJUI5JUMzJUEwJUMyJUExJUMzJTlFJUMzJThEJUMyJUExJUMzJTlEJUMyJUE3JUMyJUExJUMzJTgwJUMzJUFGJUMyJUExJUMzJUJEJUMzJTlFJUMyJUExJUMzJUExJUMyJUFGJUMyJUExJUMzJTk1JUMzJThBJUMyJUExJUMzJTk1JUMyJUFFJUMyJUExJUMzJTg1JUMzJUI1JUMyJUExJUMzJUE3JUMzJUEwJUMyJUExJUMzJTlBJUMzJThGJUMyJUExJUM0JTg0JUMyJUEyJUMyJUExJUMzJUI0JUMzJTg3JUMyJUExJUMzJUIxJUMzJTgxJUMyJUExJUMzJTg3JUMzJUJDJUMyJUExJUMzJTkyJUMzJUI4JUMyJUEyJUMyJUE4JUMzJUEwJUMyJUExJUMzJTlBJUMzJThGJUMyJUExJUMzJUE4JUMzJTkxJUMyJUExJUMzJUE1JUMzJUE0JUMyJUExJUMzJUFFJUMyJUJFJUMyJUExJUMzJThEJUMyJUJCJUMyJUExJUMzJTk3JUMyJUE5JUMyJUExJUMzJTg5JUMyJUJDJUMyJUExJUMzJTk4JUMzJUI2JUMyJUExJUMzJUFDJUMyJUE2JUMyJUExJUMzJThEJUMzJTg1JUMyJUExJUMzJUEw;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=DPLDIJMCGFLKBOJEHMPGFGIE; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:54 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMzA2IiwNCiJwcm92aW5jZXNlcSI6ICIzNiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiQmFuTmEiLA0KImNpdHluYW1lX2NuIjogIueJ
+        iOe6syINCn0sDQp7DQoiY2l0eXNlcSI6ICIzMDciLA0KInByb3ZpbmNlc2Vx
+        IjogIjM2IiwNCiJjaXR5bmFtZV9lbiI6ICJCYW9TaGFuIiwNCiJjaXR5bmFt
+        ZV9jbiI6ICLkv53lsbEiDQp9LA0Kew0KImNpdHlzZXEiOiAiMzA4IiwNCiJw
+        cm92aW5jZXNlcSI6ICIzNiIsDQoiY2l0eW5hbWVfZW4iOiAiQ2h1WGlvbmci
+        LA0KImNpdHluYW1lX2NuIjogIualmumbhCINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIzMDkiLA0KInByb3ZpbmNlc2VxIjogIjM2IiwNCiJjaXR5bmFtZV9lbiI6
+        ICJEYUxpIiwNCiJjaXR5bmFtZV9jbiI6ICLlpKfnkIYiDQp9LA0Kew0KImNp
+        dHlzZXEiOiAiMzEwIiwNCiJwcm92aW5jZXNlcSI6ICIzNiIsDQoiY2l0eW5h
+        bWVfZW4iOiAiRGVIb25nIiwNCiJjaXR5bmFtZV9jbiI6ICLlvrflro8iDQp9
+        LA0Kew0KImNpdHlzZXEiOiAiMzExIiwNCiJwcm92aW5jZXNlcSI6ICIzNiIs
+        DQoiY2l0eW5hbWVfZW4iOiAiRGlRaW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLo
+        v6rluoYiDQp9LA0Kew0KImNpdHlzZXEiOiAiMzEyIiwNCiJwcm92aW5jZXNl
+        cSI6ICIzNiIsDQoiY2l0eW5hbWVfZW4iOiAiSG9uZ0hlIiwNCiJjaXR5bmFt
+        ZV9jbiI6ICLnuqLmsrMiDQp9LA0Kew0KImNpdHlzZXEiOiAiMzEzIiwNCiJw
+        cm92aW5jZXNlcSI6ICIzNiIsDQoiY2l0eW5hbWVfZW4iOiAiS3VuTWluZyIs
+        DQoiY2l0eW5hbWVfY24iOiAi5piG5piOIg0KfSwNCnsNCiJjaXR5c2VxIjog
+        IjMxNCIsDQoicHJvdmluY2VzZXEiOiAiMzYiLA0KImNpdHluYW1lX2VuIjog
+        IkxpSmlhbmciLA0KImNpdHluYW1lX2NuIjogIuS4veaxnyINCn0sDQp7DQoi
+        Y2l0eXNlcSI6ICIzMTUiLA0KInByb3ZpbmNlc2VxIjogIjM2IiwNCiJjaXR5
+        bmFtZV9lbiI6ICJMaW5DYW5nIiwNCiJjaXR5bmFtZV9jbiI6ICLkuLTmsqci
+        DQp9LA0Kew0KImNpdHlzZXEiOiAiMzE2IiwNCiJwcm92aW5jZXNlcSI6ICIz
+        NiIsDQoiY2l0eW5hbWVfZW4iOiAiTnVKaWFuZyIsDQoiY2l0eW5hbWVfY24i
+        OiAi5oCS5rGfIg0KfSwNCnsNCiJjaXR5c2VxIjogIjMxNyIsDQoicHJvdmlu
+        Y2VzZXEiOiAiMzYiLA0KImNpdHluYW1lX2VuIjogIlB1RXIiLA0KImNpdHlu
+        YW1lX2NuIjogIuaZrua0sSINCn0sDQp7DQoiY2l0eXNlcSI6ICIzMTgiLA0K
+        InByb3ZpbmNlc2VxIjogIjM2IiwNCiJjaXR5bmFtZV9lbiI6ICJRdUppbmci
+        LA0KImNpdHluYW1lX2NuIjogIuabsumdliINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIzMTkiLA0KInByb3ZpbmNlc2VxIjogIjM2IiwNCiJjaXR5bmFtZV9lbiI6
+        ICJXZW5TaGFuIiwNCiJjaXR5bmFtZV9jbiI6ICLmloflsbEiDQp9LA0Kew0K
+        ImNpdHlzZXEiOiAiMzIwIiwNCiJwcm92aW5jZXNlcSI6ICIzNiIsDQoiY2l0
+        eW5hbWVfZW4iOiAiWXVYaSIsDQoiY2l0eW5hbWVfY24iOiAi546J5rqqIg0K
+        fSwNCnsNCiJjaXR5c2VxIjogIjMyMSIsDQoicHJvdmluY2VzZXEiOiAiMzYi
+        LA0KImNpdHluYW1lX2VuIjogIlpoYW9Ub25nIiwNCiJjaXR5bmFtZV9jbiI6
+        ICLmmK3pgJoiDQp9DQpd
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:51 GMT
+- request:
+    method: get
+    uri: https://api.bluepan.net/v1/<API_TOKEN>/cities/37
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private,no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1226'
+      Content-Type:
+      - application/json; Charset=UTF-8
+      Expires:
+      - Thu, 10 Nov 2016 09:44:54 GMT
+      Server:
+      - Microsoft-IIS/7.5
+      Set-Cookie:
+      - 5cd9bc3f10c9051b7eb9d43222241f5d=JUMzJUIwJUMyJUEyJUMyJUIyJUMyJUI0JUMyJUEyJUMyJUFFJUMzJTg2JUMyJUEyJUMyJUIxJUMyJUFCJUMyJUExJUMzJTg1JUMyJUJBJUMyJUExJUMzJTk2JUMzJUI2JUMyJUExJUMzJUFDJUMzJUIxJUMyJUExJUMzJUE3JUMzJTgwJUMyJUEyJUMyJUFCJUMzJTg0JUMyJUEyJUMyJUJBJUMzJThDJUMyJUExJUMzJThCJUMzJTk5JUMyJUExJUMzJUE2JUMzJTgxJUMyJUExJUMzJTkyJUMzJUIzJUMyJUExJUMzJTk4JUMzJTgzJUMyJUExJUMzJTk3JUMzJTlDJUMyJUExJUMzJUE1JUMzJThBJUMyJUExJUMzJTkyJUMzJUEyJUMyJUExJUMzJUE0JUMyJUFDJUMyJUExJUMzJTkxJUMyJUE5JUMyJUExJUMzJTkxJUMzJTkzJUMyJUExJUMzJTgxJUMzJUE3JUMyJUExJUMzJThEJUM0JTgzJUMyJUEyJUMyJUI1JUMzJTgyJUMyJUExJUMzJTk4JUMyJUIyJUMyJUExJUMzJTk0JUMyJUJDJUMyJUExJUMzJThCJUM0JTgyJUMyJUExJUM0JTgzJUMzJTg3JUMyJUExJUMzJUFGJUMyJUI4JUMyJUExJUMzJTk3JUMzJTk2JUMyJUExJUMzJTlEJUMzJUI0JUMyJUExJUMzJTkzJUMzJUJEJUMyJUExJUMzJTlBJUMyJUE1JUMyJUExJUMzJThEJUMzJUIzJUMyJUExJUMzJUJDJUMyJUJEJUMyJUExJUMzJUJCJUMyJUE2JUMyJUExJUMzJTlGJUMzJUE5JUMyJUExJUMzJThCJUMyJUE5JUMyJUExJUMzJThCJUMyJUJEJUMyJUExJUMzJUE5JUMyJUJGJUMyJUExJUMzJThFJUMzJUE4JUMyJUExJUMzJTk5JUMzJTg4JUMyJUExJUMzJUEwJUMyJUE4JUMyJUExJUMzJThBJUMyJUJDJUMyJUExJUMzJThCJUMyJUI1JUMyJUExJUMzJTkxJUMyJUFFJUMyJUExJUMzJTkwJUMzJTk1JUMyJUExJUMzJTk2JUMzJThFJUMyJUExJUMzJTlDJUMzJTk3JUMyJUExJUMzJTlEJUM0JTgwJUMyJUExJUMzJUI2;
+        domain=api.bluepan.net; path=/
+      - ASPSESSIONIDCWBTQQSR=EPLDIJMCBDLGPDKGJLEFFDJM; secure; path=/
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 11 Nov 2016 09:44:55 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        Ww0Kew0KImNpdHlzZXEiOiAiMzIyIiwNCiJwcm92aW5jZXNlcSI6ICIzNyIs
+        DQoiY2l0eW5hbWVfZW4iOiAiSGFuZ1pob3UiLA0KImNpdHluYW1lX2NuIjog
+        IuadreW3niINCn0sDQp7DQoiY2l0eXNlcSI6ICIzMjMiLA0KInByb3ZpbmNl
+        c2VxIjogIjM3IiwNCiJjaXR5bmFtZV9lbiI6ICJIdVpob3UiLA0KImNpdHlu
+        YW1lX2NuIjogIua5luW3niINCn0sDQp7DQoiY2l0eXNlcSI6ICIzMjQiLA0K
+        InByb3ZpbmNlc2VxIjogIjM3IiwNCiJjaXR5bmFtZV9lbiI6ICJKaWFIdWEi
+        LA0KImNpdHluYW1lX2NuIjogIuWYieWFtCINCn0sDQp7DQoiY2l0eXNlcSI6
+        ICIzMjUiLA0KInByb3ZpbmNlc2VxIjogIjM3IiwNCiJjaXR5bmFtZV9lbiI6
+        ICJKaW5IdWEiLA0KImNpdHluYW1lX2NuIjogIumHkeWNjiINCn0sDQp7DQoi
+        Y2l0eXNlcSI6ICIzMjYiLA0KInByb3ZpbmNlc2VxIjogIjM3IiwNCiJjaXR5
+        bmFtZV9lbiI6ICJMaVNodWkiLA0KImNpdHluYW1lX2NuIjogIuS4veawtCIN
+        Cn0sDQp7DQoiY2l0eXNlcSI6ICIzMjciLA0KInByb3ZpbmNlc2VxIjogIjM3
+        IiwNCiJjaXR5bmFtZV9lbiI6ICJRdVpob3UiLA0KImNpdHluYW1lX2NuIjog
+        IuihouW3niINCn0sDQp7DQoiY2l0eXNlcSI6ICIzMjgiLA0KInByb3ZpbmNl
+        c2VxIjogIjM3IiwNCiJjaXR5bmFtZV9lbiI6ICJTaGFvWGluZyIsDQoiY2l0
+        eW5hbWVfY24iOiAi57uN5YW0Ig0KfSwNCnsNCiJjaXR5c2VxIjogIjMyOSIs
+        DQoicHJvdmluY2VzZXEiOiAiMzciLA0KImNpdHluYW1lX2VuIjogIlRhaVpo
+        b3UiLA0KImNpdHluYW1lX2NuIjogIuWPsOW3niINCn0sDQp7DQoiY2l0eXNl
+        cSI6ICIzMzAiLA0KInByb3ZpbmNlc2VxIjogIjM3IiwNCiJjaXR5bmFtZV9l
+        biI6ICJXZW5aaG91IiwNCiJjaXR5bmFtZV9jbiI6ICLmuKnlt54iDQp9LA0K
+        ew0KImNpdHlzZXEiOiAiMzM1IiwNCiJwcm92aW5jZXNlcSI6ICIzNyIsDQoi
+        Y2l0eW5hbWVfZW4iOiAiWmhlSmlhbmdCZW5KaSIsDQoiY2l0eW5hbWVfY24i
+        OiAi5rWZ5rGf5pys57qnIg0KfSwNCnsNCiJjaXR5c2VxIjogIjMzMiIsDQoi
+        cHJvdmluY2VzZXEiOiAiMzciLA0KImNpdHluYW1lX2VuIjogIlpoZUppYW5n
+        UGluZ0h1IiwNCiJjaXR5bmFtZV9jbiI6ICLmtZnmsZ/lubPmuZYiDQp9LA0K
+        ew0KImNpdHlzZXEiOiAiMzMxIiwNCiJwcm92aW5jZXNlcSI6ICIzNyIsDQoi
+        Y2l0eW5hbWVfZW4iOiAiWmhvdVNoYW4iLA0KImNpdHluYW1lX2NuIjogIuiI
+        n+WxsSINCn0NCl0=
+    http_version: 
+  recorded_at: Fri, 11 Nov 2016 09:44:52 GMT
+recorded_with: VCR 3.0.3
