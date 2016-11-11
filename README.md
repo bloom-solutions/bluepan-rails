@@ -1,5 +1,7 @@
 # Bluepan
 
+[![Build Status](https://travis-ci.org/imacchiato/bluepan-rails.svg?branch=master)](https://travis-ci.org/imacchiato/bluepan-rails)
+
 Rails Engine for use with [Bluepan](https://bluepan.net).
 
 ## Requirements
