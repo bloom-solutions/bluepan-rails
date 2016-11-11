@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = BluepanRails::VERSION
   s.authors     = ["Ramon Tayag"]
   s.email       = ["ramon.tayag@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of BluepanRails."
-  s.description = "TODO: Description of BluepanRails."
+  s.homepage    = "https://github.com/imacchiato/bluepan_rails"
+  s.summary     = "Rails Engine for use with Bluepan"
+  s.description = "Rails Engine for use with Bluepan"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
