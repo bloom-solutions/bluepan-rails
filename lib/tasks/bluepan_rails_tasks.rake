@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :bluepan_rails do
+# task :bluepan do
 #   # Task goes here
 # end

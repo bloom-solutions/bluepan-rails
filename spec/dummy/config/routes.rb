@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount BluepanRails::Engine => "/bluepan_rails"
+  mount Bluepan::Engine => "/bluepan"
 end

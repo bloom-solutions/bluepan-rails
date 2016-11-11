@@ -1,15 +1,15 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "bluepan_rails/version"
+require "bluepan/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "bluepan_rails"
-  s.version     = BluepanRails::VERSION
+  s.name        = "bluepan-rails"
+  s.version     = Bluepan::VERSION
   s.authors     = ["Ramon Tayag"]
   s.email       = ["ramon.tayag@gmail.com"]
-  s.homepage    = "https://github.com/imacchiato/bluepan_rails"
+  s.homepage    = "https://github.com/imacchiato/bluepan-rails"
   s.summary     = "Rails Engine for use with Bluepan"
   s.description = "Rails Engine for use with Bluepan"
   s.license     = "MIT"

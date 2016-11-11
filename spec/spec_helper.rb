@@ -4,4 +4,4 @@ DUMMY_DIR = SPEC_DIR.join("dummy")
 
 require DUMMY_DIR.join("config", "environment")
 require 'rspec/rails'
-require "bluepan_rails"
+require "bluepan"

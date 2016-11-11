@@ -1,2 +1,2 @@
-BluepanRails::Engine.routes.draw do
+Bluepan::Engine.routes.draw do
 end

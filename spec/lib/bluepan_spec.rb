@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-RSpec.describe BluepanRails do
+RSpec.describe Bluepan do
 
   describe ".configure" do
     it "allows configuration of accessors" do

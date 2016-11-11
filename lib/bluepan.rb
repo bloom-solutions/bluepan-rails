@@ -1,6 +1,6 @@
-require "bluepan_rails/engine"
+require "bluepan/engine"
 
-module BluepanRails
+module Bluepan
 
   mattr_accessor :api_token, :api_secret
 

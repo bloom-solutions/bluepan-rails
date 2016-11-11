@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20161111021217) do
 
-  create_table "bluepan_rails_provinces", force: :cascade do |t|
+  create_table "bluepan_provinces", force: :cascade do |t|
     t.integer  "external_id"
     t.string   "name_en"
     t.string   "name_cn"
@@ -21,6 +21,6 @@ ActiveRecord::Schema.define(version: 20161111021217) do
     t.datetime "updated_at",  null: false
   end
 
-  add_index "bluepan_rails_provinces", ["external_id"], name: "index_bluepan_rails_provinces_on_external_id"
+  add_index "bluepan_provinces", ["external_id"], name: "index_bluepan_provinces_on_external_id"
 
 end

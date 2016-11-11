@@ -1,4 +1,4 @@
-# BluepanRails
+# Bluepan
 
 Rails Engine for use with [Bluepan](https://bluepan.net).
 

@@ -1,4 +1,4 @@
-module BluepanRails
+module Bluepan
   module ApplicationHelper
   end
 end
