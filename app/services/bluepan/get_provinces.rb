@@ -6,7 +6,7 @@ module Bluepan
     promises :remote_provinces
 
     executed do |c|
-      c.remote_provinces = c.client.get_provinces
+      c.remote_provinces = c.client.get_provinces.provinces
     end
 
   end

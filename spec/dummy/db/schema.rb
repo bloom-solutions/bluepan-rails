@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161111021217) do
+ActiveRecord::Schema.define(version: 20161111084120) do
+
+  create_table "bluepan_cities", force: :cascade do |t|
+    t.integer "external_id"
+    t.string  "name_en"
+    t.string  "name_cn"
+    t.integer "province_id"
+  end
+
+  add_index "bluepan_cities", ["external_id"], name: "index_bluepan_cities_on_external_id"
 
   create_table "bluepan_provinces", force: :cascade do |t|
     t.integer  "external_id"
