@@ -11,6 +11,11 @@ This engine assumes your main app uses [sidekiq](https://github.com/mperham/side
 ## Installation
 
 - Add the gem to your Gemfile and executing `bundle install`
+- `bundle`
+- `rake bluepan:install:migrations`
+- `rake db:migrate`
+
+During your application initialization, call `Bluepan::LoadSidekiqCronSchedule.()` to load the sync job cron.
 
 ## Development
 
