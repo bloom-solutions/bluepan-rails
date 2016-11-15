@@ -1,4 +1,5 @@
 require "light-service"
+require "bluepan_client"
 require "bluepan/engine"
 
 module Bluepan
