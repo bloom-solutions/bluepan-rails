@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [TBA]
+## [1.0.0] - 2016-02-14
 ### Changed
 - Relax Rails constraint to `~> 4.2`
 
