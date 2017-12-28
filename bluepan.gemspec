@@ -19,12 +19,12 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.2"
   s.add_dependency "light-service"
-  s.add_dependency "bluepan_client"
+  s.add_dependency "bluepan_client", "~> 1.0"
 
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "dotenv-rails"
-  s.add_development_dependency "factory_girl_rails"
+  s.add_development_dependency "factory_bot_rails"
   s.add_development_dependency "shoulda-matchers"
   s.add_development_dependency "vcr"
   s.add_development_dependency "webmock"
