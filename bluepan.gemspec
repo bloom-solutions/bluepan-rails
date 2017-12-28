@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Bluepan::VERSION
   s.authors     = ["Ramon Tayag"]
   s.email       = ["ramon.tayag@gmail.com"]
-  s.homepage    = "https://github.com/imacchiato/bluepan-rails"
+  s.homepage    = "https://github.com/bloom-solutions/bluepan-rails"
   s.summary     = "Rails Engine for use with Bluepan"
   s.description = "Rails Engine for use with Bluepan"
   s.license     = "MIT"
