@@ -3,10 +3,10 @@ require 'spec_helper'
 require DUMMY_DIR.join("config", "environment")
 require 'rspec/rails'
 require "bluepan"
-require "factory_girl_rails"
+require "factory_bot_rails"
 
 RSpec.configure do |c|
-  c.include FactoryGirl::Syntax::Methods
+  c.include FactoryBot::Syntax::Methods
 end
 
 require "dotenv"

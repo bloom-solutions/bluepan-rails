@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
 
   factory :bluepan_province, class: "Bluepan::Province" do
     sequence(:external_id) { |n| n }
